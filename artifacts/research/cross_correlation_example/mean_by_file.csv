@@ -1,0 +1,2 @@
+file,abs(log_return)[t] vs identity(Volume)[t-(-1)] | segment,abs(log_return)[t] vs identity(Volume)[t-(0)] | segment,abs(log_return)[t] vs identity(Volume)[t-(1)] | segment,abs(log_return)[t] vs identity(Volume)[t-(5)] | segment
+A9999.XDCE.csv,0.27912278879970975,0.46058536905874736,0.1778262221230644,0.08252772246566545

@@ -1,0 +1,10 @@
+relationship,current_feature,past_feature,lag,mean_of_file_means,defined_files,significant_files
+Price-level persistence,Close,Close,1,0.8792641398128461,76,76
+Open Interest persistence,Open interest,Open interest,1,0.9616070504837629,76,76
+Volatility persistence,rolling_30m_volatility,rolling_30m_volatility,1,0.9207332940678927,76,76
+Volume persistence,Volume,Volume,1,0.3904704470013755,76,76
+Turnover persistence,Turnover,Turnover,1,0.39046606156399744,76,76
+Range following Volume,bar_range,Volume,1,0.2863266568914099,76,76
+Volume following range,Volume,bar_range,1,0.3051556519630118,76,76
+Volume following absolute return,Volume,log_return,1,0.22926059439775867,76,76
+Absolute return following Volume,log_return,Volume,1,0.13944890846271674,76,76

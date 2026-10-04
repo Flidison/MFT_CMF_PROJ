@@ -1,0 +1,24 @@
+{
+  "pipeline_stage": 3,
+  "input_features": "artifacts/research_features.parquet",
+  "screen_context": "artifacts/significant_combinations.csv",
+  "output": "artifacts/strategy_hypothesis_results.csv",
+  "instruments": 77,
+  "observations": 44011860,
+  "evaluation_rows": 32492588,
+  "calibration_fraction": 0.3,
+  "horizons": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "primary_rows": 40,
+  "independent_target_checks": 10760,
+  "test": "ordinary exploratory two-sided one-sample t-test; no serial or multiple-test correction",
+  "return_units": "fraction internally; percent in labeled presentation CSVs",
+  "features_recomputed": false,
+  "rows_deleted": 0,
+  "winsorization": false,
+  "input_files_unchanged": true
+}

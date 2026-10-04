@@ -1,0 +1,70 @@
+{
+  "config": {
+    "train_window": 252,
+    "mode": "rolling",
+    "refit_frequency": 63,
+    "horizon": 5,
+    "execution_delay": 1,
+    "min_train_days": 60,
+    "min_direction_rows": 1000,
+    "research_start": "2015-01-01 00:00:00",
+    "validation_start": "2018-01-01 00:00:00",
+    "holdout_start": "2020-01-01 00:00:00",
+    "target_vol": 0.001,
+    "max_leverage": 3.0,
+    "min_vol": 1e-05,
+    "cost_bps": 1.0,
+    "probability_thresholds": [
+      0.5,
+      0.55,
+      0.6,
+      0.65
+    ],
+    "expansion": 1.2,
+    "simulations": 2048,
+    "seed": 42,
+    "arma_candidates": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "cache_key": "56a0385ef072a406a47a",
+  "feature_sha256": "757b2669be276e1cbc5c18c8006843dec2da70449a4573c1585bb5cd5a5012c2",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scipy": "1.17.1",
+    "pyarrow": "25.0.1",
+    "matplotlib": "3.11.2",
+    "numba": "0.68.0",
+    "statsmodels": "0.15.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "source_files": 77,
+  "model_forecast_instruments": 71,
+  "trading_instruments": 58,
+  "eligible_origins": 1986940,
+  "cancelled_entries": 408,
+  "unresolved_entries": 0,
+  "period_start": "2018-01-02 09:24:00",
+  "period_end": "2021-10-18 15:06:00",
+  "selected_on_validation": "S8_Logistic_EGARCH",
+  "thresholds": {
+    "D3_Logistic_Direction": 0.65,
+    "D3_Logistic_Asymmetric": 0.65
+  },
+  "annualization": "365.25 calendar days after daily aggregation",
+  "history_previously_examined": true,
+  "stage_1_and_2_unchanged": true,
+  "raw_data_modified": false
+}

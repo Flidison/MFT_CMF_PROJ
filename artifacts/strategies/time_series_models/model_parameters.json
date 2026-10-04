@@ -1,0 +1,44 @@
+{
+  "input_features": "artifacts/research_features.parquet",
+  "input_sha256": "757b2669be276e1cbc5c18c8006843dec2da70449a4573c1585bb5cd5a5012c2",
+  "calibration_fraction": 0.3,
+  "mean_models": {
+    "AR(1)": [
+      1,
+      0
+    ],
+    "MA(1)": [
+      0,
+      1
+    ],
+    "ARMA(1,1)": [
+      1,
+      1
+    ]
+  },
+  "mean_horizons": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "variance_horizons": [
+    1,
+    5,
+    30
+  ],
+  "mean_definition": "fixed training mean; conditional Gaussian least squares on segment-reset innovations",
+  "garch_definition": "fixed training mean; Gaussian QML; initial standardized variance=1 at each finite run",
+  "minimum_training_returns": 1000,
+  "minimum_training_dates": 20,
+  "ewma_decay": 0.94,
+  "variance_floor_ratio": 1e-08,
+  "coefficient_bound": 0.98,
+  "parameters_refitted_during_evaluation": false,
+  "preprocessing_changed": false,
+  "observations_winsorized": false,
+  "statistical_significance_claimed": false,
+  "eligible_instruments": 76,
+  "raw_instruments": 77,
+  "random_seed": 42
+}

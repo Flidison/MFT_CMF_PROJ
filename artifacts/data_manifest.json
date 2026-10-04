@@ -1,0 +1,654 @@
+{
+  "pipeline_stage": 1,
+  "raw_files": [
+    {
+      "instrument": "A9999.XDCE.csv",
+      "source_path": "fut_data/A9999.XDCE.csv",
+      "sha256": "9fd7ae81318d3245621627ad2521e3fea30a7d2ee6c1fd512f9ead227181d611",
+      "bytes": 92352408,
+      "raw_rows": 1148190,
+      "validated_rows": 1148070
+    },
+    {
+      "instrument": "AG9999.XSGE.csv",
+      "source_path": "fut_data/AG9999.XSGE.csv",
+      "sha256": "b39c84c9f149e3e1ca4ae1d00377dbfcac15a5a7664357c4b94f197a55f3981e",
+      "bytes": 94317946,
+      "raw_rows": 1143270,
+      "validated_rows": 1142940
+    },
+    {
+      "instrument": "AL9999.XSGE.csv",
+      "source_path": "fut_data/AL9999.XSGE.csv",
+      "sha256": "11a47c98127da117ffa7e35255c1fa3752896b61f57e74efa0d337bd296b433d",
+      "bytes": 113221835,
+      "raw_rows": 1347120,
+      "validated_rows": 1346880
+    },
+    {
+      "instrument": "AP9999.XZCE.csv",
+      "source_path": "fut_data/AP9999.XZCE.csv",
+      "sha256": "9613be6b39e21c710e8182dafb8bf53e3dff252211317f72d152c47b066392d2",
+      "bytes": 17327936,
+      "raw_rows": 208125,
+      "validated_rows": 208125
+    },
+    {
+      "instrument": "AU9999.XSGE.csv",
+      "source_path": "fut_data/AU9999.XSGE.csv",
+      "sha256": "f542d7af8f2c422fe52e307e6e0ae198470d973dc50d2789f1dd02f20a038caf",
+      "bytes": 110313437,
+      "raw_rows": 1379745,
+      "validated_rows": 1379415
+    },
+    {
+      "instrument": "B9999.XDCE.csv",
+      "source_path": "fut_data/B9999.XDCE.csv",
+      "sha256": "8b017af6912edbbb6cefcea57ce7e41815a0771347d91c88c5335df10cfa83cc",
+      "bytes": 82351760,
+      "raw_rows": 1147515,
+      "validated_rows": 1147395
+    },
+    {
+      "instrument": "BB9999.XDCE.csv",
+      "source_path": "fut_data/BB9999.XDCE.csv",
+      "sha256": "e1722a4dc982eac331c3a6702735acb2b81490f00ac510b5cd5454d3f104fa4f",
+      "bytes": 27730616,
+      "raw_rows": 411525,
+      "validated_rows": 411525
+    },
+    {
+      "instrument": "BC9999.XINE.csv",
+      "source_path": "fut_data/BC9999.XINE.csv",
+      "sha256": "223b35b73306147137b26a357c4a1621ab3142e61ebfffc542ad7a67a93bd60e",
+      "bytes": 8279941,
+      "raw_rows": 100845,
+      "validated_rows": 100140
+    },
+    {
+      "instrument": "BU9999.XSGE.csv",
+      "source_path": "fut_data/BU9999.XSGE.csv",
+      "sha256": "c80d03ea3dfaf772ae9af63a6f84ec9e806a34ffa80d7c3383894e45e8f20ceb",
+      "bytes": 53897668,
+      "raw_rows": 663075,
+      "validated_rows": 662955
+    },
+    {
+      "instrument": "C9999.XDCE.csv",
+      "source_path": "fut_data/C9999.XDCE.csv",
+      "sha256": "5c0cd9368de16847b686dd645757a9eba5f63464639ecbd6732201c4eebfcf1b",
+      "bytes": 79134105,
+      "raw_rows": 982680,
+      "validated_rows": 982560
+    },
+    {
+      "instrument": "CF9999.XZCE.csv",
+      "source_path": "fut_data/CF9999.XZCE.csv",
+      "sha256": "5559fda0eb06ef3fb06eabbaa39e76c5cfca1db4db9563986395b9a0afef300c",
+      "bytes": 96993674,
+      "raw_rows": 1140090,
+      "validated_rows": 1139970
+    },
+    {
+      "instrument": "CJ9999.XZCE.csv",
+      "source_path": "fut_data/CJ9999.XZCE.csv",
+      "sha256": "675d4e027dba20f2cf98ae8d09d0bcc559c1db14b147a2d0aa7acf198f78e54f",
+      "bytes": 11112643,
+      "raw_rows": 134550,
+      "validated_rows": 134550
+    },
+    {
+      "instrument": "CS9999.XDCE.csv",
+      "source_path": "fut_data/CS9999.XDCE.csv",
+      "sha256": "2d652ef1268dfcee1b921b4d83c813c14c035d46d409c3f41ef060ca4f2b2de1",
+      "bytes": 35461569,
+      "raw_rows": 438180,
+      "validated_rows": 438060
+    },
+    {
+      "instrument": "CU9999.XSGE.csv",
+      "source_path": "fut_data/CU9999.XSGE.csv",
+      "sha256": "0e681b0986143ec3551cc53311df3aa2c31ef44c774e88ad34d5bfeb51332bf6",
+      "bytes": 116032291,
+      "raw_rows": 1347120,
+      "validated_rows": 1346880
+    },
+    {
+      "instrument": "CY9999.XZCE.csv",
+      "source_path": "fut_data/CY9999.XZCE.csv",
+      "sha256": "3275f76f9bb09ad38800b2e453318f734d56615566e84fb1bb1b5fe52dd95db2",
+      "bytes": 27983698,
+      "raw_rows": 354090,
+      "validated_rows": 353970
+    },
+    {
+      "instrument": "EB9999.XDCE.csv",
+      "source_path": "fut_data/EB9999.XDCE.csv",
+      "sha256": "020ae1eb782c9a586acac23789b525e284d5f339105c4acde8159fb93ed5b968",
+      "bytes": 13143535,
+      "raw_rows": 162000,
+      "validated_rows": 161880
+    },
+    {
+      "instrument": "EG9999.XDCE.csv",
+      "source_path": "fut_data/EG9999.XDCE.csv",
+      "sha256": "2198d78cf3ff1c9c2985618d1d3744cd3c6d043ac951573c6ba9db6fcda5fc53",
+      "bytes": 18140087,
+      "raw_rows": 220155,
+      "validated_rows": 220035
+    },
+    {
+      "instrument": "ER9999.XZCE.csv",
+      "source_path": "fut_data/ER9999.XZCE.csv",
+      "sha256": "a059ab1459539b40ea35e26ee2f010f0036efe66032408af1f48824e77a589b7",
+      "bytes": 17091588,
+      "raw_rows": 223650,
+      "validated_rows": 223650
+    },
+    {
+      "instrument": "FB9999.XDCE.csv",
+      "source_path": "fut_data/FB9999.XDCE.csv",
+      "sha256": "fa7acd044819f5c5d623f71497b58812f78b69789cae92f818bdeecbeb760a48",
+      "bytes": 28733865,
+      "raw_rows": 420075,
+      "validated_rows": 420075
+    },
+    {
+      "instrument": "FG9999.XZCE.csv",
+      "source_path": "fut_data/FG9999.XZCE.csv",
+      "sha256": "5e0e5f26f2f59de9f3b4fd041ad22ea3a5aa454adadd301585bc40d023ada673",
+      "bytes": 57433630,
+      "raw_rows": 710115,
+      "validated_rows": 709995
+    },
+    {
+      "instrument": "FU9999.XSGE.csv",
+      "source_path": "fut_data/FU9999.XSGE.csv",
+      "sha256": "0c5a40c9b1fb6243edd9551252c752cd842d9e00401e0ace2e36ae3cfe0d0302",
+      "bytes": 73919741,
+      "raw_rows": 958395,
+      "validated_rows": 958275
+    },
+    {
+      "instrument": "GN9999.XZCE.csv",
+      "source_path": "fut_data/GN9999.XZCE.csv",
+      "sha256": "c9f597a4ad4bbce295b97d5473533a56d321b6cfe9cc7248b9329a828c46ab36",
+      "bytes": 2108760,
+      "raw_rows": 31950,
+      "validated_rows": 31950
+    },
+    {
+      "instrument": "HC9999.XSGE.csv",
+      "source_path": "fut_data/HC9999.XSGE.csv",
+      "sha256": "9d13f817b0279f623ea51d3e0085fb151b11322ca47a0be52c8cb3e65e4cbcc8",
+      "bytes": 52252296,
+      "raw_rows": 646485,
+      "validated_rows": 646365
+    },
+    {
+      "instrument": "I9999.XDCE.csv",
+      "source_path": "fut_data/I9999.XDCE.csv",
+      "sha256": "b1017b609b10a8b271277a9938aaac1cc451b19ecf67b4031c088ea22626a231",
+      "bytes": 52786626,
+      "raw_rows": 668715,
+      "validated_rows": 668595
+    },
+    {
+      "instrument": "IC9999.CCFX.csv",
+      "source_path": "fut_data/IC9999.CCFX.csv",
+      "sha256": "99ddb919641c36698455edba7998235e18150ebc4fcc3423d6f9d0627d0ac69a",
+      "bytes": 31246794,
+      "raw_rows": 385470,
+      "validated_rows": 385470
+    },
+    {
+      "instrument": "IF9999.CCFX.csv",
+      "source_path": "fut_data/IF9999.CCFX.csv",
+      "sha256": "c7350ca8ba157b836214c80d0ee6f024b4454b82aef2927a8e74a495fa3e3794",
+      "bytes": 58610732,
+      "raw_rows": 712440,
+      "validated_rows": 712440
+    },
+    {
+      "instrument": "IH9999.CCFX.csv",
+      "source_path": "fut_data/IH9999.CCFX.csv",
+      "sha256": "bcc9cbe3b56604d10534e9695e88ef3993022ee4c287a4d1394ca713ae9e02fc",
+      "bytes": 30963396,
+      "raw_rows": 385470,
+      "validated_rows": 385470
+    },
+    {
+      "instrument": "J9999.XDCE.csv",
+      "source_path": "fut_data/J9999.XDCE.csv",
+      "sha256": "eb703d6faa746204da1cdd8ef2886cd34b16e0d248daebde599b8ee07e0c156a",
+      "bytes": 67646330,
+      "raw_rows": 843675,
+      "validated_rows": 843555
+    },
+    {
+      "instrument": "JD9999.XDCE.csv",
+      "source_path": "fut_data/JD9999.XDCE.csv",
+      "sha256": "ea0a86d6bea33aec759bccddf95038af8f2cff24ead466479c0a7e374c0e03cd",
+      "bytes": 35593579,
+      "raw_rows": 435150,
+      "validated_rows": 435150
+    },
+    {
+      "instrument": "JM9999.XDCE.csv",
+      "source_path": "fut_data/JM9999.XDCE.csv",
+      "sha256": "2f786e866f10a83341763b6566e12a292ca310a07ff66cd6ddc65f2d71b7c979",
+      "bytes": 56024809,
+      "raw_rows": 699090,
+      "validated_rows": 698970
+    },
+    {
+      "instrument": "JR9999.XZCE.csv",
+      "source_path": "fut_data/JR9999.XZCE.csv",
+      "sha256": "9ed7ca6773e2bbc413eaa14f2b1e2669d589801d08507f6f50c1aa44cc8a8c93",
+      "bytes": 28119793,
+      "raw_rows": 407250,
+      "validated_rows": 407250
+    },
+    {
+      "instrument": "L9999.XDCE.csv",
+      "source_path": "fut_data/L9999.XDCE.csv",
+      "sha256": "970bec5c74ebb9656751fcc1eca67fcff3bb4d35c9736dd4e9ebda491888bfda",
+      "bytes": 69672028,
+      "raw_rows": 842505,
+      "validated_rows": 842385
+    },
+    {
+      "instrument": "LH9999.XDCE.csv",
+      "source_path": "fut_data/LH9999.XDCE.csv",
+      "sha256": "2ae4f09bfe92c87c34ac5a6ec3894c16229ce64fb644515bc4bb11e4b59a199f",
+      "bytes": 3470754,
+      "raw_rows": 41625,
+      "validated_rows": 41625
+    },
+    {
+      "instrument": "LR9999.XZCE.csv",
+      "source_path": "fut_data/LR9999.XZCE.csv",
+      "sha256": "25d96d659bae8f6a1aa152f62565616eec4f0f45a687be5cd515a781ee5899df",
+      "bytes": 24202265,
+      "raw_rows": 348075,
+      "validated_rows": 348075
+    },
+    {
+      "instrument": "LU9999.XINE.csv",
+      "source_path": "fut_data/LU9999.XINE.csv",
+      "sha256": "60d7c7257f14ee4b50e18e994211b57a4fad62f21264bf57f05f8aebc7352886",
+      "bytes": 8674510,
+      "raw_rows": 109320,
+      "validated_rows": 109200
+    },
+    {
+      "instrument": "M9999.XDCE.csv",
+      "source_path": "fut_data/M9999.XDCE.csv",
+      "sha256": "e1659027dc2d984b692ecef016e9c90215f8f63e5c4949af5e3f0e7134efb11f",
+      "bytes": 94892913,
+      "raw_rows": 1148190,
+      "validated_rows": 1148070
+    },
+    {
+      "instrument": "MA9999.XZCE.csv",
+      "source_path": "fut_data/MA9999.XZCE.csv",
+      "sha256": "01ecb656d9b091618d8b1221e21988d2d68f984b189769aacb0b564e2081761f",
+      "bytes": 51861818,
+      "raw_rows": 624165,
+      "validated_rows": 624045
+    },
+    {
+      "instrument": "ME9999.XZCE.csv",
+      "source_path": "fut_data/ME9999.XZCE.csv",
+      "sha256": "66be28a61b75b4d85c41a06c60691b03d6a946757cf4d52af268da2ae548fb30",
+      "bytes": 15892389,
+      "raw_rows": 208050,
+      "validated_rows": 208050
+    },
+    {
+      "instrument": "NI9999.XSGE.csv",
+      "source_path": "fut_data/NI9999.XSGE.csv",
+      "sha256": "98576b64c2e40d06cc998d404ede316c241f7efae68156db2a9aefbb49d53089",
+      "bytes": 63679819,
+      "raw_rows": 716925,
+      "validated_rows": 716685
+    },
+    {
+      "instrument": "NR9999.XINE.csv",
+      "source_path": "fut_data/NR9999.XINE.csv",
+      "sha256": "adc11fd856ecb968a2e47f8478f1848ed281cdd45cafc3f0b9c866a47c5abd6b",
+      "bytes": 13951770,
+      "raw_rows": 173040,
+      "validated_rows": 172920
+    },
+    {
+      "instrument": "OI9999.XZCE.csv",
+      "source_path": "fut_data/OI9999.XZCE.csv",
+      "sha256": "2ac4626c3c58932db5995a5e9c885432f47af2d62dadcacb00af941ef7ecfd2b",
+      "bytes": 57938650,
+      "raw_rows": 710940,
+      "validated_rows": 710820
+    },
+    {
+      "instrument": "P9999.XDCE.csv",
+      "source_path": "fut_data/P9999.XDCE.csv",
+      "sha256": "140978bf0be8701e7418ed85dd4bef8f9bf5fd755306195135687e9e22abd6be",
+      "bytes": 84201677,
+      "raw_rows": 1033680,
+      "validated_rows": 1033560
+    },
+    {
+      "instrument": "PB9999.XSGE.csv",
+      "source_path": "fut_data/PB9999.XSGE.csv",
+      "sha256": "7402073f0ccdfffb63b19310fcad44b19a6dc7c032efce8aec11165020b9e57d",
+      "bytes": 81761221,
+      "raw_rows": 1006455,
+      "validated_rows": 1006215
+    },
+    {
+      "instrument": "PF9999.XZCE.csv",
+      "source_path": "fut_data/PF9999.XZCE.csv",
+      "sha256": "df8e52fe21eeaac6b590d616bc11b5d456b8299ae9041087d305cf276da36303",
+      "bytes": 6921791,
+      "raw_rows": 85065,
+      "validated_rows": 84600
+    },
+    {
+      "instrument": "PG9999.XDCE.csv",
+      "source_path": "fut_data/PG9999.XDCE.csv",
+      "sha256": "67e9e69d00dd76af3ce7c42bf2edf8cd51c6f1b668b9c66196ada938d9eebb57",
+      "bytes": 10138351,
+      "raw_rows": 125760,
+      "validated_rows": 125640
+    },
+    {
+      "instrument": "PK9999.XZCE.csv",
+      "source_path": "fut_data/PK9999.XZCE.csv",
+      "sha256": "105898ca9d7da91ffe8ce3022cea885a494b30c07e158acd25f4dd5205011f73",
+      "bytes": 3093893,
+      "raw_rows": 38025,
+      "validated_rows": 38025
+    },
+    {
+      "instrument": "PM9999.XZCE.csv",
+      "source_path": "fut_data/PM9999.XZCE.csv",
+      "sha256": "a2347308c1386190de7b480a082575996c8b3b70ed35c3f807cb03defba51fdd",
+      "bytes": 34463116,
+      "raw_rows": 501075,
+      "validated_rows": 501075
+    },
+    {
+      "instrument": "PP9999.XDCE.csv",
+      "source_path": "fut_data/PP9999.XDCE.csv",
+      "sha256": "1855c243c8d73e0d50e49bf488e3d9b1f9304d77bafc5895f9f5263c79331434",
+      "bytes": 40190470,
+      "raw_rows": 483180,
+      "validated_rows": 483060
+    },
+    {
+      "instrument": "RB9999.XSGE.csv",
+      "source_path": "fut_data/RB9999.XSGE.csv",
+      "sha256": "dc2e164644e57a61ccbb95920fc3605c0cce605576b69c27ea71e103a4515629",
+      "bytes": 78131176,
+      "raw_rows": 924405,
+      "validated_rows": 924285
+    },
+    {
+      "instrument": "RI9999.XZCE.csv",
+      "source_path": "fut_data/RI9999.XZCE.csv",
+      "sha256": "3faa7987addde2340c12b29c713907672dc098c8447c24f4215c6476a3e13ddc",
+      "bytes": 34426126,
+      "raw_rows": 490275,
+      "validated_rows": 490275
+    },
+    {
+      "instrument": "RM9999.XZCE.csv",
+      "source_path": "fut_data/RM9999.XZCE.csv",
+      "sha256": "cd7a644e89a281f557b4a48e17465b7fa1bb306a81ccaa52dd9e6421f731db90",
+      "bytes": 58278328,
+      "raw_rows": 702690,
+      "validated_rows": 702570
+    },
+    {
+      "instrument": "RO9999.XZCE.csv",
+      "source_path": "fut_data/RO9999.XZCE.csv",
+      "sha256": "525fd41bf2f202dfab7f4dc6b418dbc90fc7cb9ab272bd2e518d2434d6634772",
+      "bytes": 26130911,
+      "raw_rows": 324900,
+      "validated_rows": 324900
+    },
+    {
+      "instrument": "RR9999.XDCE.csv",
+      "source_path": "fut_data/RR9999.XDCE.csv",
+      "sha256": "ccce2d18241c7ded4b3dd9c7d0de5586066fae5cfb4b3cf8835a458d1e89714f",
+      "bytes": 13073696,
+      "raw_rows": 171660,
+      "validated_rows": 171540
+    },
+    {
+      "instrument": "RS9999.XZCE.csv",
+      "source_path": "fut_data/RS9999.XZCE.csv",
+      "sha256": "0b392b32f0864a9fc881ff983a96e0799c11a6aa7f8f9005bba0f5ab540ba8de",
+      "bytes": 32917842,
+      "raw_rows": 469350,
+      "validated_rows": 469350
+    },
+    {
+      "instrument": "RU9999.XSGE.csv",
+      "source_path": "fut_data/RU9999.XSGE.csv",
+      "sha256": "f6ef5f5293bf031283b6ae7f762dcd61b2102213a777b3d67d670ff3fe7c0620",
+      "bytes": 96880769,
+      "raw_rows": 1118760,
+      "validated_rows": 1118640
+    },
+    {
+      "instrument": "SA9999.XZCE.csv",
+      "source_path": "fut_data/SA9999.XZCE.csv",
+      "sha256": "1df200d6bade0c5123091d87a7467a28575ac9ed2c13e6d92b6b78d4e8a483c0",
+      "bytes": 11945490,
+      "raw_rows": 146490,
+      "validated_rows": 146370
+    },
+    {
+      "instrument": "SC9999.XINE.csv",
+      "source_path": "fut_data/SC9999.XINE.csv",
+      "sha256": "4b9f5d0ffb25bda2f8070703c68ccfeb76d5d78835dfdef1f8c2537fdcb00ffe",
+      "bytes": 34840527,
+      "raw_rows": 451695,
+      "validated_rows": 451365
+    },
+    {
+      "instrument": "SF9999.XZCE.csv",
+      "source_path": "fut_data/SF9999.XZCE.csv",
+      "sha256": "a65f65a13d6ea1114f81409e29380c4bf60734d2369cdc56a1a605d063a2e18e",
+      "bytes": 30656102,
+      "raw_rows": 393525,
+      "validated_rows": 393525
+    },
+    {
+      "instrument": "SM9999.XZCE.csv",
+      "source_path": "fut_data/SM9999.XZCE.csv",
+      "sha256": "ee55f521d7275e45ac4b88ab0b88ffda2badc4c176d0a0c226d14e852c6d3dd4",
+      "bytes": 30890906,
+      "raw_rows": 393525,
+      "validated_rows": 393525
+    },
+    {
+      "instrument": "SN9999.XSGE.csv",
+      "source_path": "fut_data/SN9999.XSGE.csv",
+      "sha256": "45cb5f03ef51c6845655dd6a12ff741641f7f220943009d058d3d2d332a246c5",
+      "bytes": 61697232,
+      "raw_rows": 716925,
+      "validated_rows": 716685
+    },
+    {
+      "instrument": "SP9999.XSGE.csv",
+      "source_path": "fut_data/SP9999.XSGE.csv",
+      "sha256": "b80fb664a8df9ccf58c20014a7fdf7a3e450e815c0be21ce300ecbb39bed6400",
+      "bytes": 18901802,
+      "raw_rows": 231780,
+      "validated_rows": 231660
+    },
+    {
+      "instrument": "SR9999.XZCE.csv",
+      "source_path": "fut_data/SR9999.XZCE.csv",
+      "sha256": "ba68c9d4f8ede4a863e0f9456d6bea2630c20bc9f25dde85e1bdbc4d8d240532",
+      "bytes": 89870489,
+      "raw_rows": 1085190,
+      "validated_rows": 1085070
+    },
+    {
+      "instrument": "SS9999.XSGE.csv",
+      "source_path": "fut_data/SS9999.XSGE.csv",
+      "sha256": "d9fa8f1ff7f66465f9221656c474d22db2b144f44c22fb786b24b6a165bf8384",
+      "bytes": 17713300,
+      "raw_rows": 213105,
+      "validated_rows": 212865
+    },
+    {
+      "instrument": "T9999.CCFX.csv",
+      "source_path": "fut_data/T9999.CCFX.csv",
+      "sha256": "4045b41d3a6ea7bc477fea1f809a907c3f799155204093dc7db6e6c363f0f1e1",
+      "bytes": 33649441,
+      "raw_rows": 431040,
+      "validated_rows": 431040
+    },
+    {
+      "instrument": "TA9999.XZCE.csv",
+      "source_path": "fut_data/TA9999.XZCE.csv",
+      "sha256": "a892bbc4a9edbbae13ec9283eb57d8738160fbd9af27190b30717738ef2d84f1",
+      "bytes": 85856493,
+      "raw_rows": 1032990,
+      "validated_rows": 1032870
+    },
+    {
+      "instrument": "TC9999.XZCE.csv",
+      "source_path": "fut_data/TC9999.XZCE.csv",
+      "sha256": "fb007005cf5dfaa95d2e09eb169ec1b2e60bd20c76ed41c6f4dabc78f16f1f1a",
+      "bytes": 11886843,
+      "raw_rows": 167550,
+      "validated_rows": 167550
+    },
+    {
+      "instrument": "TF9999.CCFX.csv",
+      "source_path": "fut_data/TF9999.CCFX.csv",
+      "sha256": "2366923c714d06fdf874c664e782ac95ee8831fabefb5b87ade751c2ff33378e",
+      "bytes": 41409087,
+      "raw_rows": 530940,
+      "validated_rows": 530940
+    },
+    {
+      "instrument": "TS9999.CCFX.csv",
+      "source_path": "fut_data/TS9999.CCFX.csv",
+      "sha256": "7a7fc0e3601a72feb191cfce42906cb7172686844889c45afd2ccda30af3b7f3",
+      "bytes": 15814679,
+      "raw_rows": 205320,
+      "validated_rows": 205320
+    },
+    {
+      "instrument": "UR9999.XZCE.csv",
+      "source_path": "fut_data/UR9999.XZCE.csv",
+      "sha256": "d52ea32ac881cad9da0710a357bb6f9d8f132cdf7b03e03b74dc13ed262ea5fa",
+      "bytes": 9547004,
+      "raw_rows": 119025,
+      "validated_rows": 119025
+    },
+    {
+      "instrument": "V9999.XDCE.csv",
+      "source_path": "fut_data/V9999.XDCE.csv",
+      "sha256": "dd97f7a4ecbbcb456a1dc50be88b7612a809af7dd26e6d2d38231879eeae6c61",
+      "bytes": 58737592,
+      "raw_rows": 742830,
+      "validated_rows": 742710
+    },
+    {
+      "instrument": "WH9999.XZCE.csv",
+      "source_path": "fut_data/WH9999.XZCE.csv",
+      "sha256": "3506937989abc91833a66d6c0aee908316e078bfa706a63f237bd73c1e15f8b0",
+      "bytes": 37166527,
+      "raw_rows": 504450,
+      "validated_rows": 504450
+    },
+    {
+      "instrument": "WR9999.XSGE.csv",
+      "source_path": "fut_data/WR9999.XSGE.csv",
+      "sha256": "1b5ecf71fb802e575442384f3eee65bf2f7a0dd487d10e04aee021db6227986e",
+      "bytes": 44220075,
+      "raw_rows": 633600,
+      "validated_rows": 633600
+    },
+    {
+      "instrument": "WS9999.XZCE.csv",
+      "source_path": "fut_data/WS9999.XZCE.csv",
+      "sha256": "37af3031f01486be52dd39ee07030aec2c92cc8fec361c171aba5f198ec2cbf3",
+      "bytes": 36496856,
+      "raw_rows": 458100,
+      "validated_rows": 458100
+    },
+    {
+      "instrument": "WT9999.XZCE.csv",
+      "source_path": "fut_data/WT9999.XZCE.csv",
+      "sha256": "4bf1c92d60d7583a55326818ebdd18a055da95dd5ff5a72c5df97c82d39d8f01",
+      "bytes": 30783496,
+      "raw_rows": 431775,
+      "validated_rows": 431775
+    },
+    {
+      "instrument": "Y9999.XDCE.csv",
+      "source_path": "fut_data/Y9999.XDCE.csv",
+      "sha256": "000b0472e9a31c4aa60eb66b2358ba9c11845e03fc6ae38770dbca126de83e29",
+      "bytes": 89432318,
+      "raw_rows": 1093065,
+      "validated_rows": 1092945
+    },
+    {
+      "instrument": "ZC9999.XZCE.csv",
+      "source_path": "fut_data/ZC9999.XZCE.csv",
+      "sha256": "0b5f827cd3475d33de03ef039b3b38faf695383f6e24e34c8705e0f4e8bc8dc0",
+      "bytes": 42927562,
+      "raw_rows": 556365,
+      "validated_rows": 556245
+    },
+    {
+      "instrument": "ZN9999.XSGE.csv",
+      "source_path": "fut_data/ZN9999.XSGE.csv",
+      "sha256": "bdf63eaf039f10e56d614dad2815e2df70f7214c1cadd3a2db2a7bacc387e3e9",
+      "bytes": 105087514,
+      "raw_rows": 1226295,
+      "validated_rows": 1226055
+    }
+  ],
+  "instrument_count": 77,
+  "validated_rows": 44011860,
+  "output": "artifacts/clean_market_data.parquet",
+  "output_sha256": "06f0144a97dacd0d186a6fcca3ce394f715fd2489a26ffc74a93d1e105b60988",
+  "source_columns": [
+    "date",
+    "symbol",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "money",
+    "open_interest"
+  ],
+  "source_id": "one-based original data row, excluding header",
+  "frequency_seconds": 60,
+  "timezone": "supplier local, timezone-naive; timezone not independently verified",
+  "cleaning": "remove exact copies; disagreeing conflict fields become NaN; no other row deletion",
+  "loss_review_threshold_pct": 6.0,
+  "gap_inference": {
+    "neighbor_days_each_side": 10,
+    "maximum_calendar_distance_days": 45,
+    "minimum_reference_days": 5,
+    "expected_minute_frequency": 0.8,
+    "break_minute_frequency": 0.2
+  },
+  "price_diagnostics": {
+    "move_floor_pct": 1.0,
+    "mad_multiplier": 10.0,
+    "minimum_reference_edges": 100
+  },
+  "random_seed": 42
+}

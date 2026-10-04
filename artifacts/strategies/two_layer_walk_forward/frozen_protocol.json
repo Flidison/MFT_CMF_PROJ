@@ -1,0 +1,47 @@
+{
+  "config": {
+    "train_window": 252,
+    "mode": "rolling",
+    "refit_frequency": 63,
+    "horizon": 5,
+    "execution_delay": 1,
+    "min_train_days": 60,
+    "min_direction_rows": 1000,
+    "research_start": "2015-01-01 00:00:00",
+    "validation_start": "2018-01-01 00:00:00",
+    "holdout_start": "2020-01-01 00:00:00",
+    "target_vol": 0.001,
+    "max_leverage": 3.0,
+    "min_vol": 1e-05,
+    "cost_bps": 1.0,
+    "probability_thresholds": [
+      0.5,
+      0.55,
+      0.6,
+      0.65
+    ],
+    "expansion": 1.2,
+    "simulations": 2048,
+    "seed": 42,
+    "arma_candidates": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "selected_thresholds": {
+    "D3_Logistic_Direction": 0.65,
+    "D3_Logistic_Asymmetric": 0.65
+  },
+  "selected_using": "2018-2019 validation only",
+  "warning": "This historical dataset was examined in earlier research; the new holdout is selection-isolated, not pristine."
+}

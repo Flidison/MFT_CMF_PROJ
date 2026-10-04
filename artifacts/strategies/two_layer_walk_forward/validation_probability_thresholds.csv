@@ -1,0 +1,9 @@
+model,threshold,trades,mean_net_per_opportunity
+D3_Logistic_Direction,0.5,1051221,-4.313845490148841e-05
+D3_Logistic_Direction,0.55,815850,-4.155316843331606e-05
+D3_Logistic_Direction,0.6,539290,-3.483695479611039e-05
+D3_Logistic_Direction,0.65,287079,-2.6329865015558987e-05
+D3_Logistic_Asymmetric,0.5,1051221,-4.495751220568298e-05
+D3_Logistic_Asymmetric,0.55,819591,-4.339838012164692e-05
+D3_Logistic_Asymmetric,0.6,551312,-3.718454504989176e-05
+D3_Logistic_Asymmetric,0.65,301814,-2.845685790839191e-05

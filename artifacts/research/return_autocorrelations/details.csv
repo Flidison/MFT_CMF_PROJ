@@ -1,0 +1,1 @@
+segment_id,symbol,start,end,bars,first_ID,last_ID,full_window,possible_pairs,pairs,corr,status,file,feature,transform,y_feature,y_transform,kind,lag,window_bars,mode,step,min_pairs,setting,unit_in_segment

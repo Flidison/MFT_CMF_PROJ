@@ -1,0 +1,5 @@
+model,files,median_phi,median_theta,median_alpha,median_beta,median_persistence,boundary_fits,near_cancellation
+AR(1),76,-0.09717429497161806,0.0,,,,0,0
+MA(1),76,0.0,-0.09845399578346396,,,,0,0
+"ARMA(1,1)",76,-0.0708335189121248,-0.019103064584492013,,,,0,3
+"GARCH(1,1)",76,,,0.10072375519634674,0.880077964127161,0.9799310910478928,11,0

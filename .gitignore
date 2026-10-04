@@ -1,0 +1,23 @@
+# Local Python environment and generated interpreter state
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.ipynb_checkpoints/
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Full data and forecast snapshots are distributed in the GitHub release.
+/fut_data/
+/artifacts/**/*.parquet
+/artifacts/**/cache/
+/release-assets/
+

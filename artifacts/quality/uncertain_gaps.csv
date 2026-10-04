@@ -1,0 +1,1 @@
+gap_ID,symbol,ID_before,minute_before,ID_after,minute_after,first_absent,last_absent,interval_minutes,classification,cross_midnight,reference_days_min,reference_days_max,observed_fraction_min,observed_fraction_max,instrument

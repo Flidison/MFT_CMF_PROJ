@@ -1,0 +1,46 @@
+{
+  "features": [
+    "log_return"
+  ],
+  "y_features": [
+    "Volume"
+  ],
+  "lags": [
+    -1,
+    0,
+    1,
+    5
+  ],
+  "windows": [
+    null
+  ],
+  "transforms": [
+    "abs"
+  ],
+  "y_transforms": [
+    "identity"
+  ],
+  "statistics": [
+    "mean",
+    "std"
+  ],
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "std_ddof": 1,
+  "quantile_method": "linear",
+  "mode": "rolling",
+  "step": 1,
+  "min_pairs": 2,
+  "files": [
+    "A9999.XDCE.csv"
+  ],
+  "details_files": [
+    "A9999.XDCE.csv"
+  ],
+  "preprocessing_changed": false,
+  "correlation": "corr(transform(x[t]), y_transform(y[t-lag])); finite endpoints at exact bar lag",
+  "pooled_scope": "all within-segment pairs once, independent of window settings"
+}
