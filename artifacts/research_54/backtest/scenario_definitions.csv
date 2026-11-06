@@ -1,0 +1,7 @@
+scenario,slippage_bps_per_side,all_ratio_divisor,ag_near_month_all
+exchange_only,0.0,,False
+slippage_0.5bp_side,0.5,,False
+slippage_1bp_side,1.0,,False
+all_ratio_notes_10000,0.0,10000.0,False
+all_ratio_literal_1000,0.0,1000.0,False
+AG_near_month_all,0.0,,True

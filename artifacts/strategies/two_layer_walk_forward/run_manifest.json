@@ -38,7 +38,7 @@
       ]
     ]
   },
-  "cache_key": "56a0385ef072a406a47a",
+  "cache_key": "e22b4e83799305a864a4",
   "feature_sha256": "757b2669be276e1cbc5c18c8006843dec2da70449a4573c1585bb5cd5a5012c2",
   "versions": {
     "numpy": "2.4.6",

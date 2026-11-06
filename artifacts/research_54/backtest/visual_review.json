@@ -1,0 +1,11 @@
+{
+  "reviewed_figures": [
+    "strategy_S8_Logistic_EGARCH.png",
+    "primary_equity_overview.png",
+    "primary_loss_comparison.png",
+    "all_strategy_loss_metrics.png"
+  ],
+  "total_individual_figures": 47,
+  "result": "Reviewed renders: labels and units readable; overview legend moved below panels to remove title overlap.",
+  "independent_scales": "Individual strategy panels use individual return ranges; S0-S9 overview uses shared y axis."
+}

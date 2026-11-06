@@ -1,0 +1,334 @@
+{
+  "input_manifest": "artifacts/research_54/statistics/manifest.json",
+  "input_sha256": "bee0caf88904d2c9fdf6a33269dba0053e9dc8d2aeb7efdbbf04952ed14cd021",
+  "config": {
+    "split": "2020-01-01 00:00:00",
+    "inner": "2019-01-01 00:00:00",
+    "min_days": 20,
+    "min_rows": 1000,
+    "seed": 42,
+    "egarch_simulations": 2048,
+    "mean_horizons": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "var_horizons": [
+      1,
+      5,
+      30
+    ],
+    "grid_minutes": 6,
+    "direction_features": [
+      [
+        "r0",
+        "r1",
+        "r2",
+        "momentum5",
+        "std_garch",
+        "previous_sign",
+        "logvol_garch",
+        "change_garch",
+        "expansion_garch",
+        "innovation_garch"
+      ],
+      [
+        "r0",
+        "r1",
+        "r2",
+        "momentum5",
+        "std_garch",
+        "previous_sign",
+        "logvol_garch",
+        "change_garch",
+        "expansion_garch",
+        "innovation_garch",
+        "logvol_egarch",
+        "logvol_gjr",
+        "change_egarch",
+        "change_gjr",
+        "egarch_contribution",
+        "gjr_contribution",
+        "difference_egarch",
+        "difference_gjr"
+      ]
+    ],
+    "code_hash": "b346daf22fa6f66d7a246b16d0e6a18368f2e88871ebd4fbf8657f16d0772fb6",
+    "backtest": false,
+    "runtime_constants": {
+      "expansion_window": 30,
+      "expansion_min_periods": 15,
+      "breakout_window": 20,
+      "arma_candidates": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "mean_orders": {
+        "AR(1)": [
+          1,
+          0
+        ],
+        "MA(1)": [
+          0,
+          1
+        ],
+        "AR(2)": [
+          2,
+          0
+        ],
+        "ARMA(1,1)": [
+          1,
+          1
+        ]
+      },
+      "volatility_names": [
+        "V1_GARCH",
+        "V2_EGARCH",
+        "V3_GJR_GARCH"
+      ],
+      "direction_names": [
+        "D0_Momentum5",
+        "D1_Raw_ARMA",
+        "D2_GARCH_ARMA",
+        "D2_EGARCH_ARMA",
+        "D2_GJR_ARMA",
+        "D3_Logistic_Core",
+        "D3_Logistic_Asymmetric"
+      ]
+    }
+  },
+  "files": [
+    "RB9999.XSGE.csv",
+    "I9999.XDCE.csv",
+    "SC9999.XINE.csv",
+    "NI9999.XSGE.csv",
+    "J9999.XDCE.csv",
+    "RU9999.XSGE.csv",
+    "IF9999.CCFX.csv",
+    "AU9999.XSGE.csv",
+    "CU9999.XSGE.csv",
+    "AG9999.XSGE.csv",
+    "IC9999.CCFX.csv",
+    "M9999.XDCE.csv",
+    "P9999.XDCE.csv",
+    "T9999.CCFX.csv",
+    "ZN9999.XSGE.csv",
+    "Y9999.XDCE.csv",
+    "TA9999.XZCE.csv",
+    "MA9999.XZCE.csv",
+    "SR9999.XZCE.csv",
+    "AP9999.XZCE.csv",
+    "CF9999.XZCE.csv",
+    "PP9999.XDCE.csv",
+    "RM9999.XZCE.csv",
+    "BU9999.XSGE.csv",
+    "HC9999.XSGE.csv",
+    "OI9999.XZCE.csv",
+    "IH9999.CCFX.csv",
+    "EG9999.XDCE.csv",
+    "JM9999.XDCE.csv",
+    "FU9999.XSGE.csv",
+    "L9999.XDCE.csv",
+    "SA9999.XZCE.csv",
+    "ZC9999.XZCE.csv",
+    "AL9999.XSGE.csv",
+    "FG9999.XZCE.csv",
+    "SP9999.XSGE.csv",
+    "TF9999.CCFX.csv",
+    "C9999.XDCE.csv",
+    "V9999.XDCE.csv",
+    "JD9999.XDCE.csv",
+    "EB9999.XDCE.csv",
+    "A9999.XDCE.csv",
+    "CJ9999.XZCE.csv",
+    "SM9999.XZCE.csv",
+    "SN9999.XSGE.csv",
+    "CS9999.XDCE.csv",
+    "SS9999.XSGE.csv",
+    "SF9999.XZCE.csv",
+    "PB9999.XSGE.csv",
+    "UR9999.XZCE.csv",
+    "B9999.XDCE.csv",
+    "NR9999.XINE.csv",
+    "CY9999.XZCE.csv",
+    "RR9999.XDCE.csv"
+  ],
+  "observed_end": "2021-10-18 15:15:00",
+  "train": [
+    "2016-01-01",
+    "2019-12-31"
+  ],
+  "test": [
+    "2020-01-01",
+    "2021-12-31"
+  ],
+  "inner_feature_fit": [
+    "2016-01-01",
+    "2018-12-31"
+  ],
+  "inner_direction_fit": [
+    "2019-01-01",
+    "2019-12-31"
+  ],
+  "test_refits": false,
+  "backtest_run": false,
+  "fees": null,
+  "costs": null,
+  "selection_is_retrospective": true,
+  "summary": {
+    "requested_files": 54,
+    "standalone_eligible": 53,
+    "composite_common_files": 46,
+    "direction_common": [
+      {
+        "period": "test",
+        "cohort": "common_all7",
+        "model": "D0_Momentum5",
+        "files": 46,
+        "n": 877286,
+        "accuracy": 0.4947957295744004,
+        "balanced_accuracy": 0.4869055611745564,
+        "sign_accuracy": 0.480388903057285,
+        "zero_share": 0.11483184761785356,
+        "direction_coverage": 0.8859630237123498,
+        "auc": null,
+        "brier_skill": null
+      },
+      {
+        "period": "test",
+        "cohort": "common_all7",
+        "model": "D1_Raw_ARMA",
+        "files": 46,
+        "n": 877286,
+        "accuracy": 0.5227716474132812,
+        "balanced_accuracy": 0.5006480774307449,
+        "sign_accuracy": 0.5006325658014277,
+        "zero_share": 0.11483184761785356,
+        "direction_coverage": 1.0,
+        "auc": null,
+        "brier_skill": null
+      },
+      {
+        "period": "test",
+        "cohort": "common_all7",
+        "model": "D2_EGARCH_ARMA",
+        "files": 46,
+        "n": 877286,
+        "accuracy": 0.5216941046174333,
+        "balanced_accuracy": 0.5053976775359992,
+        "sign_accuracy": 0.506857441961478,
+        "zero_share": 0.11483184761785356,
+        "direction_coverage": 1.0,
+        "auc": null,
+        "brier_skill": null
+      },
+      {
+        "period": "test",
+        "cohort": "common_all7",
+        "model": "D2_GARCH_ARMA",
+        "files": 46,
+        "n": 877286,
+        "accuracy": 0.5175448518793095,
+        "balanced_accuracy": 0.5054918794423653,
+        "sign_accuracy": 0.507419016470692,
+        "zero_share": 0.11483184761785356,
+        "direction_coverage": 1.0,
+        "auc": null,
+        "brier_skill": null
+      },
+      {
+        "period": "test",
+        "cohort": "common_all7",
+        "model": "D2_GJR_ARMA",
+        "files": 46,
+        "n": 877286,
+        "accuracy": 0.5204534106509352,
+        "balanced_accuracy": 0.50501358665413,
+        "sign_accuracy": 0.506838607365958,
+        "zero_share": 0.11483184761785356,
+        "direction_coverage": 1.0,
+        "auc": null,
+        "brier_skill": null
+      },
+      {
+        "period": "test",
+        "cohort": "common_all7",
+        "model": "D3_Logistic_Asymmetric",
+        "files": 46,
+        "n": 877286,
+        "accuracy": 0.5553685059541007,
+        "balanced_accuracy": 0.5100055301029058,
+        "sign_accuracy": 0.5050421823268672,
+        "zero_share": 0.11483184761785356,
+        "direction_coverage": 1.0,
+        "auc": 0.5290123514398172,
+        "brier_skill": 0.004985373472256259
+      },
+      {
+        "period": "test",
+        "cohort": "common_all7",
+        "model": "D3_Logistic_Core",
+        "files": 46,
+        "n": 877286,
+        "accuracy": 0.5553893886664631,
+        "balanced_accuracy": 0.5091000363513122,
+        "sign_accuracy": 0.5040205214448134,
+        "zero_share": 0.11483184761785356,
+        "direction_coverage": 1.0,
+        "auc": 0.5289615878293837,
+        "brier_skill": 0.004308116885948626
+      }
+    ],
+    "variance_h5": [
+      {
+        "period": "test",
+        "model": "V1_GARCH",
+        "horizon": 5,
+        "files": 53,
+        "n": 755545,
+        "median_qlike_delta_ewma": 0.002181556509651266,
+        "mean_qlike_delta_ewma": 0.0101645070507463,
+        "better_files": 21,
+        "median_vol_corr": 0.5583300550718375,
+        "floor_count": 0
+      },
+      {
+        "period": "test",
+        "model": "V2_EGARCH",
+        "horizon": 5,
+        "files": 53,
+        "n": 755545,
+        "median_qlike_delta_ewma": 0.008164121886732014,
+        "mean_qlike_delta_ewma": 0.039211287002612505,
+        "better_files": 11,
+        "median_vol_corr": 0.5457870418252215,
+        "floor_count": 0
+      },
+      {
+        "period": "test",
+        "model": "V3_GJR_GARCH",
+        "horizon": 5,
+        "files": 53,
+        "n": 755545,
+        "median_qlike_delta_ewma": 0.0022266561702513,
+        "mean_qlike_delta_ewma": 0.010184867138347055,
+        "better_files": 23,
+        "median_vol_corr": 0.5579435360760138,
+        "floor_count": 0
+      }
+    ],
+    "backtest_run": false
+  },
+  "python": "3.11.7"
+}

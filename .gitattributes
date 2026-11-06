@@ -1,0 +1,12 @@
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+# Snapshot checks compare the exact CSV bytes on every platform.
+*.csv -text
+*.json -text
+*.txt -text
+*.sql -text
+*.parquet binary
+*.xlsx binary
+*.png binary

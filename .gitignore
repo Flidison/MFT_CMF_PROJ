@@ -1,6 +1,9 @@
 # Local Python environment and generated interpreter state
 venv/
 .venv/
+.venv-*/
+.data-downloads/
+.pytest_cache/
 __pycache__/
 *.py[cod]
 *.nbc
@@ -20,4 +23,16 @@ __pycache__/
 /artifacts/**/*.parquet
 /artifacts/**/cache/
 /release-assets/
+
+# Private audit baselines and local execution logs; public reports are in audit/.
+/audit_reports/
+/artifacts/.final_presentation_build/
+/artifacts/MFT_Research_Final_Handoff.zip
+/artifacts/final_presentation_handoff/
+/artifacts/mft_lecturer_feedback/
+/artifacts/research_54/previews/
+/artifacts/research_54/audit_snapshot_20261009T200003Z/*.ipynb
+/artifacts/research_54/audit_snapshot_20261009T200003Z/backtest/trades/
+/artifacts/research_54/audit_snapshot_20261009T200003Z/backtest/figures/
+/artifacts/research_54/audit_snapshot_20261009T200003Z/models/forecasts/
 

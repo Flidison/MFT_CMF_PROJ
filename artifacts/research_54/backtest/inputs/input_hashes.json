@@ -1,0 +1,50 @@
+{
+  "recorded_at_utc": "2026-10-09T18:02:53.311435+00:00",
+  "files": [
+    {
+      "file": "cffex_reprint.html",
+      "sha256": "b1b3e2e49130af0d5e0bddcdea6ead9e22079a6008e8f9da8ba80df111934790",
+      "bytes": 40572
+    },
+    {
+      "file": "commission_schedule.xlsx",
+      "sha256": "b781b5b29e733b8ae09858976bf49d8539db8bf1137e3c3ec269f0f0a31a2a94",
+      "bytes": 45274
+    },
+    {
+      "file": "czce_fees_20230731.docx",
+      "sha256": "2f15d6aa55824b5c23fe4d786a4dcfaccee04de5f798ee888dea7c6ce4f5a261",
+      "bytes": 13844
+    },
+    {
+      "file": "czce_reprint.html",
+      "sha256": "8cc95a3b8291e69f63aeea6e103abc551060e98182192cc7bcbfb21a34446fbd",
+      "bytes": 21752
+    },
+    {
+      "file": "fee_verification.json",
+      "sha256": "76024432c6b17addb785c7046b96d28e0d93efb2fd51767eabc4c3f35e6bc620",
+      "bytes": 6988
+    },
+    {
+      "file": "retrieved_source_manifest.json",
+      "sha256": "8103bd83b95857a53e36154b70b48c0f3e5c41a0af4d170625e7ee9473ac383c",
+      "bytes": 607
+    },
+    {
+      "file": "shfe_fu_notice_20260309.html",
+      "sha256": "7f0e45dd3bb6c7c3f3718b547f73ef17b01ed4c5cddb803e058642ae5b4ee25e",
+      "bytes": 120787
+    },
+    {
+      "file": "shfe_settlement_20260803.json",
+      "sha256": "440b77297430dfeda57caf4d6bf54765ad4e6cd29ce6d1c361f5c6ff214a82c5",
+      "bytes": 108872
+    },
+    {
+      "file": "shfe_sp_notice_20260708.html",
+      "sha256": "b8394ae3f85becae1f9e5ca7f9a0f56f27a92ae173790e0da4e919a2a27391c4",
+      "bytes": 119779
+    }
+  ]
+}

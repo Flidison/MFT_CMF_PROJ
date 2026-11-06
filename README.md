@@ -1,60 +1,129 @@
-# MFT futures research
+# MFT Futures Research
 
-A sequential, three-notebook research pipeline for minute futures data: data quality, statistical feature research, and directional and volatility forecasting with exploratory trading tests. All project-owned research implementation is contained in the notebooks.
+Minute-bar research on Chinese commodity and financial futures: data quality,
+conditional return dependence, volatility forecasting and explicit fee/execution
+accounting. The main experiment uses 54 products, training in 2016–2019 and
+evaluation in 2020–18 October 2021.
 
-## Notebooks
+Of 47 strategy variants, 28 have positive gross returns and none have positive net
+returns under the specified exchange-fee scenario. This retrospective experiment
+does not establish executable trading alpha.
 
-Run these from the repository root, in order, using separate clean Python kernels:
+## Notebook structure
 
-1. [01_data_quality_check.ipynb](01_data_quality_check.ipynb) validates the 77 raw market files, reports data issues, and produces `artifacts/clean_market_data.parquet`.
-2. [02_research_statistics_features.ipynb](02_research_statistics_features.ipynb) builds segment-aware features, descriptive statistics, correlations and significance screens. It produces `artifacts/research_features.parquet` and `artifacts/significant_combinations.csv`.
-3. [03_strategies_hypotheses.ipynb](03_strategies_hypotheses.ipynb) tests momentum and reversal hypotheses, ARMA direction forecasts, logistic direction probabilities, and GARCH, EGARCH and GJR volatility forecasts. It preserves the earlier research and adds walk-forward strategy comparisons.
+| Notebook | Role |
+|---|---|
+| [01_data_quality_check.ipynb](01_data_quality_check.ipynb) | Audit 77 raw files, resolve duplicate conflicts and preserve minute boundaries |
+| [02_research_statistics_features.ipynb](02_research_statistics_features.ipynb) | Segment-safe features, correlation estimands and uncertainty |
+| [03_strategies_hypotheses.ipynb](03_strategies_hypotheses.ipynb) | Earlier 77-file hypotheses and walk-forward experiment; a separate historical study |
+| [04_liquidity_activity.ipynb](04_liquidity_activity.ipynb) | Explicit retrospective selection of 54 products |
+| [05_research_statistics_features_54.ipynb](05_research_statistics_features_54.ipynb) | Features, ACF, tails and descriptive volatility clustering |
+| [06_strategies_hypotheses_54.ipynb](06_strategies_hypotheses_54.ipynb) | Frozen training thresholds and conditional future-price event studies |
+| [07_forecasting_models_54.ipynb](07_forecasting_models_54.ipynb) | AR/MA/ARMA, GARCH/GJR/EGARCH and two-stage direction forecasts |
+| [08_backtest_fees_risk_54.ipynb](08_backtest_fees_risk_54.ipynb) | Simulated execution, fee scenarios, sizing and portfolio risk |
+| [09_final_audit_07_08.ipynb](09_final_audit_07_08.ipynb) | Independent forecast, normalization, sizing and full-ledger reconciliation |
 
-Saved cell outputs, result tables and figures are included. No local research helper modules are required.
+For the current 54-product study execute **01 →02 →04 →05 →06 →07 →08 →09**.
+Notebook 03 is a separate, more expensive legacy comparison, rather than an
+execution dependency of 04–09. Its source definitions are referenced explicitly.
+Notebooks retain executed outputs, English explanations and English chart labels.
 
-## Setup
+## Environment and tests
 
-The executed environment used Python 3.11. Install the recorded dependencies and register a kernel for your notebook editor:
+Python 3.11 was used for validation. Scientific versions are pinned in
+[requirements.txt](requirements.txt); execution/test dependencies are in
+[requirements-validation.txt](requirements-validation.txt).
 
-```bash
-python3.11 -m venv venv
-source venv/bin/activate
-python -m pip install -r requirements.txt
-python -m ipykernel install --user --name mft-research --display-name "MFT research"
-```
+    python3.11 -m venv .venv
+    .venv/bin/python -m pip install -r requirements.txt -r requirements-validation.txt
+    .venv/bin/python tools/verify_publication.py
+    .venv/bin/python -m pytest -q tests
 
-Open the notebooks in a Jupyter-compatible editor, select the `MFT research` kernel, and run from the repository root. JupyterLab can optionally be installed with `python -m pip install jupyterlab`.
+GitHub Actions runs data-free mathematical, boundary, cache, notebook-schema and
+publication-language checks. Full market-data calculations are a separate
+integration run, with evidence in the audit reports.
 
-## Restore the complete data snapshot
+## Raw data
 
-The full research snapshot is roughly 13 GiB before archive compression. Raw CSVs and Parquet datasets exceed practical Git repository limits, so they are published as independent `.tar.gz` assets in the [research snapshot release](https://github.com/Flidison/MFT_CMF_PROJ/releases/tag/research-snapshot-v1). CSV result tables, figures, notebooks and non-cache metadata are tracked directly in Git. The release also preserves the fitted-model cache so existing results can be inspected without refitting everything.
+Raw CSV inputs are unchanged from the existing
+[research-snapshot-v1 release](https://github.com/Flidison/MFT_CMF_PROJ/releases/tag/research-snapshot-v1).
+The two raw-data archives total approximately 817 MB compressed. Other research
+archives belong to the earlier 01–03 snapshot; they are optional for historical
+reproduction and are not current 54-product results.
 
-After cloning, use the GitHub CLI to download the assets and extract them from the repository root:
+The commands below use the GitHub CLI; browser downloads from the linked release
+are an equivalent option. From a fresh checkout, verify before extraction:
 
-```bash
-mkdir -p release-assets
-gh release download research-snapshot-v1 \
-  --repo Flidison/MFT_CMF_PROJ \
-  --dir release-assets --pattern '*.tar.gz' --pattern 'SHA256SUMS'
-(cd release-assets && shasum -a 256 -c SHA256SUMS)
-for archive in release-assets/*.tar.gz; do
-  tar -xzf "$archive"
-done
-```
+    gh release download research-snapshot-v1 --repo Flidison/MFT_CMF_PROJ \
+      --pattern 'raw-data-*.tar.gz' --dir .data-downloads
+    .venv/bin/python tools/verify_data.py --archives .data-downloads --archives-only
+    tar -xzf .data-downloads/raw-data-01.tar.gz -C .
+    tar -xzf .data-downloads/raw-data-02.tar.gz -C .
+    .venv/bin/python tools/verify_data.py
 
-The release files can also be downloaded through the browser. Each archive restores repository-relative paths; the archives are independent, not split byte streams. `publication_manifest.csv` lists every original research file, its SHA-256 checksum, and whether it is stored in Git or in a release archive. `release_manifest.json` records archive contents and checksums.
+[data/raw_manifest.csv](data/raw_manifest.csv) pins every raw file's size and
+SHA-256. The historical release manifest retains its archive checksums; it
+describes that release, not the current source revision.
 
-To rerun the complete pipeline from raw inputs, download and extract only the `raw-data-*.tar.gz` assets and run notebooks 1, 2 and 3. For the complete saved state, extract every archive. Notebook 1 defaults to `fut_data/`; its configuration cell can point to another raw data directory. The generated outputs can be recreated by running the notebooks sequentially.
+## Reproduction
 
-The local virtual environment, operating-system files and interpreter caches are excluded from publication. Original market data, generated datasets, research results and model-output caches are preserved.
+Use an isolated checkout: notebooks save executed outputs in place and regenerate
+artifacts. Each receives a new kernel; the runner records progress and source
+hashes.
 
-## Main research conventions and findings
+    .venv/bin/python tools/run_research.py \
+      01_data_quality_check.ipynb \
+      02_research_statistics_features.ipynb \
+      04_liquidity_activity.ipynb \
+      05_research_statistics_features_54.ipynb \
+      06_strategies_hypotheses_54.ipynb \
+      07_forecasting_models_54.ipynb \
+      08_backtest_fees_risk_54.ipynb \
+      09_final_audit_07_08.ipynb
 
-- One-minute bars, with returns, lags and rolling calculations confined to continuous segments and delivery contracts.
-- Separate direction and conditional-volatility forecasting layers.
-- Five-minute holding horizon, next-valid-close execution, and a main transaction cost assumption of 1 basis point per side of notional turnover.
-- Training-only model selection, historical walk-forward refits, validation in 2018–2019 and a locked evaluation period in 2020–2021. The historical sample had already been explored, so this is not a pristine untouched holdout.
-- Directional accuracy is close to chance. GARCH volatility forecasting is more informative than the directional forecasts. EGARCH instability is retained and flagged.
-- All ten principal combined strategies have negative net performance at the main cost assumption. Statistical dependence does not establish a production-ready profitable strategy.
+Current CSV summaries, model JSONs, figures, fee inputs and compact historical
+verification records are versioned. Large derived Parquet features, forecasts,
+decisions and ledgers are regenerated and excluded from Git. The complete local
+baseline remains preserved. Notebook 09 checks unchanged forecast columns using
+published frozen fingerprints and historical common masks without the old
+multi-gigabyte ledgers.
 
-See [strategy performance](artifacts/strategies/two_layer_walk_forward/strategy_performance.csv), [research conclusions](artifacts/strategies/two_layer_walk_forward/research_conclusions.md), and the executed third notebook for the complete evidence and limitations.
+The bundled commission workbook is sufficient. If missing, explicitly set
+MFT_FEE_WORKBOOK. MFT_FEE_ORIGINAL optionally enables comparison with an external
+original; its absence is reported as unverified rather than silently certified.
+
+## Audit and interpretation
+
+- [Code audit and fixes](audit/2026-11-06/MFT_Code_Audit_and_Fixes.md)
+- [Research validation](audit/2026-11-06/MFT_Research_Validation.md)
+- [Nikolai handoff](audit/2026-11-06/MFT_Nikolai_Handoff.md)
+
+Limitations remain retrospective universe/test selection, finite Monte Carlo
+approximation, extreme EGARCH forecasts, minute-close fills, fractional lots,
+incomplete historical trading-day/fee reconstruction, and omitted broker, spread,
+impact and capacity costs. The baseline applies August 2026 exchange-fee
+assumptions to 2020–2021; it is not a historical tariff reconstruction.
+
+The 25-slide presentation has broader and partly different source coverage.
+Several early-slide methods and universe counts cannot be reproduced from these
+nine notebooks alone. The audit records those differences without changing the
+research sample to match slides.
+
+
+## Optional presentation diagnostics
+
+The existing numerical diagnostics for the later presentation panels can be
+recomputed after the core pipeline, using the same Python environment:
+
+    .venv/bin/python artifacts/mft_lecturer_feedback/scripts/analyze_feedback.py
+    .venv/bin/python artifacts/mft_lecturer_feedback/scripts/supplementary_checks.py
+    .venv/bin/python artifacts/mft_lecturer_feedback/scripts/unusual_acf_validation.py
+
+These scripts estimate no new trading strategy. Presentation-layout runtimes and
+private deck-build directories are outside the notebook runtime. Original exchange
+source documents retain their original language; research explanations are English.
+
+For a new publication snapshot, stage the intended files, run
+python tools/build_publication_manifest.py, then stage publication_manifest.csv
+and commit. The manifest hashes staged Git blobs and excludes itself to avoid
+recursive hashing. Verify a clean snapshot before regenerating its outputs.

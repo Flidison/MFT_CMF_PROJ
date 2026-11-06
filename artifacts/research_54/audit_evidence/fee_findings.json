@@ -1,0 +1,24 @@
+{
+  "source_workbook_rows": 78,
+  "universe_files": 54,
+  "fixed_products": 37,
+  "ratio_products": 17,
+  "output_rows": 90,
+  "max_coefficient_error": 5.421010862427522e-20,
+  "max_test_multiplier_median_relative_error": 0.0006082725060827521,
+  "original_workbook_exists": false,
+  "copy_matches_original": null,
+  "workbook_sha256": "b781b5b29e733b8ae09858976bf49d8539db8bf1137e3c3ec269f0f0a31a2a94",
+  "source_label_defects": [
+    "SA: soda ash, not caustic soda",
+    "NR: TSR20, not RSS3"
+  ],
+  "unresolved": [
+    "I divisor not independently certified",
+    "AG near/far-month mapping absent; near-month amount not corroborated by August3 snapshot",
+    "SC front-month scope not historically mapped",
+    "All54 fee schedules are not certified official August2026 schedules; several official snapshot rates differ"
+  ],
+  "cash_cost_model": "Exchange only; broker0, slippage0, spread not modeled",
+  "result_title": "Historical backtest under August 2026 exchange-fee assumptions."
+}

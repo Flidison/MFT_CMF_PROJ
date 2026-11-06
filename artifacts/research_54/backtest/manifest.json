@@ -1,0 +1,221 @@
+{
+  "code_sha256": "d2d6ad1a8b9ef3859f5281e186ed8fe1e11145e6d27a831412aa88b631928598",
+  "backtest_run": true,
+  "files": [
+    "RB9999.XSGE.csv",
+    "I9999.XDCE.csv",
+    "SC9999.XINE.csv",
+    "NI9999.XSGE.csv",
+    "J9999.XDCE.csv",
+    "RU9999.XSGE.csv",
+    "IF9999.CCFX.csv",
+    "AU9999.XSGE.csv",
+    "CU9999.XSGE.csv",
+    "AG9999.XSGE.csv",
+    "IC9999.CCFX.csv",
+    "M9999.XDCE.csv",
+    "P9999.XDCE.csv",
+    "T9999.CCFX.csv",
+    "ZN9999.XSGE.csv",
+    "Y9999.XDCE.csv",
+    "TA9999.XZCE.csv",
+    "MA9999.XZCE.csv",
+    "SR9999.XZCE.csv",
+    "AP9999.XZCE.csv",
+    "CF9999.XZCE.csv",
+    "PP9999.XDCE.csv",
+    "RM9999.XZCE.csv",
+    "BU9999.XSGE.csv",
+    "HC9999.XSGE.csv",
+    "OI9999.XZCE.csv",
+    "IH9999.CCFX.csv",
+    "EG9999.XDCE.csv",
+    "JM9999.XDCE.csv",
+    "FU9999.XSGE.csv",
+    "L9999.XDCE.csv",
+    "SA9999.XZCE.csv",
+    "ZC9999.XZCE.csv",
+    "AL9999.XSGE.csv",
+    "FG9999.XZCE.csv",
+    "SP9999.XSGE.csv",
+    "TF9999.CCFX.csv",
+    "C9999.XDCE.csv",
+    "V9999.XDCE.csv",
+    "JD9999.XDCE.csv",
+    "EB9999.XDCE.csv",
+    "A9999.XDCE.csv",
+    "CJ9999.XZCE.csv",
+    "SM9999.XZCE.csv",
+    "SN9999.XSGE.csv",
+    "CS9999.XDCE.csv",
+    "SS9999.XSGE.csv",
+    "SF9999.XZCE.csv",
+    "PB9999.XSGE.csv",
+    "UR9999.XZCE.csv",
+    "B9999.XDCE.csv",
+    "NR9999.XINE.csv",
+    "CY9999.XZCE.csv",
+    "RR9999.XDCE.csv"
+  ],
+  "train": [
+    "2016-01-01",
+    "2019-12-31"
+  ],
+  "test": [
+    "2020-01-01",
+    "2021-10-18"
+  ],
+  "fee_workbook_sha256": "b781b5b29e733b8ae09858976bf49d8539db8bf1137e3c3ec269f0f0a31a2a94",
+  "feature_manifest_sha256": "bee0caf88904d2c9fdf6a33269dba0053e9dc8d2aeb7efdbbf04952ed14cd021",
+  "model_manifest_sha256": "da3e6e35a4a1d277ca346397f79b1f84c8f62fa21f7d7bea210d712dfa9caf22",
+  "ratio_divisor": 10000,
+  "ratio_overrides": {
+    "RB": 1000,
+    "HC": 1000,
+    "AG": 1000,
+    "FU": 1000,
+    "JD": 1000,
+    "UR": 1000
+  },
+  "fee_period_mode": "fixed_2026_scenario",
+  "broker_cny_per_lot_side": 0.0,
+  "slippage_bps_per_side": 0.0,
+  "ag_rate_policy": "far_month_base",
+  "target_vol": 0.001,
+  "max_leverage": 3.0,
+  "logistic_threshold": 0.5,
+  "source_verification_sha256": "76024432c6b17addb785c7046b96d28e0d93efb2fd51767eabc4c3f35e6bc620",
+  "official_shfe_snapshot_sha256": "440b77297430dfeda57caf4d6bf54765ad4e6cd29ce6d1c361f5c6ff214a82c5",
+  "scenario_definitions": [
+    [
+      "exchange_only",
+      0.0,
+      null,
+      false
+    ],
+    [
+      "slippage_0.5bp_side",
+      0.5,
+      null,
+      false
+    ],
+    [
+      "slippage_1bp_side",
+      1.0,
+      null,
+      false
+    ],
+    [
+      "all_ratio_notes_10000",
+      0.0,
+      10000,
+      false
+    ],
+    [
+      "all_ratio_literal_1000",
+      0.0,
+      1000,
+      false
+    ],
+    [
+      "AG_near_month_all",
+      0.0,
+      null,
+      true
+    ]
+  ],
+  "exit_buffer_minutes": 6,
+  "unverified_fee_symbols": [
+    "I"
+  ],
+  "strategy_count": 47,
+  "universe_is_retrospective": true,
+  "integer_lots": false,
+  "python": "3.11.7",
+  "tests": [
+    {
+      "check": "fixed fee, waived close and quantity fixed at signal",
+      "status": "passed"
+    },
+    {
+      "check": "short, overnight close, broker and adverse slippage",
+      "status": "passed"
+    },
+    {
+      "check": "ambiguous unit fails explicitly",
+      "status": "passed"
+    },
+    {
+      "check": "delayed entry, five-minute hold and next entry after previous exit",
+      "status": "passed"
+    },
+    {
+      "check": "zero-volume entry cancels at execution",
+      "status": "passed"
+    },
+    {
+      "check": "zero-volume exit delays, position stays open",
+      "status": "passed"
+    },
+    {
+      "check": "future loss of exit does not erase entry or earlier completed trades",
+      "status": "passed"
+    },
+    {
+      "check": "contract switch never fabricates a liquidation",
+      "status": "passed"
+    },
+    {
+      "check": "missing next minute cancels without jumping over gap",
+      "status": "passed"
+    },
+    {
+      "check": "common S0-S9 depends only on its actual predictors; required missing predictors stay missing",
+      "status": "passed"
+    },
+    {
+      "check": "model cache fingerprint must match source features and Notebook07 config",
+      "status": "passed"
+    },
+    {
+      "check": "future raw OHLCV perturbation and truncation preserve all rule/momentum/breakout signals",
+      "status": "passed"
+    },
+    {
+      "check": "fixed-train ARMA prefix invariant to future raw prices",
+      "status": "passed"
+    },
+    {
+      "check": "V1_GARCH forward variance invariant to future raw prices",
+      "status": "passed"
+    },
+    {
+      "check": "V2_EGARCH forward variance invariant to future raw prices",
+      "status": "passed"
+    },
+    {
+      "check": "V3_GJR_GARCH forward variance invariant to future raw prices",
+      "status": "passed"
+    },
+    {
+      "check": "all 47 position functions ignore future target and target-availability fields",
+      "status": "passed"
+    },
+    {
+      "check": "ratio fees on per-side fills and 0.5 bp adverse-slippage reconciliation",
+      "status": "passed"
+    },
+    {
+      "check": "sensitivity preserves trades, cohort and gross PnL; adverse slippage reduces every trade net",
+      "status": "passed"
+    },
+    {
+      "check": "ES95 uses exactly 5 percent tail mass, including tied loss observations",
+      "status": "passed"
+    },
+    {
+      "check": "54-file independent trade ledger audit: raw prices, positive volume, timing, costs and overlap",
+      "status": "passed"
+    }
+  ]
+}

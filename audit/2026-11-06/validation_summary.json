@@ -1,0 +1,212 @@
+{
+  "baseline_commit": "83213aca2f4628bd81a18150fde4ab5a35f017de",
+  "verdict": "READY WITH CAVEATS",
+  "confirmed_defect_groups": 6,
+  "corrected_defect_groups": 6,
+  "tests": {
+    "added_cases": 103,
+    "corrected_passed": 103,
+    "corrected_failed": 0,
+    "baseline_failed": 29,
+    "baseline_passed": 74,
+    "existing_audit_regression_checks": 14
+  },
+  "environment": {
+    "python": "3.11.7",
+    "system": "Darwin",
+    "architecture": "arm64",
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "3.0.6",
+      "scipy": "1.17.1",
+      "pyarrow": "25.0.1",
+      "numba": "0.68.0",
+      "statsmodels": "0.15.0",
+      "nbformat": "5.10.4",
+      "nbclient": "0.10.2",
+      "pytest": "8.4.2"
+    }
+  },
+  "notebooks": [
+    {
+      "notebook": "01_data_quality_check.ipynb",
+      "status": "passed",
+      "code_cells": 13,
+      "figures": 1,
+      "source_sha256": "3e726ab2fe6a7126342e3b44832d83837fbbfb9a1883046d86be4c4adc38fbae",
+      "notebook_sha256": "b2670006eda8bd710657cc9adc4876283cc982c14d3e67edb87bf5365509338d"
+    },
+    {
+      "notebook": "02_research_statistics_features.ipynb",
+      "status": "passed",
+      "code_cells": 36,
+      "figures": 2,
+      "source_sha256": "ea9e6a15c44febb1c256cfe0a107e028acaa17b26aee5d7553a9308526ea655a",
+      "notebook_sha256": "582afa7e4a27cc01f74a7611ff8e0323ffac91c18b34a8f7d5307a31227dddb6"
+    },
+    {
+      "notebook": "03_strategies_hypotheses.ipynb",
+      "status": "passed",
+      "code_cells": 55,
+      "figures": 24,
+      "source_sha256": "0f926bba4198103730c9f3ccc8ae9888cf9b80c6e208eeb93b63267f14fcccd3",
+      "notebook_sha256": "935b7dd2e5501324dd4e206eedc159a46475df5ed1efc9088c4ba182a8131afa"
+    },
+    {
+      "notebook": "04_liquidity_activity.ipynb",
+      "status": "passed",
+      "code_cells": 21,
+      "figures": 7,
+      "source_sha256": "e6315607a1045fa023d5633e240936ac8726774462bd281f6c0424c179746d5f",
+      "notebook_sha256": "2e806540531569ab7136d16e06bf49bda0a2bdb2adc5f32775723713ddc29e79"
+    },
+    {
+      "notebook": "05_research_statistics_features_54.ipynb",
+      "status": "passed",
+      "code_cells": 11,
+      "figures": 7,
+      "source_sha256": "a730d39a4e242bfdbcf6632500bee275398696b35b3e268c5846f6272ecfd04b",
+      "notebook_sha256": "b7f109b99d1acd660f920fd4b85dd64feac962e2b5d25c8e5b4f80f6e23d3572"
+    },
+    {
+      "notebook": "06_strategies_hypotheses_54.ipynb",
+      "status": "passed",
+      "code_cells": 8,
+      "figures": 3,
+      "source_sha256": "b6031f934bd5b7d4daf621d2d3254c564b4b23781984561f2dbc25319e513c72",
+      "notebook_sha256": "4f51a47fb98cb70f321160745b13dd09949f037257a537bd3e84c76eb43c8b97"
+    },
+    {
+      "notebook": "07_forecasting_models_54.ipynb",
+      "status": "passed",
+      "code_cells": 17,
+      "figures": 3,
+      "source_sha256": "23fedf3915f74f7c8e885708557ff88e8581a18aefa23c8d7559bd69a7281027",
+      "notebook_sha256": "cd195a5b6784c540d61c4dc9dbb3ca074b2ddf900fe0485e7bab12335d167dba"
+    },
+    {
+      "notebook": "08_backtest_fees_risk_54.ipynb",
+      "status": "passed",
+      "code_cells": 22,
+      "figures": 50,
+      "source_sha256": "d2d6ad1a8b9ef3859f5281e186ed8fe1e11145e6d27a831412aa88b631928598",
+      "notebook_sha256": "a07c16d9b8196233216e5f2ba64ea644f388aee78a0b91d515d7ebe95d98705f"
+    },
+    {
+      "notebook": "09_final_audit_07_08.ipynb",
+      "status": "passed",
+      "code_cells": 8,
+      "figures": 2,
+      "source_sha256": "eea9cb19135ac0df710d73a7f73b05bf76af4efb7eedaca7f4762070ea893eb9",
+      "notebook_sha256": "19e41a3d50e1a949d7de4db0814eacc47482a5e411b84d32059ca35a606998cc"
+    }
+  ],
+  "total_code_cells": 191,
+  "embedded_figures": 99,
+  "visual_qa": "Sampled first/last embedded figures across all nine notebooks; full HTML renderer not certified.",
+  "regression": {
+    "files_compared": 376,
+    "byte_identical": 373,
+    "nonfinancial_differences": [
+      {
+        "path": "artifacts/research_54/backtest/ledger_validation_54.csv",
+        "changes": [
+          {
+            "column": "model_cache_sha256",
+            "different_rows": 54
+          }
+        ],
+        "rows": 54
+      },
+      {
+        "path": "artifacts/research_54/hypotheses/notebook03_strategy_registry.csv",
+        "structure_changed": true,
+        "before_shape": [
+          9,
+          3
+        ],
+        "after_shape": [
+          9,
+          3
+        ]
+      },
+      {
+        "path": "artifacts/research_54/statistics/notebook02_review.csv",
+        "structure_changed": true,
+        "before_shape": [
+          7,
+          3
+        ],
+        "after_shape": [
+          7,
+          3
+        ]
+      }
+    ],
+    "trade_ledgers_byte_identical": 54,
+    "decision_files_byte_identical": 54,
+    "all_forecast_bytes_unchanged": true,
+    "all_model_csv_bytes_unchanged": true,
+    "available_returns_max_change": 0.0
+  },
+  "model_validation": {
+    "status": "passed",
+    "forecast_files": 53,
+    "forecast_rows": 1244701,
+    "fit_files_exactly_unchanged": 54,
+    "independently_recomputed_metric_rows": 318,
+    "max_relative_forecast_error": 3.552713678800501e-15,
+    "allowed_forecast_columns": [],
+    "other_forecasts_exactly_unchanged": true,
+    "target_windows_rebuilt_from_features": [
+      1,
+      5,
+      30
+    ],
+    "csv_changes_restricted_and_recomputed": true
+  },
+  "independent_full_data": {
+    "raw_files": 77,
+    "raw_rows": 44019900,
+    "clean_rows": 44011860,
+    "raw_start": "2005-01-04 09:01:00",
+    "raw_end": "2021-10-18 15:15:00",
+    "contracts": 3034,
+    "raw_exact_duplicate_extras": 7636,
+    "raw_duplicate_key_extras": 8040,
+    "raw_ohlc_errors": 0,
+    "raw_negative_activity": 15,
+    "raw_nonpositive_prices": 0,
+    "raw_zero_volume": 6545040,
+    "raw_valid_returns": 43513746,
+    "raw_zero_returns": 16599819,
+    "median_full_history_acf1": -0.0916475987024256,
+    "current_feature_files": 54,
+    "current_feature_sha_matches": 54,
+    "trade_files": 54,
+    "all_saved_trade_rows": 34806565,
+    "daily_reconstruction_errors": {
+      "gross": 0.0,
+      "costs": 3.469446951953614e-18,
+      "net": 3.469446951953614e-18,
+      "turnover": 0.0
+    }
+  },
+  "original_preservation": {
+    "files_checked": 5361,
+    "differences": [],
+    "original_preserved": true
+  },
+  "original_monte_carlo_convention_preserved": true,
+  "legacy_cache_migration": {
+    "old_key": "56a0385ef072a406a47a",
+    "new_key": "e22b4e83799305a864a4",
+    "changed_cells": [
+      66
+    ],
+    "feature_sha256": "757b2669be276e1cbc5c18c8006843dec2da70449a4573c1585bb5cd5a5012c2",
+    "fit_records_checked": 12794,
+    "no_numerical_values_changed": true
+  },
+  "publication_scope": "Source, executed English notebooks, tests, compact baseline and current small artifacts; raw inputs available in existing release; heavy derived Parquets regenerated."
+}

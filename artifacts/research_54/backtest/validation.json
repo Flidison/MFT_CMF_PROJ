@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "files": 54,
+  "strategies": 47,
+  "scenarios": 6,
+  "tests": 21,
+  "unresolved_entered_positions": 0,
+  "base_broker_fees_included": false,
+  "base_spread_included": false,
+  "base_slippage_included": false,
+  "historical_fees_reconstructed": false,
+  "unverified_rate_symbols": [
+    "I"
+  ],
+  "pristine_holdout": false,
+  "daily_reconciliation_max_error": 3.469446951953614e-18
+}

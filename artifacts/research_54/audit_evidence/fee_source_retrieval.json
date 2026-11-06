@@ -1,0 +1,20 @@
+[
+  {
+    "file": "ine_nr_product.html",
+    "url": "https://www.ine.cn/products/futures/energyandchemical/nr_f/",
+    "sha256": "95cc4421387a719281c4977276bf9ea0e18cdaef6bdddd539bbcfc80e163a8a4",
+    "status": "firewall_challenge_not_product_content"
+  },
+  {
+    "file": "cffex_treasury_specs_202007.pdf",
+    "url": "https://www.e-cffex.com.cn/u/cms/www/202007/231658479i3m.pdf",
+    "sha256": "489c2ec929aabe44846ccf6f7fd581e932ac5d088df940c320ce7e3955e5438a",
+    "status": "retrieved"
+  },
+  {
+    "file": "czce_product_report_202507.pdf",
+    "url": "https://www.czce.com.cn/cn/rootfiles/2025/08/07/1750862830930040-1750862830943566.pdf",
+    "sha256": "2e5f819b037a31d0a0992cde227dede903376d4361cb640f5e381824c3c241a4",
+    "status": "retrieved"
+  }
+]

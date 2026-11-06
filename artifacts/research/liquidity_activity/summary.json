@@ -1,0 +1,37 @@
+{
+  "requested_start": "2016-01-01",
+  "requested_end_inclusive": "2021-12-31",
+  "observed_first_trading_day": "2016-01-04",
+  "observed_last_trading_day": "2021-10-18",
+  "window_trading_days": 1407,
+  "universe_files": 77,
+  "files_with_observations": 71,
+  "files_without_observations": 6,
+  "baseline_threshold_pct": 80,
+  "baseline_selected_files": 42,
+  "selected_threshold_pct": 43,
+  "selected_files": 54,
+  "target_selected_files": 54,
+  "threshold_lower_exclusive_pct": 42.501776830135036,
+  "threshold_upper_inclusive_pct": 43.42572850035537,
+  "unknown_volume_bars": 25,
+  "uncertain_activity_days": 0,
+  "source": "artifacts/clean_market_data.parquet",
+  "source_sha256": "06f0144a97dacd0d186a6fcca3ce394f715fd2489a26ffc74a93d1e105b60988",
+  "calendar_method": "Empirical daytime dates; evening sessions map to next daytime date and early sessions to the first date on or after their timestamp date.",
+  "coverage_caveat": "Source ends 2021-10-18; the rest of 2021 is not in the denominator. Missing instrument-days are not counted as positive-volume days.",
+  "threshold_caveat": "43% was selected in-sample to obtain 54 files, not as an independent liquidity standard.",
+  "calculated_at_utc": "2026-11-06T20:41:35.169122+00:00",
+  "checks": [
+    "Selection at 43% and 80% matches the independent daytime-only calculation.",
+    "The common trading-date set matches the daytime dates of IF9999.CCFX.csv.",
+    "Numerators, denominators, activity and 80% selection match the earlier calculation for every file."
+  ],
+  "versions": {
+    "python": "3.11.7",
+    "pandas": "3.0.6",
+    "numpy": "2.4.6",
+    "pyarrow": "25.0.1",
+    "matplotlib": "3.11.2"
+  }
+}

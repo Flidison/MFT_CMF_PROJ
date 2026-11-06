@@ -1,0 +1,22 @@
+check,status
+"fixed fee, waived close and quantity fixed at signal",passed
+"short, overnight close, broker and adverse slippage",passed
+ambiguous unit fails explicitly,passed
+"delayed entry, five-minute hold and next entry after previous exit",passed
+zero-volume entry cancels at execution,passed
+"zero-volume exit delays, position stays open",passed
+future loss of exit does not erase entry or earlier completed trades,passed
+contract switch never fabricates a liquidation,passed
+missing next minute cancels without jumping over gap,passed
+common S0-S9 depends only on its actual predictors; required missing predictors stay missing,passed
+model cache fingerprint must match source features and Notebook07 config,passed
+future raw OHLCV perturbation and truncation preserve all rule/momentum/breakout signals,passed
+fixed-train ARMA prefix invariant to future raw prices,passed
+V1_GARCH forward variance invariant to future raw prices,passed
+V2_EGARCH forward variance invariant to future raw prices,passed
+V3_GJR_GARCH forward variance invariant to future raw prices,passed
+all 47 position functions ignore future target and target-availability fields,passed
+ratio fees on per-side fills and 0.5 bp adverse-slippage reconciliation,passed
+"sensitivity preserves trades, cohort and gross PnL; adverse slippage reduces every trade net",passed
+"ES95 uses exactly 5 percent tail mass, including tied loss observations",passed
+"54-file independent trade ledger audit: raw prices, positive volume, timing, costs and overlap",passed

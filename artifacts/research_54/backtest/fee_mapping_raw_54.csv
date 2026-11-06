@@ -1,0 +1,55 @@
+file,symbol,suffix,exchange,source_row,product,fee_type,open_raw,close_previous_raw,close_today_raw,policy,price_multiplier
+RB9999.XSGE.csv,RB,XSGE,SHFE,10,Rebar,Ratio,0.1‰,0.1‰,0.1‰,Same both sides,10
+I9999.XDCE.csv,I,XDCE,DCE,49,Iron Ore,Ratio,0.4‰,0.4‰,0.4‰,Same both sides,100
+SC9999.XINE.csv,SC,XINE,INE,65,Crude Oil,Fixed,20 CNY,20 CNY,0 CNY,Close-today waived (front month),1000
+NI9999.XSGE.csv,NI,XSGE,SHFE,8,Nickel,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,1
+J9999.XDCE.csv,J,XDCE,DCE,47,Coke,Ratio,0.6‰,0.6‰,0.6‰,Same both sides,100
+RU9999.XSGE.csv,RU,XSGE,SHFE,13,Natural Rubber,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,10
+IF9999.CCFX.csv,IF,CCFX,CFFEX,71,CSI 300 Index Futures,Ratio,0.23‰,0.23‰,3.45‰,Close-today heavily surcharged (~15x),300
+AU9999.XSGE.csv,AU,XSGE,SHFE,2,Gold,Fixed,10 CNY,10 CNY,0 CNY,Close-today waived,1000
+CU9999.XSGE.csv,CU,XSGE,SHFE,5,Copper,Ratio,0.5‰,0.5‰,0 CNY,Close-today waived,5
+AG9999.XSGE.csv,AG,XSGE,SHFE,3,Silver (far month),Ratio,0.05‰,0.05‰,0.05‰,Same both sides; near month 0.5‰,15
+IC9999.CCFX.csv,IC,CCFX,CFFEX,74,CSI 500 Index Futures,Ratio,0.23‰,0.23‰,3.45‰,Close-today heavily surcharged (~15x),200
+M9999.XDCE.csv,M,XDCE,DCE,36,Soybean Meal,Fixed,1.5 CNY,1.5 CNY,1.5 CNY,Same both sides,10
+P9999.XDCE.csv,P,XDCE,DCE,57,Palm Oil,Fixed,2.5 CNY,2.5 CNY,2.5 CNY,Same both sides,10
+T9999.CCFX.csv,T,CCFX,CFFEX,78,10-Year Treasury Bond Futures,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,10000
+ZN9999.XSGE.csv,ZN,XSGE,SHFE,6,Zinc,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,5
+Y9999.XDCE.csv,Y,XDCE,DCE,44,Soybean Oil,Fixed,2.5 CNY,2.5 CNY,2.5 CNY,Same both sides,10
+TA9999.XZCE.csv,TA,XZCE,CZCE,24,PTA,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,5
+MA9999.XZCE.csv,MA,XZCE,CZCE,25,Methanol,Fixed,2 CNY,2 CNY,0 CNY,Close-today waived,10
+SR9999.XZCE.csv,SR,XZCE,CZCE,17,Sugar,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,10
+AP9999.XZCE.csv,AP,XZCE,CZCE,31,Apple,Fixed,5 CNY,5 CNY,10 CNY,Close-today doubled,10
+CF9999.XZCE.csv,CF,XZCE,CZCE,22,Cotton,Fixed,4.3 CNY,4.3 CNY,0 CNY,Close-today waived,5
+PP9999.XDCE.csv,PP,XDCE,DCE,51,Polypropylene,Fixed,1 CNY,1 CNY,1 CNY,Same both sides,5
+RM9999.XZCE.csv,RM,XZCE,CZCE,34,Rapeseed Meal,Fixed,1.5 CNY,1.5 CNY,0 CNY,Close-today waived,10
+BU9999.XSGE.csv,BU,XSGE,SHFE,14,Asphalt,Ratio,0.5‰,0.5‰,0 CNY,Close-today waived,10
+HC9999.XSGE.csv,HC,XSGE,SHFE,11,Hot-Rolled Coil,Ratio,0.1‰,0.1‰,0.1‰,Same both sides,10
+OI9999.XZCE.csv,OI,XZCE,CZCE,33,Rapeseed Oil,Fixed,2 CNY,2 CNY,0 CNY,Close-today waived,10
+IH9999.CCFX.csv,IH,CCFX,CFFEX,73,SSE 50 Index Futures,Ratio,0.23‰,0.23‰,3.45‰,Close-today heavily surcharged (~15x),300
+EG9999.XDCE.csv,EG,XDCE,DCE,53,Ethylene Glycol,Fixed,3 CNY,3 CNY,3 CNY,Same both sides,10
+JM9999.XDCE.csv,JM,XDCE,DCE,48,Coking Coal,Ratio,0.6‰,0.6‰,0.6‰,Same both sides,60
+FU9999.XSGE.csv,FU,XSGE,SHFE,20,Fuel Oil,Ratio,0.1‰,0.1‰,0.3‰,Close-today tripled,10
+L9999.XDCE.csv,L,XDCE,DCE,50,LLDPE (Plastic),Fixed,1 CNY,1 CNY,1 CNY,Same both sides,5
+SA9999.XZCE.csv,SA,XZCE,CZCE,29,Soda Ash (Caustic Soda),Ratio,1‰,1‰,0 CNY,Close-today waived,20
+ZC9999.XZCE.csv,ZC,XZCE,CZCE,43,Thermal Coal,Fixed,150 CNY,150 CNY,150 CNY,Same both sides,100
+AL9999.XSGE.csv,AL,XSGE,SHFE,4,Aluminum,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,5
+FG9999.XZCE.csv,FG,XZCE,CZCE,26,Glass,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,20
+SP9999.XSGE.csv,SP,XSGE,SHFE,15,Pulp,Ratio,0.5‰,0.5‰,0 CNY,Close-today waived,10
+TF9999.CCFX.csv,TF,CCFX,CFFEX,77,5-Year Treasury Bond Futures,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,10000
+C9999.XDCE.csv,C,XDCE,DCE,46,Corn,Fixed,1.2 CNY,1.2 CNY,1.2 CNY,Same both sides,10
+V9999.XDCE.csv,V,XDCE,DCE,54,PVC,Fixed,1 CNY,1 CNY,1 CNY,Same both sides,5
+JD9999.XDCE.csv,JD,XDCE,DCE,59,Eggs,Ratio,0.15‰,0.15‰,0.15‰,Same both sides,10
+EB9999.XDCE.csv,EB,XDCE,DCE,52,Styrene (EB),Fixed,1 CNY,1 CNY,1 CNY,Same both sides (cut Jul 2026),5
+A9999.XDCE.csv,A,XDCE,DCE,45,Soybean No.1,Fixed,2 CNY,2 CNY,2 CNY,Same both sides,10
+CJ9999.XZCE.csv,CJ,XZCE,CZCE,32,Red Date (Jujube),Fixed,3 CNY,3 CNY,6 CNY,Close-today doubled,5
+SM9999.XZCE.csv,SM,XZCE,CZCE,28,Silicomanganese,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,5
+SN9999.XSGE.csv,SN,XSGE,SHFE,9,Tin,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,1
+CS9999.XDCE.csv,CS,XDCE,DCE,58,Corn Starch,Fixed,1.5 CNY,1.5 CNY,1.5 CNY,Same both sides,10
+SS9999.XSGE.csv,SS,XSGE,SHFE,12,Stainless Steel,Fixed,2 CNY,2 CNY,0 CNY,Close-today waived,5
+SF9999.XZCE.csv,SF,XZCE,CZCE,27,Ferrosilicon,Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,5
+PB9999.XSGE.csv,PB,XSGE,SHFE,7,Lead,Ratio,0.4‰,0.4‰,0 CNY,Close-today waived,5
+UR9999.XZCE.csv,UR,XZCE,CZCE,42,Urea,Ratio,0.1‰,0.1‰,0.1‰,Same both sides,20
+B9999.XDCE.csv,B,XDCE,DCE,56,Soybean No.2,Fixed,1 CNY,1 CNY,1 CNY,Same both sides,10
+NR9999.XINE.csv,NR,XINE,INE,69,RSS3 Rubber (20#),Fixed,3 CNY,3 CNY,0 CNY,Close-today waived,10
+CY9999.XZCE.csv,CY,XZCE,CZCE,23,Cotton Yarn,Fixed,1 CNY,1 CNY,0 CNY,Close-today waived,5
+RR9999.XDCE.csv,RR,XDCE,DCE,61,Japonica Rice,Fixed,1 CNY,1 CNY,1 CNY,Same both sides,10

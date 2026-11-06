@@ -1,0 +1,10 @@
+Source,Hypothesis / strategy,Current stage
+03 cells 5–39,Four families / seven conditions,"06: original conditions, new calibration and inference"
+03 cells 40–61,"AR(1), MA(1), ARMA(1,1), GARCH, EWMA",07: fixed train 2016–2019; test forecast quality
+03 cells 62–77,"AR(2), standardized ARMA, logistic, EGARCH/GJR",07: separate forecast layers and causal training features
+S0,Momentum5 + fixed size,06: momentum5 direction only; no sizing
+S1–S3,Raw ARMA + GARCH/EGARCH/GJR sizing,07: direction and variance estimated separately; sizing in 08
+S4–S6,Standardized ARMA + corresponding variance sizing,07: standardization from inner-training forecasts; sizing in 08
+S7–S9,Logistic + GARCH/EGARCH/GJR sizing,07: probabilities and calibration; trading rules in 08
+Breakout,"Previous 20-bar high/low, optional volatility expansion",06: baseline breakout; 07: predictive regime diagnostics
+03 cells 78–109,"Position/cost grid, net performance, equity",Not calculated in 06; explicit product fees and execution are evaluated separately in 08
