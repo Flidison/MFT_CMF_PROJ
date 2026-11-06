@@ -1,0 +1,7 @@
+stage,model,requested,successful,boundary
+full_train,V1_GARCH,53,53,2
+full_train,V2_EGARCH,53,53,1
+full_train,V3_GJR_GARCH,53,53,2
+inner_2016_2018,V1_GARCH,46,46,5
+inner_2016_2018,V2_EGARCH,46,46,1
+inner_2016_2018,V3_GJR_GARCH,46,46,5

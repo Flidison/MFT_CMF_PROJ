@@ -1,0 +1,7 @@
+stage,model,filter_guard_hits,next_guard_hits,nonfinite_forecasts
+full_train,V1_GARCH,0,0,0
+full_train,V2_EGARCH,1,2,0
+full_train,V3_GJR_GARCH,0,0,0
+inner_2016_2018,V1_GARCH,0,0,0
+inner_2016_2018,V2_EGARCH,2,3,0
+inner_2016_2018,V3_GJR_GARCH,0,0,0

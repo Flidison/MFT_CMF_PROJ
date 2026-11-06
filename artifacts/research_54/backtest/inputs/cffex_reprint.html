@@ -1,0 +1,930 @@
+<!-- 图文详情 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no" />
+	<title>公司公告</title>
+
+	<!-- 通用CSS -->
+<link href="/templates/template01/css/style.css" rel="stylesheet" />
+<link href="/templates/template01/css/animate.min.css" rel="stylesheet" />
+<script type="text/javascript" src="/templates/template01/js/jquery-1.11.1.min.js"></script>
+<!-- 适配PC端 -->
+<script type="text/javascript" src="/templates/template01/js/jquery.SuperSlide.2.1.1.js"></script>
+<!-- 适配移动端 -->
+<script type="text/javascript" src="/templates/template01/js/TouchSlide.1.1.js"></script>
+<!-- APP菜单 -->
+<script type="text/javascript" src="/templates/template01/js/leftmenu.js"></script>
+<!-- rem -->
+<script type="text/javascript" src="/templates/template01/js/rem.js"></script>
+	<link href="/templates/template01/css/second.css" rel="stylesheet" />
+
+	<style>
+		.pnt-prev {
+			margin-top: 10px;
+		}
+
+		.pnt-next {
+			margin-top: 15px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="nav_box">
+    <div class="top_box nav_box_top pc_box">
+        <div class="g-box">
+            <span class="nav_box_span">欢迎访问江海汇鑫期货有限公司 本网站已支持IPv6</span>
+            <span class="nav_box_span" style="float: right;">
+                
+                    <a href="/htmls/talent/list-1.html">诚聘英才</a> |
+                
+                
+                     <a href="/htmls/contact/list-1.html">联系我们</a> |
+                
+                
+
+                <a>客服热线：400-1605-759</a>
+            </span>
+        </div>
+    </div>
+    <div class="top_box nav_box_center pc_box">
+        <div class="g-box">
+            <a href="/" style="float: left;">
+                <img src="/uploads/20251226/3fb8809fe4cb4f0eb10d17e11e381f89.png" class="logo_img" />
+            </a>
+            <div class="searchBox_nav pc_box" style="display: none;">
+                <div class="searchBox">
+                    <form role="search" action="/search" method="post">
+                        <input name="entity['keywords']" id="searchInput" type="text" aria-label="请输入" placeholder="请输入"
+                            autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" type="submit">
+                        <!-- <a class="searchbtn"><img src="/templates/template01/img/icon_22.png" />搜索</a> -->
+                        <div class="searchbtn">
+                            <img src="/templates/template01/img/icon_22.png" />
+                            <input type="submit" value="搜 索" style="background: #0180F6; color: #FFF; width: 120px;" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top_box nav_box_bottom">
+        <div class="g-box" style="height: 100%;">
+            <div class="hcontact pc_box" style="height: 100%;">
+                <!-- 导航-pc-->
+                <div class="navBar">
+                    <ul class="nav">
+                        <li id="首页" class="m nav_item nav_active">
+                            <h3>
+                                <a href="/">首页</a>
+                            </h3>
+                        </li>
+                        
+                        <li id="走进江海汇鑫" class="m nav_item">
+                            <h3>
+                                <a href="/htmls/profile/list-1.html">走进江海汇鑫</a>
+                            </h3>
+                            <!-- 
+                            <ul class="sub">
+                                
+                                <li><a href="#">关于我们</a></li>
+                                
+                                <li><a href="#">公司大事记</a></li>
+                                
+                                <li><a href="#">分支机构</a></li>
+                                
+                                <li><a href="#">信息公示</a></li>
+                                
+                                <li><a href="#">联系我们</a></li>
+                                
+                                <li><a href="#">诚聘英才</a></li>
+                                
+                                <li><a href="#">公司新闻</a></li>
+                                
+                                <li><a href="#">企业文化</a></li>
+                                
+                                <li><a href="#">乡村振兴</a></li>
+                                
+                                <li><a href="#">党建专栏</a></li>
+                                
+                                <li><a href="#">先进事迹</a></li>
+                                
+                            </ul>
+                             -->
+                        </li>
+                        
+                        <li id="公司公告" class="m nav_item">
+                            <h3>
+                                <a href="/htmls/notice/list-1.html">公司公告</a>
+                            </h3>
+                            <!-- 
+                            <ul class="sub">
+                                
+                                <li><a href="#">公司公告</a></li>
+                                
+                            </ul>
+                             -->
+                        </li>
+                        
+                        <li id="投资者教育" class="m nav_item">
+                            <h3>
+                                <a href="/htmls/basics/list-1.html">投资者教育</a>
+                            </h3>
+                            <!-- 
+                            <ul class="sub">
+                                
+                                <li><a href="#">期货基础</a></li>
+                                
+                                <li><a href="#">投资技巧</a></li>
+                                
+                                <li><a href="#">风险教育</a></li>
+                                
+                                <li><a href="#">法律法规</a></li>
+                                
+                                <li><a href="#">投诉方式</a></li>
+                                
+                                <li><a href="#">网络安全</a></li>
+                                
+                            </ul>
+                             -->
+                        </li>
+                        
+                        <li id="客户服务" class="m nav_item">
+                            <h3>
+                                <a href="/htmls/kehufuwu/list-1.html">客户服务</a>
+                            </h3>
+                            <!-- 
+                            <ul class="sub">
+                                
+                                <li><a href="#">预约开户</a></li>
+                                
+                                <li><a href="#">网上开户</a></li>
+                                
+                                <li><a href="#">交易流程</a></li>
+                                
+                                <li><a href="#">资金存取</a></li>
+                                
+                                <li><a href="#">风险提示</a></li>
+                                
+                                <li><a href="#">银期转账</a></li>
+                                
+                                <li><a href="#">表格下载</a></li>
+                                
+                                <li><a href="#">常见问题</a></li>
+                                
+                            </ul>
+                             -->
+                        </li>
+                        
+                        <li id="软件下载" class="m nav_item">
+                            <h3>
+                                <a href="/htmls/trading/list-1.html">软件下载</a>
+                            </h3>
+                            <!-- 
+                            <ul class="sub">
+                                
+                                <li><a href="#">交易软件</a></li>
+                                
+                                <li><a href="#">手机软件</a></li>
+                                
+                                <li><a href="#">模拟软件</a></li>
+                                
+                                <li><a href="#">操作说明</a></li>
+                                
+                            </ul>
+                             -->
+                        </li>
+                        
+                        <li id="反洗钱" class="m nav_item">
+                            <h3>
+                                <a href="/htmls/fanxiqian/list-1.html">反洗钱</a>
+                            </h3>
+                            <!-- 
+                            <ul class="sub">
+                                
+                                <li><a href="#">投诉方式</a></li>
+                                
+                                <li><a href="#">反洗钱教育</a></li>
+                                
+                            </ul>
+                             -->
+                        </li>
+                        
+                        <li id="研究报告" class="m nav_item">
+                            <h3>
+                                <a href="/htmls/dailyreport/list-1.html">研究报告</a>
+                            </h3>
+                            <!-- 
+                            <ul class="sub">
+                                
+                                <li><a href="#">日报</a></li>
+                                
+                                <li><a href="#">周报</a></li>
+                                
+                                <li><a href="#">不定期报告</a></li>
+                                
+                            </ul>
+                             -->
+                        </li>
+                        
+                        <li id="衍生品" class="m nav_item">
+                            <h3>
+                                <a href="/htmls/quotation/list-1.html">衍生品</a>
+                            </h3>
+                            <!-- 
+                            <ul class="sub">
+                                
+                                <li><a href="#">场外期权报价</a></li>
+                                
+                            </ul>
+                             -->
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <script type="text/javascript">
+                    // jQuery(".nav").slide({
+                    //     type: "menu", //效果类型
+                    //     titCell: ".m", // 鼠标触发对象
+                    //     targetCell: ".sub", // 效果对象，必须被titCell包含
+                    //     effect: "slideDown", //下拉效果
+                    //     delayTime: 300, // 效果时间
+                    //     triggerTime: 0, //鼠标延迟触发时间
+                    //     returnDefault: true //返回默认状态
+                    // });
+
+                </script>
+                <!--导航-pc/ -->
+            </div>
+            <script>
+                var _hmt = _hmt || [];
+                (function() {
+                  var hm = document.createElement("script");
+                  hm.src = "https://hm.baidu.com/hm.js?bc1124955201be52ba0877f2e92e3ec8";
+                  var s = document.getElementsByTagName("script")[0]; 
+                  s.parentNode.insertBefore(hm, s);
+                })();
+            </script>
+            
+            <div style="line-height: 30px;background: #0075c2;color: #fff;font-size: 12px;padding: 0px;padding-left: 20px;padding-right: 20px;text-align: end;"  class="app_box">
+               
+                
+                    <a href="/htmls/talent/list-1.html" style="color: #fff;">诚聘英才</a> |
+                
+                
+                     <a href="/htmls/contact/list-1.html" style="color: #fff;">联系我们</a> |
+                
+                
+
+                <a  style="color: #fff;">客服热线：400-1605-759</a>
+            </div>
+            <a href="/" style="float:left;" class="app_box">
+                <img src="/uploads/20251226/3fb8809fe4cb4f0eb10d17e11e381f89.png"  class="logo_img" />
+            </a>
+            
+            
+            <div class="right_box app_box">
+                <div class="app_box fl">
+                    <a class="fl mt5 btn">
+                        <i class="iconfont fs-20 text-white">&#xe64a;</i>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+	<div class="second-content">
+		
+		<div id="navAct" typeid="公司公告" class="header-img">
+			<img src="/uploads/20251217/ea67869819db4cb89ea027bbe73a6d17.png">
+		</div>
+		
+		<div class="erji-box">
+			<!--二级左侧-->
+
+			<!--二级左侧 /-->
+
+			<!--二级右侧-->
+			<div class="erji_content_right" style="padding: 0;">
+				<!-- 面包屑 -->
+				<div class="pl10 crumb">
+					<div class="m-crumb m-crumb-arr">
+						<ul class="f-cb">
+							<li><a href="/">您的位置：首页</a></li>
+							<li>公司公告</li>
+						</ul>
+					</div>
+					<span>
+						公司公告
+					</span>
+				</div>
+				<!-- 面包屑 /-->
+				<div class="erji_content shuangshi_01 clearfix">
+					<div class="content_box content_box1">
+						<div class="biaoti_top">
+							<h3>关于调整股指期货手续费标准的通知</h3>
+							<p class="biaoti_top_txt">
+								<span>
+									<img src="/templates/template01/img/shijian.png" />
+									更新时间: 2019-04-19
+								</span>
+								<!-- <span>
+									<img src="/templates/template01/img/liulan.png" style="width: 17px;height: 12px;" />
+									浏览次数: 0
+								</span> -->
+                            <!-- <span>
+									<img src="/templates/template01/img/laiyuan.png" />
+									来源：
+							</span> -->
+							</p>
+						</div>
+						<div class="img_text_nav">
+							<p><div class="ueditor_content_parse"><p><span style="font-size:21px;font-family:宋体">各会员单位：</span></p><p><span style="font-size:21px;font-family:宋体">&nbsp;&nbsp;</span><span style="font-size:21px;font-family:宋体">经中国证监会同意，自<span>2019</span>年<span>4</span>月<span>22</span>日（星期一）起，沪深<span>300</span>、上证<span>50</span>、中证<span>500</span>股指期货各合约平今仓交易手续费标准调整为成交金额的万分之三点四五。</span></p><p style="text-indent:43px"><span style="font-size:21px;font-family:宋体">特此通知。</span></p><p style="text-indent:43px"><span style="font-size:21px;font-family:宋体">&nbsp;</span></p><p style="text-indent:43px"><span style="font-size:21px;font-family:宋体"><a href="http://www.cffex.com.cn/jysgg/20190419/23719.html"><span><span>关于调整股指<span>期<span>货手续费标准的通知</span></span></span></span></a></span></p><p style="text-indent:43px"><span style="font-size:21px;font-family:宋体">&nbsp;</span></p><p style="text-indent:43px"><span style="font-size:21px;font-family:宋体">&nbsp;</span></p><p style="text-indent:43px"><span style="font-size:21px;font-family:宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:21px;font-family:宋体">中国金融期货交易所</span></p><p style="text-indent:384px"><span style="font-size:21px;font-family:宋体">&nbsp; &nbsp; &nbsp;2019</span><span style="font-size:21px;font-family:宋体">年<span>4</span>月<span>19</span>日</span></p><p><br/></p></div></p>
+						</div>
+						<!-- 返回 -->
+						<div class="m-page-box_bj mt20">
+						<!-- 	<div class="erji_fanye" style="font-size: 15px; width: 70%; ">
+								<ul class='pnt-prevnext'><li class='pnt-prev'><span class='pnt-prevnext-label'>上一篇：</span><a href='/htmls/notice/20190419/3a827d60900f444388f256e3c64d6b88.html' title='关于调整中证500股指期货交易保证金的通知'>关于调整中证500股指期货交易保证金的通知</a></li><li class='pnt-next'><span class='pnt-prevnext-label'>下一篇：</span><a href='/htmls/notice/20190417/2b9478f04ff64890a1fcee74301115ee.html' title='关于调整锰硅、硅铁期货交易手续费标准的通知'>关于调整锰硅、硅铁期货交易手续费标准的通知</a></li></ul>
+							</div>  -->
+                        <!-- <div class="erji_fanye-right" style="cursor: pointer;" onclick="history.back()">
+                            返回列表
+                        </div> -->
+						</div>
+						<!-- 返回/ -->
+					</div>
+
+				</div>
+			</div>
+			<!--二级右侧 /-->
+		</div>
+
+
+		<div class="xinwen-detail">
+			<div class="xinwen-detail-top">
+				<img src="/templates/template01/img/tuijian2.png" />
+				推荐新闻
+				<img src="/templates/template01/img/tuijian1.png" />
+			</div>
+			<div class="xinwen-detail-bottom">
+				
+				<div class="detaildiv" href="/htmls/news/20250710/72acd85fada24a299e81750ea8832752.html">
+					<a  target="_blank" href="/htmls/news/20250710/72acd85fada24a299e81750ea8832752.html">
+						山东省期货业协会举办期货服务实体经济高质量发展交流学习活动
+						<p>2025-07-10</p>
+					</a>
+				</div>
+				
+				<div class="detaildiv" href="/htmls/news/20250205/4bf9c98ebde149c8b313724913ebdaa2.html">
+					<a  target="_blank" href="/htmls/news/20250205/4bf9c98ebde149c8b313724913ebdaa2.html">
+						回首耕耘路 蓄力再扬帆
+						<p>2025-02-05</p>
+					</a>
+				</div>
+				
+				<div class="detaildiv" href="/htmls/news/20241204/a0120a9d29f14a44af5703fd454eb25f.html">
+					<a  target="_blank" href="/htmls/news/20241204/a0120a9d29f14a44af5703fd454eb25f.html">
+						提高金融服务水平 助力乡村全面振兴
+						<p>2024-12-04</p>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer -->
+<div class="footer-top">
+    <div class="g-box">
+        <div>
+            
+            分支机构：
+            
+            
+            
+                <a  href="/htmls/beijingyingyebu/list-1.html"  target="_blank"> 北京营业部</a>
+            
+                <a  href="/htmls/shanghaishijidadaoyingyebu/list-1.html"  target="_blank"> 上海世纪大道营业部</a>
+            
+                <a  href="/htmls/bangbuyingyebu/list-1.html"  target="_blank"> 蚌埠营业部</a>
+            
+                <a  href="/htmls/shenyangyingyebu/list-1.html"  target="_blank"> 沈阳营业部</a>
+            
+                <a  href="/htmls/yingkouyingyebu/list-1.html"  target="_blank"> 营口营业部</a>
+            
+                <a  href="/htmls/anshanyingyebu/list-1.html"  target="_blank"> 鞍山营业部</a>
+            
+                <a  href="/htmls/shandongfengongsi/list-1.html"  target="_blank"> 山东分公司</a>
+            
+                <a  href="/htmls/rizhaoyingyebu/list-1.html"  target="_blank"> 日照营业部</a>
+            
+                <a  href="/htmls/liaoningfengongsi/list-1.html"  target="_blank"> 辽宁分公司</a>
+            
+
+ 
+					
+        </div>
+    </div>
+    
+            <div class="footer-top-right">
+				<select onchange="window.open(this.value)" class="external_style"><option>--友情链接--</option>
+				<option value="http://www.csrc.gov.cn/">中国证券监督管理委员会</option><option value="http://www.cfachina.org/">中国期货业协会</option><option value="http://www.dce.com.cn/">大连商品交易所</option><option value="http://www.shfe.com.cn/">上海期货交易所</option><option value="http://www.czce.com.cn/">郑州商品交易所</option><option value="http://www.cffex.com.cn/">中国金融期货交易所</option><option value="http://www.szse.cn/">深圳证券交易所</option><option value="http://www.sse.com.cn/">上海证券交易所</option><option value="http://www.cfmmc.com/">中国期货市场监控中心</option><option value="http://www.jhzq.com.cn/">江海证券</option>
+				</select>
+				<select onchange="window.open(this.value)" class="external_style"><option>--合作伙伴--</option>
+				<option value="http://www.jhzq.com.cn/">江海证券</option><option value="http://www.bigac.com.cn/">蚌埠投资集团有限公司</option><option value="http://www.hundsun.com/">恒生电子股份有限公司</option><option value="http://www.wenhua.com.cn/">文华财经</option><option value="http://www.pobo.net.cn/">上海澎博财经资讯有限公司</option><option value="http://www.tradeblazer.net/">深圳开拓者科技有限公司</option><option value="http://www.ccb.com/">建设银行</option><option value="http://www.bankcomm.com/">交通银行</option><option value="http://www.spdb.com.cn/">浦发银行</option><option value="http://www.sfit.com.cn/">上海期货信息技术有限公司</option><option value="http://www.chinatelecom.com.cn/">中国电信</option><option value="http://www.lnu.edu.cn/">辽宁大学</option><option value="http://www.mysteel.com/">我的钢铁网</option>
+				</select>
+			</div>
+			
+</div>
+<div class="index_footer_box g-box">
+    <div class="model_content" style="height: 100%;width: 100%;">
+        <div class="footer_content">
+            <div class="index_footer_left">
+                <div class="div">
+                    
+                    走进江海汇鑫
+                    
+                    <div class="div-chlien">
+                        
+                        <a href="/htmls/profile/list-1.html" target="_blank">关于我们</a>
+                        
+                        <a href="/htmls/milestones/list-1.html" target="_blank">公司大事记</a>
+                        
+                        <a href="/htmls/beijingyingyebu/list-1.html" target="_blank">分支机构</a>
+                        
+                        <a href="/htmls/baozhengjinzhanghao/list-1.html" target="_blank">信息公示</a>
+                        
+                                     
+                     <a href="/htmls/profile/list-1.html" target="_blank">查看更多</a> 
+                
+                    </div>
+                    
+    
+                
+                </div>
+                <div class="div">
+                    
+                    投资者教育
+                    
+                    <div class="div-chlien">
+                        
+                        <a  href="/htmls/basics/list-1.html" target="_blank">期货基础</a>
+                        
+                        <a  href="/htmls/skills/list-1.html" target="_blank">投资技巧</a>
+                        
+                        <a  href="/htmls/risk/list-1.html" target="_blank">风险教育</a>
+                        
+                        <a  href="/htmls/laws/list-1.html" target="_blank">法律法规</a>
+                        
+                        
+                     
+                     <a href="/htmls/basics/list-1.html" target="_blank">查看更多</a> 
+                      
+                    </div>
+     
+                </div>
+                <div class="div">
+                    
+                    客户服务
+                    
+                    <div class="div-chlien">
+                        
+                        <a href="/htmls/reservation/list-1.html" target="_blank">预约开户</a>
+                        
+                        <a href="/htmls/online/list-1.html" target="_blank">网上开户</a>
+                        
+                        <a href="/htmls/process/list-1.html" target="_blank">交易流程</a>
+                        
+                        <a href="/htmls/fund/list-1.html" target="_blank">资金存取</a>
+                        
+                        
+                        
+                        <a href="/htmls/kehufuwu/list-1.html" target="_blank">查看更多</a>
+                        
+                    </div>
+                </div>
+                <div class="div">
+                    
+                    软件下载
+                    
+                    <div class="div-chlien">
+                        
+                        <a href="/htmls/trading/list-1.html" target="_blank">交易软件</a>
+                        
+                        <a href="/htmls/shoujiruanjian/list-1.html" target="_blank">手机软件</a>
+                        
+                        <a href="/htmls/simulation/list-1.html" target="_blank">模拟软件</a>
+                        
+                        <a href="/htmls/manual/list-1.html" target="_blank">操作说明</a>
+                        
+                    </div>
+                </div>
+                <div class="div">
+                    
+                    IB业务
+                    
+                    <div class="div-chlien">
+                        
+                        <a href="/htmls/introduction/list-1.html" target="_blank">江海证券介绍</a>
+                        
+                        <a href="/htmls/work/list-1.html" target="_blank">IB业务介绍</a>
+                        
+                        <a href="/htmls/department/list-1.html" target="_blank">IB业务部门</a>
+                        
+                        <a href="/htmls/point/list-1.html" target="_blank">IB业务网点</a>
+                        
+                        <a href="/htmls/research/list-1.html" target="_blank">IB研发</a>
+                        
+                    </div>
+                </div>
+                <div class="div">
+                    
+                    研究报告
+                    
+                    <div class="div-chlien">
+                        
+                        <a href="/htmls/dailyreport/list-1.html" target="_blank">日报</a>
+                        
+                        <a href="/htmls/weekly/list-1.html" target="_blank">周报</a>
+                        
+                        <a href="/htmls/irregular/list-1.html" target="_blank">不定期报告</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="index_footer_right">
+                <div class="div">
+                    联系我们
+                    <div class="div-chlien">
+                        <a>地址：山东省济南市历下区龙洞街道解放东路3-21号金控大厦26层2601-2611，2617-2622，2636-2652</a>
+                        <a>电话：400-1605-759</a>
+                        <a>邮箱：jinhaihuixin@163.com</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="footer_copyRight">
+    <p>Copyright ©2025 All Rights Reserved. 版权所有 江海汇鑫期货有限公司<a
+            href="https://beian.miit.gov.cn/#/Integrated/index" style="color: #D7EEF1;">  鲁ICP备2024092969号-1  </a>
+            <a href="https://beian.mps.gov.cn/#/query/webSearch"  style="color: #D7EEF1;"> 公安备案号：21010302000477</a>
+       </p>
+</div>
+
+<!--导航-app (请放置在底部)-->
+<div id="menu1" class="m-box app_box">
+    <div class="f1 mt20">
+            <ul>
+                <li class="on">
+                    <a href="/" class="btn">首页</a>
+                </li>
+                
+                  
+                     <li>
+                        <a>走进江海汇鑫</a>
+                        <div class="f2">
+                            <ul>
+                            
+                            
+                               <li><a href="/htmls/profile/list-1.html" class="btn">关于我们</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/milestones/list-1.html" class="btn">公司大事记</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/beijingyingyebu/list-1.html" class="btn">分支机构</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/baozhengjinzhanghao/list-1.html" class="btn">信息公示</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/contact/list-1.html" class="btn">联系我们</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/talent/list-1.html" class="btn">诚聘英才</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/news/list-1.html" class="btn">公司新闻</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/culture/list-1.html" class="btn">企业文化</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/revitalization/list-1.html" class="btn">乡村振兴</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/column/list-1.html" class="btn">党建专栏</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/deeds/list-1.html" class="btn">先进事迹</a></li>
+
+                            
+                            </ul>
+                        </div>
+                    </li>
+                 
+                     
+                
+                  
+                     <li>
+                        <a>公司公告</a>
+                        <div class="f2">
+                            <ul>
+                            
+                            
+                               <li><a href="/htmls/notice/list-1.html" class="btn">公司公告</a></li>
+
+                            
+                            </ul>
+                        </div>
+                    </li>
+                 
+                     
+                
+                  
+                     <li>
+                        <a>投资者教育</a>
+                        <div class="f2">
+                            <ul>
+                            
+                            
+                               <li><a href="/htmls/basics/list-1.html" class="btn">期货基础</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/skills/list-1.html" class="btn">投资技巧</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/risk/list-1.html" class="btn">风险教育</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/laws/list-1.html" class="btn">法律法规</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/complaint/list-1.html" class="btn">投诉方式</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/safety/list-1.html" class="btn">网络安全</a></li>
+
+                            
+                            </ul>
+                        </div>
+                    </li>
+                 
+                     
+                
+                  
+                     <li>
+                        <a>客户服务</a>
+                        <div class="f2">
+                            <ul>
+                            
+                            
+                               <li><a href="/htmls/reservation/list-1.html" class="btn">预约开户</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/online/list-1.html" class="btn">网上开户</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/process/list-1.html" class="btn">交易流程</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/fund/list-1.html" class="btn">资金存取</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/warning/list-1.html" class="btn">风险提示</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/transfer/list-1.html" class="btn">银期转账</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/table/list-1.html" class="btn">表格下载</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/questions/list-1.html" class="btn">常见问题</a></li>
+
+                            
+                            </ul>
+                        </div>
+                    </li>
+                 
+                     
+                
+                  
+                     <li>
+                        <a>软件下载</a>
+                        <div class="f2">
+                            <ul>
+                            
+                            
+                               <li><a href="/htmls/trading/list-1.html" class="btn">交易软件</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/shoujiruanjian/list-1.html" class="btn">手机软件</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/simulation/list-1.html" class="btn">模拟软件</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/manual/list-1.html" class="btn">操作说明</a></li>
+
+                            
+                            </ul>
+                        </div>
+                    </li>
+                 
+                     
+                
+                  
+                     <li>
+                        <a>反洗钱</a>
+                        <div class="f2">
+                            <ul>
+                            
+                            
+                               <li><a href="/htmls/fanxiqian/list-1.html" class="btn">投诉方式</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/antimoney/list-1.html" class="btn">反洗钱教育</a></li>
+
+                            
+                            </ul>
+                        </div>
+                    </li>
+                 
+                     
+                
+                  
+                     <li>
+                        <a>研究报告</a>
+                        <div class="f2">
+                            <ul>
+                            
+                            
+                               <li><a href="/htmls/dailyreport/list-1.html" class="btn">日报</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/weekly/list-1.html" class="btn">周报</a></li>
+
+                            
+                            
+                               <li><a href="/htmls/irregular/list-1.html" class="btn">不定期报告</a></li>
+
+                            
+                            </ul>
+                        </div>
+                    </li>
+                 
+                     
+                
+                  
+                     <li>
+                        <a>衍生品</a>
+                        <div class="f2">
+                            <ul>
+                            
+                            
+                               <li><a href="/htmls/quotation/list-1.html" class="btn">场外期权报价</a></li>
+
+                            
+                            </ul>
+                        </div>
+                    </li>
+                 
+                     
+                
+            </ul>
+        </div>
+
+</div>
+<script type="text/javascript">
+    $(function ($) {
+        $('#menu1').leftMenu({
+            "triggerBtn": ".btn"
+        }).init()
+
+    })
+
+    $(document).ready(function () {
+        var listliClass = $(".left-li");
+        listliClass.each(function (index, item) {
+            $(item).removeClass("cate-active");
+        })
+        var listAct = $("#listAct");
+        var cateName = listAct.attr("typeid");
+        $("#" + cateName).addClass("cate-active");
+    })
+    
+    
+        $(document).ready(function () {
+        var listliClass = $(".tab-touzi");
+        listliClass.each(function (index, item) {
+            $(item).removeClass("active-content");
+        })
+        var navAct1 = $("#navAct");
+        var cateName = navAct1.attr("typeid");
+        $("#" + cateName).addClass("active-content");
+    })
+    
+    
+
+    $(document).ready(function () {
+        var listliClass = $(".nav_item");
+        listliClass.each(function (index, item) {
+            $(item).removeClass("nav-active");
+        })
+        var navAct = $("#navAct");
+        var cateName = navAct.attr("typeid");
+        $("#" + cateName).addClass("nav-active");
+    })
+
+</script>
+
+
+
+
+    <script>
+        function wrapImgAndTableWithScrollDiv() {
+            // 1. 定义目标容器（限定作用范围：仅.erji_content内）
+            const targetContainerSelector = '.erji_content';
+            
+            // 2. 核心修改：建立标签与对应样式类的映射关系
+            const selectorToClassMap = {
+                'img': 'scroll-wrap',    // img对应scroll-wrap样式类
+                'table': 'scroll-wrap-table' // table对应scroll-wrap-table样式类
+            };
+            // 获取所有目标标签类型
+            const targetSelectors = Object.keys(selectorToClassMap);
+
+            // 3. 遍历每个目标标签类型
+            targetSelectors.forEach(selector => {
+                // 限定范围：.erji_content内的目标元素，且排除已被对应样式类包裹的元素
+                const wrapClass = selectorToClassMap[selector];
+                const elements = document.querySelectorAll(`${targetContainerSelector} ${selector}:not(${wrapClass} > ${selector})`);
+                
+                // 4. 遍历每个元素，进行包裹处理
+                elements.forEach(element => {
+                    // a. 创建新的div容器，添加对应样式类
+                    const scrollDiv = document.createElement('div');
+                    scrollDiv.className = wrapClass; // 动态赋值对应样式类
+                    
+                    // b. 无缝包裹：保留元素原有DOM位置，不破坏布局
+                    element.parentNode.insertBefore(scrollDiv, element);
+                    scrollDiv.appendChild(element);
+                });
+            });
+
+            console.log(`已成功在${targetContainerSelector}内，为img包裹scroll-wrap、table包裹scroll-wrap-table`);
+        }
+
+        // 页面DOM加载完成后执行
+        document.addEventListener('DOMContentLoaded', function() {
+            wrapImgAndTableWithScrollDiv();
+        });
+
+        // 动态加载内容后手动调用：wrapImgAndTableWithScrollDiv();
+    </script>
+    
+    
+    
+<script type="text/javascript" src="/templates/template01/js/scroll.js"></script>
+</body>
+
+</html>

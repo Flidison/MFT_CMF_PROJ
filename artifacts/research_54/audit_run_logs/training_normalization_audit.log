@@ -1,0 +1,17 @@
+9/54 training-normalization audits
+18/54 training-normalization audits
+27/54 training-normalization audits
+36/54 training-normalization audits
+45/54 training-normalization audits
+{
+  "status": "passed",
+  "files": 46,
+  "models": 5,
+  "fit_checks": 230,
+  "logistic_feature_checks": 1288,
+  "center_max_abs_error": 2.6645352591003757e-15,
+  "scale_max_abs_error": 4.440892098500626e-16,
+  "no_test_rows_loaded_into_feature_reconstruction": true,
+  "optimizer_called": false,
+  "standardization": "r[t] divided by forecast sigma[t|t-1], not sigma[t+1|t]; conditional state uses only previous observed returns. Raw numerator convention retained from07."
+}

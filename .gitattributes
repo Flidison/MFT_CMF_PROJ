@@ -7,6 +7,8 @@
 *.json -text
 *.txt -text
 *.sql -text
+# Verbatim exchange pages retain original line endings and source whitespace.
+*.html -text -whitespace
 *.parquet binary
 *.xlsx binary
 *.png binary

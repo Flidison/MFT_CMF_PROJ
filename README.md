@@ -127,3 +127,7 @@ For a new publication snapshot, stage the intended files, run
 python tools/build_publication_manifest.py, then stage publication_manifest.csv
 and commit. The manifest hashes staged Git blobs and excludes itself to avoid
 recursive hashing. Verify a clean snapshot before regenerating its outputs.
+
+The compact-baseline rebuild utility is a maintenance tool: it requires the
+complete preserved historical snapshot and an explicit new output directory. It
+is not part of the normal notebook sequence and never overwrites that snapshot.

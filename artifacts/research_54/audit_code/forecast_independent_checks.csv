@@ -1,0 +1,1434 @@
+file,check,max_abs_error
+RB9999.XSGE.csv,full-train normalization AR(1),0.0
+RB9999.XSGE.csv,full-train normalization MA(1),0.0
+RB9999.XSGE.csv,full-train normalization AR(2),0.0
+RB9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+RB9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+RB9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+RB9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+RB9999.XSGE.csv,EWMA scalar recursion,1.0164395367051604e-20
+RB9999.XSGE.csv,V1_GARCH scalar recursion h1,1.0164395367051604e-20
+RB9999.XSGE.csv,V1_GARCH scalar recursion h5,1.0164395367051604e-20
+RB9999.XSGE.csv,V1_GARCH scalar recursion h30,6.776263578034403e-21
+RB9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,4.743384504624082e-20
+RB9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,5.082197683525802e-21
+RB9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,6.776263578034403e-21
+RB9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,1.3552527156068805e-20
+RB9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+RB9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+RB9999.XSGE.csv,independent realized target h1,0.0
+RB9999.XSGE.csv,independent realized target h5,0.0
+RB9999.XSGE.csv,independent realized target h30,0.0
+RB9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+RB9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+RB9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+RB9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+RB9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+RB9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+RB9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+I9999.XDCE.csv,full-train normalization AR(1),0.0
+I9999.XDCE.csv,full-train normalization MA(1),0.0
+I9999.XDCE.csv,full-train normalization AR(2),0.0
+I9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+I9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+I9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+I9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+I9999.XDCE.csv,EWMA scalar recursion,8.470329472543003e-21
+I9999.XDCE.csv,V1_GARCH scalar recursion h1,2.0328790734103208e-20
+I9999.XDCE.csv,V1_GARCH scalar recursion h5,2.710505431213761e-20
+I9999.XDCE.csv,V1_GARCH scalar recursion h30,2.710505431213761e-20
+I9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-19
+I9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,1.0164395367051604e-20
+I9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,1.0164395367051604e-20
+I9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,1.0164395367051604e-20
+I9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+I9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+I9999.XDCE.csv,independent realized target h1,0.0
+I9999.XDCE.csv,independent realized target h5,0.0
+I9999.XDCE.csv,independent realized target h30,0.0
+I9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+I9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+I9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+I9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+I9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+I9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+I9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+SC9999.XINE.csv,full-train normalization AR(1),1.0842021724855044e-19
+SC9999.XINE.csv,full-train normalization MA(1),1.0842021724855044e-19
+SC9999.XINE.csv,full-train normalization AR(2),1.0842021724855044e-19
+SC9999.XINE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+SC9999.XINE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+SC9999.XINE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+SC9999.XINE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+SC9999.XINE.csv,EWMA scalar recursion,1.3552527156068805e-20
+SC9999.XINE.csv,V1_GARCH scalar recursion h1,2.371692252312041e-20
+SC9999.XINE.csv,V1_GARCH scalar recursion h5,2.371692252312041e-20
+SC9999.XINE.csv,V1_GARCH scalar recursion h30,2.371692252312041e-20
+SC9999.XINE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-19
+SC9999.XINE.csv,V3_GJR_GARCH scalar recursion h1,2.0328790734103208e-20
+SC9999.XINE.csv,V3_GJR_GARCH scalar recursion h5,2.0328790734103208e-20
+SC9999.XINE.csv,V3_GJR_GARCH scalar recursion h30,1.6940658945086007e-20
+SC9999.XINE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+SC9999.XINE.csv,direction target log(C[t+6]/C[t+1]),0.0
+SC9999.XINE.csv,independent realized target h1,0.0
+SC9999.XINE.csv,independent realized target h5,0.0
+SC9999.XINE.csv,independent realized target h30,0.0
+SC9999.XINE.csv,07 to 08 D0_Momentum5,0.0
+SC9999.XINE.csv,07 to 08 D1_Raw_ARMA,0.0
+SC9999.XINE.csv,07 to 08 D2_GARCH_ARMA,0.0
+SC9999.XINE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+SC9999.XINE.csv,07 to 08 D2_GJR_ARMA,0.0
+SC9999.XINE.csv,07 to 08 D3_Logistic_Core,0.0
+SC9999.XINE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+NI9999.XSGE.csv,full-train normalization AR(1),0.0
+NI9999.XSGE.csv,full-train normalization MA(1),0.0
+NI9999.XSGE.csv,full-train normalization AR(2),0.0
+NI9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+NI9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+NI9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+NI9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+NI9999.XSGE.csv,EWMA scalar recursion,5.421010862427522e-20
+NI9999.XSGE.csv,V1_GARCH scalar recursion h1,1.0164395367051604e-20
+NI9999.XSGE.csv,V1_GARCH scalar recursion h5,6.776263578034403e-21
+NI9999.XSGE.csv,V1_GARCH scalar recursion h30,1.3552527156068805e-20
+NI9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,4.336808689942018e-19
+NI9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,1.0842021724855044e-19
+NI9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,2.168404344971009e-19
+NI9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,2.0328790734103208e-20
+NI9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,4.336808689942018e-19
+NI9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+NI9999.XSGE.csv,independent realized target h1,0.0
+NI9999.XSGE.csv,independent realized target h5,0.0
+NI9999.XSGE.csv,independent realized target h30,0.0
+NI9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+NI9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+NI9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+NI9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+NI9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+NI9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+NI9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+J9999.XDCE.csv,full-train normalization AR(1),0.0
+J9999.XDCE.csv,full-train normalization MA(1),0.0
+J9999.XDCE.csv,full-train normalization AR(2),0.0
+J9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+J9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+J9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+J9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+J9999.XDCE.csv,EWMA scalar recursion,1.6940658945086007e-20
+J9999.XDCE.csv,V1_GARCH scalar recursion h1,2.0328790734103208e-20
+J9999.XDCE.csv,V1_GARCH scalar recursion h5,2.0328790734103208e-20
+J9999.XDCE.csv,V1_GARCH scalar recursion h30,2.0328790734103208e-20
+J9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+J9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,1.0164395367051604e-20
+J9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,2.710505431213761e-20
+J9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,1.3552527156068805e-20
+J9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,6.776263578034403e-20
+J9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+J9999.XDCE.csv,independent realized target h1,0.0
+J9999.XDCE.csv,independent realized target h5,0.0
+J9999.XDCE.csv,independent realized target h30,0.0
+J9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+J9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+J9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+J9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+J9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+J9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+J9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+RU9999.XSGE.csv,full-train normalization AR(1),0.0
+RU9999.XSGE.csv,full-train normalization MA(1),0.0
+RU9999.XSGE.csv,full-train normalization AR(2),0.0
+RU9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+RU9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+RU9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+RU9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+RU9999.XSGE.csv,EWMA scalar recursion,1.3552527156068805e-20
+RU9999.XSGE.csv,V1_GARCH scalar recursion h1,2.0328790734103208e-20
+RU9999.XSGE.csv,V1_GARCH scalar recursion h5,2.710505431213761e-20
+RU9999.XSGE.csv,V1_GARCH scalar recursion h30,2.371692252312041e-20
+RU9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+RU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,1.3552527156068805e-20
+RU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,2.710505431213761e-20
+RU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,1.3552527156068805e-20
+RU9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+RU9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+RU9999.XSGE.csv,independent realized target h1,0.0
+RU9999.XSGE.csv,independent realized target h5,0.0
+RU9999.XSGE.csv,independent realized target h30,0.0
+RU9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+RU9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+RU9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+RU9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+RU9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+RU9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+RU9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+IF9999.CCFX.csv,full-train normalization AR(1),0.0
+IF9999.CCFX.csv,full-train normalization MA(1),0.0
+IF9999.CCFX.csv,full-train normalization AR(2),0.0
+IF9999.CCFX.csv,"full-train normalization ARMA(1,1)",0.0
+IF9999.CCFX.csv,full-train normalization V1_GARCH,0.0
+IF9999.CCFX.csv,full-train normalization V2_EGARCH,0.0
+IF9999.CCFX.csv,full-train normalization V3_GJR_GARCH,0.0
+IF9999.CCFX.csv,EWMA scalar recursion,4.235164736271502e-21
+IF9999.CCFX.csv,V1_GARCH scalar recursion h1,5.082197683525802e-21
+IF9999.CCFX.csv,V1_GARCH scalar recursion h5,5.082197683525802e-21
+IF9999.CCFX.csv,V1_GARCH scalar recursion h30,5.929230630780102e-21
+IF9999.CCFX.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.371692252312041e-20
+IF9999.CCFX.csv,V3_GJR_GARCH scalar recursion h1,3.3881317890172014e-21
+IF9999.CCFX.csv,V3_GJR_GARCH scalar recursion h5,5.082197683525802e-21
+IF9999.CCFX.csv,V3_GJR_GARCH scalar recursion h30,5.082197683525802e-21
+IF9999.CCFX.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.0328790734103208e-20
+IF9999.CCFX.csv,direction target log(C[t+6]/C[t+1]),0.0
+IF9999.CCFX.csv,independent realized target h1,0.0
+IF9999.CCFX.csv,independent realized target h5,0.0
+IF9999.CCFX.csv,independent realized target h30,0.0
+IF9999.CCFX.csv,07 to 08 D0_Momentum5,0.0
+IF9999.CCFX.csv,07 to 08 D1_Raw_ARMA,0.0
+IF9999.CCFX.csv,07 to 08 D2_GARCH_ARMA,0.0
+IF9999.CCFX.csv,07 to 08 D2_EGARCH_ARMA,0.0
+IF9999.CCFX.csv,07 to 08 D2_GJR_ARMA,0.0
+IF9999.CCFX.csv,07 to 08 D3_Logistic_Core,0.0
+IF9999.CCFX.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+AU9999.XSGE.csv,full-train normalization AR(1),0.0
+AU9999.XSGE.csv,full-train normalization MA(1),0.0
+AU9999.XSGE.csv,full-train normalization AR(2),0.0
+AU9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+AU9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+AU9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+AU9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+AU9999.XSGE.csv,EWMA scalar recursion,1.0164395367051604e-20
+AU9999.XSGE.csv,V1_GARCH scalar recursion h1,1.0164395367051604e-20
+AU9999.XSGE.csv,V1_GARCH scalar recursion h5,1.0164395367051604e-20
+AU9999.XSGE.csv,V1_GARCH scalar recursion h30,1.3552527156068805e-20
+AU9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+AU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,8.470329472543003e-21
+AU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,8.470329472543003e-21
+AU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,5.082197683525802e-21
+AU9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,4.0657581468206416e-20
+AU9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+AU9999.XSGE.csv,independent realized target h1,0.0
+AU9999.XSGE.csv,independent realized target h5,0.0
+AU9999.XSGE.csv,independent realized target h30,0.0
+AU9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+AU9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+AU9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+AU9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+AU9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+AU9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+AU9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+CU9999.XSGE.csv,full-train normalization AR(1),0.0
+CU9999.XSGE.csv,full-train normalization MA(1),0.0
+CU9999.XSGE.csv,full-train normalization AR(2),0.0
+CU9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+CU9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+CU9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+CU9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+CU9999.XSGE.csv,EWMA scalar recursion,1.6940658945086007e-20
+CU9999.XSGE.csv,V1_GARCH scalar recursion h1,2.710505431213761e-20
+CU9999.XSGE.csv,V1_GARCH scalar recursion h5,2.371692252312041e-20
+CU9999.XSGE.csv,V1_GARCH scalar recursion h30,1.6940658945086007e-20
+CU9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-19
+CU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,1.6940658945086007e-20
+CU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,1.8634724839594607e-20
+CU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,1.5246593050577406e-20
+CU9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,8.131516293641283e-20
+CU9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+CU9999.XSGE.csv,independent realized target h1,0.0
+CU9999.XSGE.csv,independent realized target h5,0.0
+CU9999.XSGE.csv,independent realized target h30,0.0
+CU9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+CU9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+CU9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+CU9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+CU9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+CU9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+CU9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+AG9999.XSGE.csv,full-train normalization AR(1),5.421010862427522e-20
+AG9999.XSGE.csv,full-train normalization MA(1),5.421010862427522e-20
+AG9999.XSGE.csv,full-train normalization AR(2),5.421010862427522e-20
+AG9999.XSGE.csv,"full-train normalization ARMA(1,1)",5.421010862427522e-20
+AG9999.XSGE.csv,full-train normalization V1_GARCH,5.421010862427522e-20
+AG9999.XSGE.csv,full-train normalization V2_EGARCH,5.421010862427522e-20
+AG9999.XSGE.csv,full-train normalization V3_GJR_GARCH,5.421010862427522e-20
+AG9999.XSGE.csv,EWMA scalar recursion,1.3552527156068805e-20
+AG9999.XSGE.csv,V1_GARCH scalar recursion h1,2.710505431213761e-20
+AG9999.XSGE.csv,V1_GARCH scalar recursion h5,2.710505431213761e-20
+AG9999.XSGE.csv,V1_GARCH scalar recursion h30,1.3552527156068805e-20
+AG9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+AG9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,2.0328790734103208e-20
+AG9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,2.0328790734103208e-20
+AG9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,1.3552527156068805e-20
+AG9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,8.131516293641283e-20
+AG9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+AG9999.XSGE.csv,independent realized target h1,0.0
+AG9999.XSGE.csv,independent realized target h5,0.0
+AG9999.XSGE.csv,independent realized target h30,0.0
+AG9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+AG9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+AG9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+AG9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+AG9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+AG9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+AG9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+IC9999.CCFX.csv,full-train normalization AR(1),1.0842021724855044e-19
+IC9999.CCFX.csv,full-train normalization MA(1),1.0842021724855044e-19
+IC9999.CCFX.csv,full-train normalization AR(2),1.0842021724855044e-19
+IC9999.CCFX.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+IC9999.CCFX.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+IC9999.CCFX.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+IC9999.CCFX.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+IC9999.CCFX.csv,EWMA scalar recursion,4.235164736271502e-21
+IC9999.CCFX.csv,V1_GARCH scalar recursion h1,3.3881317890172014e-21
+IC9999.CCFX.csv,V1_GARCH scalar recursion h5,3.3881317890172014e-21
+IC9999.CCFX.csv,V1_GARCH scalar recursion h30,4.235164736271502e-21
+IC9999.CCFX.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.0328790734103208e-20
+IC9999.CCFX.csv,V3_GJR_GARCH scalar recursion h1,8.470329472543003e-21
+IC9999.CCFX.csv,V3_GJR_GARCH scalar recursion h5,8.470329472543003e-21
+IC9999.CCFX.csv,V3_GJR_GARCH scalar recursion h30,9.317362419797304e-21
+IC9999.CCFX.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,4.404571325722362e-20
+IC9999.CCFX.csv,direction target log(C[t+6]/C[t+1]),0.0
+IC9999.CCFX.csv,independent realized target h1,0.0
+IC9999.CCFX.csv,independent realized target h5,0.0
+IC9999.CCFX.csv,independent realized target h30,0.0
+IC9999.CCFX.csv,07 to 08 D0_Momentum5,0.0
+IC9999.CCFX.csv,07 to 08 D1_Raw_ARMA,0.0
+IC9999.CCFX.csv,07 to 08 D2_GARCH_ARMA,0.0
+IC9999.CCFX.csv,07 to 08 D2_EGARCH_ARMA,0.0
+IC9999.CCFX.csv,07 to 08 D2_GJR_ARMA,0.0
+IC9999.CCFX.csv,07 to 08 D3_Logistic_Core,0.0
+IC9999.CCFX.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+M9999.XDCE.csv,full-train normalization AR(1),0.0
+M9999.XDCE.csv,full-train normalization MA(1),0.0
+M9999.XDCE.csv,full-train normalization AR(2),0.0
+M9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+M9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+M9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+M9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+M9999.XDCE.csv,EWMA scalar recursion,2.541098841762901e-21
+M9999.XDCE.csv,V1_GARCH scalar recursion h1,2.541098841762901e-21
+M9999.XDCE.csv,V1_GARCH scalar recursion h5,3.3881317890172014e-21
+M9999.XDCE.csv,V1_GARCH scalar recursion h30,3.3881317890172014e-21
+M9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-20
+M9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,2.541098841762901e-21
+M9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,3.3881317890172014e-21
+M9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,2.541098841762901e-21
+M9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-20
+M9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+M9999.XDCE.csv,independent realized target h1,0.0
+M9999.XDCE.csv,independent realized target h5,0.0
+M9999.XDCE.csv,independent realized target h30,0.0
+M9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+M9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+M9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+M9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+M9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+M9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+M9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+P9999.XDCE.csv,full-train normalization AR(1),0.0
+P9999.XDCE.csv,full-train normalization MA(1),0.0
+P9999.XDCE.csv,full-train normalization AR(2),0.0
+P9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+P9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+P9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+P9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+P9999.XDCE.csv,EWMA scalar recursion,5.082197683525802e-21
+P9999.XDCE.csv,V1_GARCH scalar recursion h1,8.470329472543003e-21
+P9999.XDCE.csv,V1_GARCH scalar recursion h5,6.776263578034403e-21
+P9999.XDCE.csv,V1_GARCH scalar recursion h30,5.929230630780102e-21
+P9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,3.3881317890172014e-20
+P9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,1.6940658945086007e-21
+P9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,3.3881317890172014e-21
+P9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,2.541098841762901e-21
+P9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.0164395367051604e-20
+P9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+P9999.XDCE.csv,independent realized target h1,0.0
+P9999.XDCE.csv,independent realized target h5,0.0
+P9999.XDCE.csv,independent realized target h30,0.0
+P9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+P9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+P9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+P9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+P9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+P9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+P9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+T9999.CCFX.csv,full-train normalization AR(1),0.0
+T9999.CCFX.csv,full-train normalization MA(1),0.0
+T9999.CCFX.csv,full-train normalization AR(2),0.0
+T9999.CCFX.csv,"full-train normalization ARMA(1,1)",0.0
+T9999.CCFX.csv,full-train normalization V1_GARCH,0.0
+T9999.CCFX.csv,full-train normalization V2_EGARCH,0.0
+T9999.CCFX.csv,full-train normalization V3_GJR_GARCH,0.0
+T9999.CCFX.csv,EWMA scalar recursion,7.940933880509066e-23
+T9999.CCFX.csv,V1_GARCH scalar recursion h1,1.0587911840678754e-22
+T9999.CCFX.csv,V1_GARCH scalar recursion h5,1.5881867761018131e-22
+T9999.CCFX.csv,V1_GARCH scalar recursion h30,1.852884572118782e-22
+T9999.CCFX.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,6.352747104407253e-22
+T9999.CCFX.csv,V3_GJR_GARCH scalar recursion h1,2.117582368135751e-22
+T9999.CCFX.csv,V3_GJR_GARCH scalar recursion h5,2.6469779601696886e-22
+T9999.CCFX.csv,V3_GJR_GARCH scalar recursion h30,1.5881867761018131e-22
+T9999.CCFX.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.0587911840678754e-21
+T9999.CCFX.csv,direction target log(C[t+6]/C[t+1]),0.0
+T9999.CCFX.csv,independent realized target h1,0.0
+T9999.CCFX.csv,independent realized target h5,0.0
+T9999.CCFX.csv,independent realized target h30,0.0
+T9999.CCFX.csv,07 to 08 D0_Momentum5,0.0
+T9999.CCFX.csv,07 to 08 D1_Raw_ARMA,0.0
+T9999.CCFX.csv,07 to 08 D2_GARCH_ARMA,0.0
+T9999.CCFX.csv,07 to 08 D2_EGARCH_ARMA,0.0
+T9999.CCFX.csv,07 to 08 D2_GJR_ARMA,0.0
+T9999.CCFX.csv,07 to 08 D3_Logistic_Core,0.0
+T9999.CCFX.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+ZN9999.XSGE.csv,full-train normalization AR(1),0.0
+ZN9999.XSGE.csv,full-train normalization MA(1),0.0
+ZN9999.XSGE.csv,full-train normalization AR(2),0.0
+ZN9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+ZN9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+ZN9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+ZN9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+ZN9999.XSGE.csv,EWMA scalar recursion,1.0164395367051604e-20
+ZN9999.XSGE.csv,V1_GARCH scalar recursion h1,1.0164395367051604e-20
+ZN9999.XSGE.csv,V1_GARCH scalar recursion h5,8.470329472543003e-21
+ZN9999.XSGE.csv,V1_GARCH scalar recursion h30,6.3527471044072525e-21
+ZN9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,4.743384504624082e-20
+ZN9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,5.082197683525802e-21
+ZN9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,6.776263578034403e-21
+ZN9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,5.082197683525802e-21
+ZN9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+ZN9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+ZN9999.XSGE.csv,independent realized target h1,0.0
+ZN9999.XSGE.csv,independent realized target h5,0.0
+ZN9999.XSGE.csv,independent realized target h30,0.0
+ZN9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+ZN9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+ZN9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+ZN9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+ZN9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+ZN9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+ZN9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+Y9999.XDCE.csv,full-train normalization AR(1),1.0842021724855044e-19
+Y9999.XDCE.csv,full-train normalization MA(1),1.0842021724855044e-19
+Y9999.XDCE.csv,full-train normalization AR(2),1.0842021724855044e-19
+Y9999.XDCE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+Y9999.XDCE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+Y9999.XDCE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+Y9999.XDCE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+Y9999.XDCE.csv,EWMA scalar recursion,3.3881317890172014e-21
+Y9999.XDCE.csv,V1_GARCH scalar recursion h1,1.6940658945086007e-21
+Y9999.XDCE.csv,V1_GARCH scalar recursion h5,3.3881317890172014e-21
+Y9999.XDCE.csv,V1_GARCH scalar recursion h30,2.541098841762901e-21
+Y9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.0328790734103208e-20
+Y9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,3.3881317890172014e-21
+Y9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,2.117582368135751e-21
+Y9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,1.6940658945086007e-21
+Y9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-20
+Y9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+Y9999.XDCE.csv,independent realized target h1,0.0
+Y9999.XDCE.csv,independent realized target h5,0.0
+Y9999.XDCE.csv,independent realized target h30,0.0
+Y9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+Y9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+Y9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+Y9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+Y9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+Y9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+Y9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+TA9999.XZCE.csv,full-train normalization AR(1),0.0
+TA9999.XZCE.csv,full-train normalization MA(1),0.0
+TA9999.XZCE.csv,full-train normalization AR(2),0.0
+TA9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+TA9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+TA9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+TA9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+TA9999.XZCE.csv,EWMA scalar recursion,6.776263578034403e-21
+TA9999.XZCE.csv,V1_GARCH scalar recursion h1,5.082197683525802e-21
+TA9999.XZCE.csv,V1_GARCH scalar recursion h5,6.776263578034403e-21
+TA9999.XZCE.csv,V1_GARCH scalar recursion h30,6.3527471044072525e-21
+TA9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+TA9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,1.0164395367051604e-20
+TA9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,1.0164395367051604e-20
+TA9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,8.470329472543003e-21
+TA9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+TA9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+TA9999.XZCE.csv,independent realized target h1,0.0
+TA9999.XZCE.csv,independent realized target h5,0.0
+TA9999.XZCE.csv,independent realized target h30,0.0
+TA9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+TA9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+TA9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+TA9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+TA9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+TA9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+TA9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+MA9999.XZCE.csv,full-train normalization AR(1),0.0
+MA9999.XZCE.csv,full-train normalization MA(1),0.0
+MA9999.XZCE.csv,full-train normalization AR(2),0.0
+MA9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+MA9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+MA9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+MA9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+MA9999.XZCE.csv,EWMA scalar recursion,6.776263578034403e-21
+MA9999.XZCE.csv,V1_GARCH scalar recursion h1,1.1858461261560205e-20
+MA9999.XZCE.csv,V1_GARCH scalar recursion h5,1.1858461261560205e-20
+MA9999.XZCE.csv,V1_GARCH scalar recursion h30,1.0164395367051604e-20
+MA9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,4.743384504624082e-20
+MA9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,7.623296525288703e-21
+MA9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,8.470329472543003e-21
+MA9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,8.470329472543003e-21
+MA9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,3.3881317890172014e-20
+MA9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+MA9999.XZCE.csv,independent realized target h1,0.0
+MA9999.XZCE.csv,independent realized target h5,0.0
+MA9999.XZCE.csv,independent realized target h30,0.0
+MA9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+MA9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+MA9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+MA9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+MA9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+MA9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+MA9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+SR9999.XZCE.csv,full-train normalization AR(1),5.421010862427522e-20
+SR9999.XZCE.csv,full-train normalization MA(1),5.421010862427522e-20
+SR9999.XZCE.csv,full-train normalization AR(2),5.421010862427522e-20
+SR9999.XZCE.csv,"full-train normalization ARMA(1,1)",5.421010862427522e-20
+SR9999.XZCE.csv,full-train normalization V1_GARCH,5.421010862427522e-20
+SR9999.XZCE.csv,full-train normalization V2_EGARCH,5.421010862427522e-20
+SR9999.XZCE.csv,full-train normalization V3_GJR_GARCH,5.421010862427522e-20
+SR9999.XZCE.csv,EWMA scalar recursion,1.3552527156068805e-20
+SR9999.XZCE.csv,V1_GARCH scalar recursion h1,3.3881317890172014e-21
+SR9999.XZCE.csv,V1_GARCH scalar recursion h5,3.3881317890172014e-21
+SR9999.XZCE.csv,V1_GARCH scalar recursion h30,5.082197683525802e-21
+SR9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+SR9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,5.082197683525802e-21
+SR9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,5.929230630780102e-21
+SR9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,6.776263578034403e-21
+SR9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+SR9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+SR9999.XZCE.csv,independent realized target h1,0.0
+SR9999.XZCE.csv,independent realized target h5,0.0
+SR9999.XZCE.csv,independent realized target h30,0.0
+SR9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+SR9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+SR9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+SR9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+SR9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+SR9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+SR9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+AP9999.XZCE.csv,full-train normalization AR(1),0.0
+AP9999.XZCE.csv,full-train normalization MA(1),0.0
+AP9999.XZCE.csv,full-train normalization AR(2),0.0
+AP9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+AP9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+AP9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+AP9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+AP9999.XZCE.csv,EWMA scalar recursion,1.3552527156068805e-20
+AP9999.XZCE.csv,V1_GARCH scalar recursion h1,2.710505431213761e-20
+AP9999.XZCE.csv,V1_GARCH scalar recursion h5,2.710505431213761e-20
+AP9999.XZCE.csv,V1_GARCH scalar recursion h30,2.710505431213761e-20
+AP9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-19
+AP9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,2.0328790734103208e-20
+AP9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,2.710505431213761e-20
+AP9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,2.371692252312041e-20
+AP9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.6263032587282567e-19
+AP9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+AP9999.XZCE.csv,independent realized target h1,0.0
+AP9999.XZCE.csv,independent realized target h5,0.0
+AP9999.XZCE.csv,independent realized target h30,0.0
+AP9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+AP9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+AP9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+AP9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+AP9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+AP9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+AP9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+CF9999.XZCE.csv,full-train normalization AR(1),0.0
+CF9999.XZCE.csv,full-train normalization MA(1),0.0
+CF9999.XZCE.csv,full-train normalization AR(2),0.0
+CF9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+CF9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+CF9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+CF9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+CF9999.XZCE.csv,EWMA scalar recursion,6.776263578034403e-21
+CF9999.XZCE.csv,V1_GARCH scalar recursion h1,1.3552527156068805e-20
+CF9999.XZCE.csv,V1_GARCH scalar recursion h5,1.3552527156068805e-20
+CF9999.XZCE.csv,V1_GARCH scalar recursion h30,1.6940658945086007e-20
+CF9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,6.776263578034403e-20
+CF9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,1.6940658945086007e-20
+CF9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,1.3552527156068805e-20
+CF9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,1.6940658945086007e-20
+CF9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+CF9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+CF9999.XZCE.csv,independent realized target h1,0.0
+CF9999.XZCE.csv,independent realized target h5,0.0
+CF9999.XZCE.csv,independent realized target h30,0.0
+CF9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+CF9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+CF9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+CF9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+CF9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+CF9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+CF9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+PP9999.XDCE.csv,full-train normalization AR(1),0.0
+PP9999.XDCE.csv,full-train normalization MA(1),0.0
+PP9999.XDCE.csv,full-train normalization AR(2),0.0
+PP9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+PP9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+PP9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+PP9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+PP9999.XDCE.csv,EWMA scalar recursion,8.470329472543003e-21
+PP9999.XDCE.csv,V1_GARCH scalar recursion h1,8.470329472543003e-21
+PP9999.XDCE.csv,V1_GARCH scalar recursion h5,8.470329472543003e-21
+PP9999.XDCE.csv,V1_GARCH scalar recursion h30,8.470329472543003e-21
+PP9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,6.776263578034403e-20
+PP9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,6.776263578034403e-21
+PP9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,6.776263578034403e-21
+PP9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,1.0164395367051604e-20
+PP9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,3.049318610115481e-20
+PP9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+PP9999.XDCE.csv,independent realized target h1,0.0
+PP9999.XDCE.csv,independent realized target h5,0.0
+PP9999.XDCE.csv,independent realized target h30,0.0
+PP9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+PP9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+PP9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+PP9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+PP9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+PP9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+PP9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+RM9999.XZCE.csv,full-train normalization AR(1),1.0842021724855044e-19
+RM9999.XZCE.csv,full-train normalization MA(1),1.0842021724855044e-19
+RM9999.XZCE.csv,full-train normalization AR(2),1.0842021724855044e-19
+RM9999.XZCE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+RM9999.XZCE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+RM9999.XZCE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+RM9999.XZCE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+RM9999.XZCE.csv,EWMA scalar recursion,2.541098841762901e-21
+RM9999.XZCE.csv,V1_GARCH scalar recursion h1,4.235164736271502e-21
+RM9999.XZCE.csv,V1_GARCH scalar recursion h5,4.235164736271502e-21
+RM9999.XZCE.csv,V1_GARCH scalar recursion h30,3.3881317890172014e-21
+RM9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+RM9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,3.3881317890172014e-21
+RM9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,1.6940658945086007e-21
+RM9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,5.082197683525802e-21
+RM9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-20
+RM9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+RM9999.XZCE.csv,independent realized target h1,0.0
+RM9999.XZCE.csv,independent realized target h5,0.0
+RM9999.XZCE.csv,independent realized target h30,0.0
+RM9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+RM9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+RM9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+RM9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+RM9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+RM9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+RM9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+BU9999.XSGE.csv,full-train normalization AR(1),0.0
+BU9999.XSGE.csv,full-train normalization MA(1),0.0
+BU9999.XSGE.csv,full-train normalization AR(2),0.0
+BU9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+BU9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+BU9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+BU9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+BU9999.XSGE.csv,EWMA scalar recursion,1.0164395367051604e-20
+BU9999.XSGE.csv,V1_GARCH scalar recursion h1,2.371692252312041e-20
+BU9999.XSGE.csv,V1_GARCH scalar recursion h5,1.6940658945086007e-20
+BU9999.XSGE.csv,V1_GARCH scalar recursion h30,1.6940658945086007e-20
+BU9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+BU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,1.6940658945086007e-20
+BU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,2.371692252312041e-20
+BU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,1.6940658945086007e-20
+BU9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+BU9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+BU9999.XSGE.csv,independent realized target h1,0.0
+BU9999.XSGE.csv,independent realized target h5,0.0
+BU9999.XSGE.csv,independent realized target h30,0.0
+BU9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+BU9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+BU9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+BU9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+BU9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+BU9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+BU9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+HC9999.XSGE.csv,full-train normalization AR(1),0.0
+HC9999.XSGE.csv,full-train normalization MA(1),0.0
+HC9999.XSGE.csv,full-train normalization AR(2),0.0
+HC9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+HC9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+HC9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+HC9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+HC9999.XSGE.csv,EWMA scalar recursion,4.658681209898652e-21
+HC9999.XSGE.csv,V1_GARCH scalar recursion h1,3.3881317890172014e-21
+HC9999.XSGE.csv,V1_GARCH scalar recursion h5,3.3881317890172014e-21
+HC9999.XSGE.csv,V1_GARCH scalar recursion h30,5.082197683525802e-21
+HC9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.0328790734103208e-20
+HC9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,5.082197683525802e-21
+HC9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,5.082197683525802e-21
+HC9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,6.776263578034403e-21
+HC9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+HC9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+HC9999.XSGE.csv,independent realized target h1,0.0
+HC9999.XSGE.csv,independent realized target h5,0.0
+HC9999.XSGE.csv,independent realized target h30,0.0
+HC9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+HC9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+HC9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+HC9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+HC9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+HC9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+HC9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+OI9999.XZCE.csv,full-train normalization AR(1),0.0
+OI9999.XZCE.csv,full-train normalization MA(1),0.0
+OI9999.XZCE.csv,full-train normalization AR(2),0.0
+OI9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+OI9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+OI9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+OI9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+OI9999.XZCE.csv,EWMA scalar recursion,4.235164736271502e-21
+OI9999.XZCE.csv,V1_GARCH scalar recursion h1,2.541098841762901e-21
+OI9999.XZCE.csv,V1_GARCH scalar recursion h5,3.3881317890172014e-21
+OI9999.XZCE.csv,V1_GARCH scalar recursion h30,2.541098841762901e-21
+OI9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.0328790734103208e-20
+OI9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,5.082197683525802e-21
+OI9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,5.082197683525802e-21
+OI9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,5.082197683525802e-21
+OI9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+OI9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+OI9999.XZCE.csv,independent realized target h1,0.0
+OI9999.XZCE.csv,independent realized target h5,0.0
+OI9999.XZCE.csv,independent realized target h30,0.0
+OI9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+OI9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+OI9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+OI9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+OI9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+OI9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+OI9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+IH9999.CCFX.csv,full-train normalization AR(1),0.0
+IH9999.CCFX.csv,full-train normalization MA(1),0.0
+IH9999.CCFX.csv,full-train normalization AR(2),0.0
+IH9999.CCFX.csv,"full-train normalization ARMA(1,1)",0.0
+IH9999.CCFX.csv,full-train normalization V1_GARCH,0.0
+IH9999.CCFX.csv,full-train normalization V2_EGARCH,0.0
+IH9999.CCFX.csv,full-train normalization V3_GJR_GARCH,0.0
+IH9999.CCFX.csv,EWMA scalar recursion,4.235164736271502e-21
+IH9999.CCFX.csv,V1_GARCH scalar recursion h1,5.082197683525802e-21
+IH9999.CCFX.csv,V1_GARCH scalar recursion h5,5.082197683525802e-21
+IH9999.CCFX.csv,V1_GARCH scalar recursion h30,6.776263578034403e-21
+IH9999.CCFX.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+IH9999.CCFX.csv,V3_GJR_GARCH scalar recursion h1,6.776263578034403e-21
+IH9999.CCFX.csv,V3_GJR_GARCH scalar recursion h5,6.776263578034403e-21
+IH9999.CCFX.csv,V3_GJR_GARCH scalar recursion h30,6.776263578034403e-21
+IH9999.CCFX.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,3.3881317890172014e-20
+IH9999.CCFX.csv,direction target log(C[t+6]/C[t+1]),0.0
+IH9999.CCFX.csv,independent realized target h1,0.0
+IH9999.CCFX.csv,independent realized target h5,0.0
+IH9999.CCFX.csv,independent realized target h30,0.0
+IH9999.CCFX.csv,07 to 08 D0_Momentum5,0.0
+IH9999.CCFX.csv,07 to 08 D1_Raw_ARMA,0.0
+IH9999.CCFX.csv,07 to 08 D2_GARCH_ARMA,0.0
+IH9999.CCFX.csv,07 to 08 D2_EGARCH_ARMA,0.0
+IH9999.CCFX.csv,07 to 08 D2_GJR_ARMA,0.0
+IH9999.CCFX.csv,07 to 08 D3_Logistic_Core,0.0
+IH9999.CCFX.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+EG9999.XDCE.csv,full-train normalization AR(1),1.0842021724855044e-19
+EG9999.XDCE.csv,full-train normalization MA(1),1.0842021724855044e-19
+EG9999.XDCE.csv,full-train normalization AR(2),1.0842021724855044e-19
+EG9999.XDCE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+EG9999.XDCE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+EG9999.XDCE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+EG9999.XDCE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+EG9999.XDCE.csv,EWMA scalar recursion,6.776263578034403e-21
+EG9999.XDCE.csv,V1_GARCH scalar recursion h1,6.776263578034403e-21
+EG9999.XDCE.csv,V1_GARCH scalar recursion h5,6.776263578034403e-21
+EG9999.XDCE.csv,V1_GARCH scalar recursion h30,6.776263578034403e-21
+EG9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,3.3881317890172014e-20
+EG9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,4.235164736271502e-21
+EG9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,4.235164736271502e-21
+EG9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,6.776263578034403e-21
+EG9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,4.0657581468206416e-20
+EG9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+EG9999.XDCE.csv,independent realized target h1,0.0
+EG9999.XDCE.csv,independent realized target h5,0.0
+EG9999.XDCE.csv,independent realized target h30,0.0
+EG9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+EG9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+EG9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,
+EG9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,
+EG9999.XDCE.csv,07 to 08 D2_GJR_ARMA,
+EG9999.XDCE.csv,07 to 08 D3_Logistic_Core,
+EG9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,
+JM9999.XDCE.csv,full-train normalization AR(1),2.168404344971009e-19
+JM9999.XDCE.csv,full-train normalization MA(1),2.168404344971009e-19
+JM9999.XDCE.csv,full-train normalization AR(2),2.168404344971009e-19
+JM9999.XDCE.csv,"full-train normalization ARMA(1,1)",2.168404344971009e-19
+JM9999.XDCE.csv,full-train normalization V1_GARCH,2.168404344971009e-19
+JM9999.XDCE.csv,full-train normalization V2_EGARCH,2.168404344971009e-19
+JM9999.XDCE.csv,full-train normalization V3_GJR_GARCH,2.168404344971009e-19
+JM9999.XDCE.csv,EWMA scalar recursion,2.0328790734103208e-20
+JM9999.XDCE.csv,V1_GARCH scalar recursion h1,3.3881317890172014e-20
+JM9999.XDCE.csv,V1_GARCH scalar recursion h5,4.0657581468206416e-20
+JM9999.XDCE.csv,V1_GARCH scalar recursion h30,3.7269449679189215e-20
+JM9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.168404344971009e-19
+JM9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,2.710505431213761e-20
+JM9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,1.6940658945086007e-20
+JM9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,3.3881317890172014e-20
+JM9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.6263032587282567e-19
+JM9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+JM9999.XDCE.csv,independent realized target h1,0.0
+JM9999.XDCE.csv,independent realized target h5,0.0
+JM9999.XDCE.csv,independent realized target h30,0.0
+JM9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+JM9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+JM9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+JM9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+JM9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+JM9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+JM9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+FU9999.XSGE.csv,full-train normalization AR(1),0.0
+FU9999.XSGE.csv,full-train normalization MA(1),0.0
+FU9999.XSGE.csv,full-train normalization AR(2),0.0
+FU9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+FU9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+FU9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+FU9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+FU9999.XSGE.csv,EWMA scalar recursion,1.0164395367051604e-20
+FU9999.XSGE.csv,V1_GARCH scalar recursion h1,2.710505431213761e-20
+FU9999.XSGE.csv,V1_GARCH scalar recursion h5,5.421010862427522e-20
+FU9999.XSGE.csv,V1_GARCH scalar recursion h30,1.0164395367051604e-20
+FU9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.168404344971009e-19
+FU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,1.0164395367051604e-20
+FU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,1.0164395367051604e-20
+FU9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,2.710505431213761e-20
+FU9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.168404344971009e-19
+FU9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+FU9999.XSGE.csv,independent realized target h1,0.0
+FU9999.XSGE.csv,independent realized target h5,0.0
+FU9999.XSGE.csv,independent realized target h30,0.0
+FU9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+FU9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+FU9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+FU9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+FU9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+FU9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+FU9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+L9999.XDCE.csv,full-train normalization AR(1),1.0842021724855044e-19
+L9999.XDCE.csv,full-train normalization MA(1),1.0842021724855044e-19
+L9999.XDCE.csv,full-train normalization AR(2),1.0842021724855044e-19
+L9999.XDCE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+L9999.XDCE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+L9999.XDCE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+L9999.XDCE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+L9999.XDCE.csv,EWMA scalar recursion,5.929230630780102e-21
+L9999.XDCE.csv,V1_GARCH scalar recursion h1,3.3881317890172014e-21
+L9999.XDCE.csv,V1_GARCH scalar recursion h5,5.082197683525802e-21
+L9999.XDCE.csv,V1_GARCH scalar recursion h30,4.235164736271502e-21
+L9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+L9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,8.470329472543003e-21
+L9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,8.470329472543003e-21
+L9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,1.0164395367051604e-20
+L9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,4.0657581468206416e-20
+L9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+L9999.XDCE.csv,independent realized target h1,0.0
+L9999.XDCE.csv,independent realized target h5,0.0
+L9999.XDCE.csv,independent realized target h30,0.0
+L9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+L9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+L9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+L9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+L9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+L9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+L9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+SA9999.XZCE.csv,08 extension independent V1_GARCH delayed-risk,1.3552527156068805e-20
+SA9999.XZCE.csv,08 extension independent V3_GJR_GARCH delayed-risk,3.3881317890172014e-20
+ZC9999.XZCE.csv,full-train normalization AR(1),0.0
+ZC9999.XZCE.csv,full-train normalization MA(1),0.0
+ZC9999.XZCE.csv,full-train normalization AR(2),0.0
+ZC9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+ZC9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+ZC9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+ZC9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+ZC9999.XZCE.csv,EWMA scalar recursion,5.421010862427522e-20
+ZC9999.XZCE.csv,V1_GARCH scalar recursion h1,2.710505431213761e-20
+ZC9999.XZCE.csv,V1_GARCH scalar recursion h5,2.710505431213761e-20
+ZC9999.XZCE.csv,V1_GARCH scalar recursion h30,4.0657581468206416e-20
+ZC9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.168404344971009e-19
+ZC9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,5.421010862427522e-20
+ZC9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,5.421010862427522e-20
+ZC9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,6.776263578034403e-20
+ZC9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.168404344971009e-19
+ZC9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+ZC9999.XZCE.csv,independent realized target h1,0.0
+ZC9999.XZCE.csv,independent realized target h5,0.0
+ZC9999.XZCE.csv,independent realized target h30,0.0
+ZC9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+ZC9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+ZC9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+ZC9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+ZC9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+ZC9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+ZC9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+AL9999.XSGE.csv,full-train normalization AR(1),0.0
+AL9999.XSGE.csv,full-train normalization MA(1),0.0
+AL9999.XSGE.csv,full-train normalization AR(2),0.0
+AL9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+AL9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+AL9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+AL9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+AL9999.XSGE.csv,EWMA scalar recursion,5.929230630780102e-21
+AL9999.XSGE.csv,V1_GARCH scalar recursion h1,5.082197683525802e-21
+AL9999.XSGE.csv,V1_GARCH scalar recursion h5,5.929230630780102e-21
+AL9999.XSGE.csv,V1_GARCH scalar recursion h30,6.776263578034403e-21
+AL9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+AL9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,3.3881317890172014e-21
+AL9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,4.235164736271502e-21
+AL9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,6.776263578034403e-21
+AL9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+AL9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+AL9999.XSGE.csv,independent realized target h1,0.0
+AL9999.XSGE.csv,independent realized target h5,0.0
+AL9999.XSGE.csv,independent realized target h30,0.0
+AL9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+AL9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+AL9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+AL9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+AL9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+AL9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+AL9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+FG9999.XZCE.csv,full-train normalization AR(1),1.0842021724855044e-19
+FG9999.XZCE.csv,full-train normalization MA(1),1.0842021724855044e-19
+FG9999.XZCE.csv,full-train normalization AR(2),1.0842021724855044e-19
+FG9999.XZCE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+FG9999.XZCE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+FG9999.XZCE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+FG9999.XZCE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+FG9999.XZCE.csv,EWMA scalar recursion,1.3552527156068805e-20
+FG9999.XZCE.csv,V1_GARCH scalar recursion h1,2.710505431213761e-20
+FG9999.XZCE.csv,V1_GARCH scalar recursion h5,2.0328790734103208e-20
+FG9999.XZCE.csv,V1_GARCH scalar recursion h30,3.3881317890172014e-20
+FG9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+FG9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,2.0328790734103208e-20
+FG9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,2.0328790734103208e-20
+FG9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,2.710505431213761e-20
+FG9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+FG9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+FG9999.XZCE.csv,independent realized target h1,0.0
+FG9999.XZCE.csv,independent realized target h5,0.0
+FG9999.XZCE.csv,independent realized target h30,0.0
+FG9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+FG9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+FG9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+FG9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+FG9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+FG9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+FG9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+SP9999.XSGE.csv,full-train normalization AR(1),0.0
+SP9999.XSGE.csv,full-train normalization MA(1),0.0
+SP9999.XSGE.csv,full-train normalization AR(2),0.0
+SP9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+SP9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+SP9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+SP9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+SP9999.XSGE.csv,EWMA scalar recursion,1.0164395367051604e-20
+SP9999.XSGE.csv,V1_GARCH scalar recursion h1,6.776263578034403e-21
+SP9999.XSGE.csv,V1_GARCH scalar recursion h5,6.776263578034403e-21
+SP9999.XSGE.csv,V1_GARCH scalar recursion h30,1.0164395367051604e-20
+SP9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+SP9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,6.776263578034403e-21
+SP9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,1.0164395367051604e-20
+SP9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,5.082197683525802e-21
+SP9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+SP9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+SP9999.XSGE.csv,independent realized target h1,0.0
+SP9999.XSGE.csv,independent realized target h5,0.0
+SP9999.XSGE.csv,independent realized target h30,0.0
+SP9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+SP9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+SP9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+SP9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+SP9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+SP9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+SP9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+TF9999.CCFX.csv,full-train normalization AR(1),0.0
+TF9999.CCFX.csv,full-train normalization MA(1),0.0
+TF9999.CCFX.csv,full-train normalization AR(2),0.0
+TF9999.CCFX.csv,"full-train normalization ARMA(1,1)",0.0
+TF9999.CCFX.csv,full-train normalization V1_GARCH,0.0
+TF9999.CCFX.csv,full-train normalization V2_EGARCH,0.0
+TF9999.CCFX.csv,full-train normalization V3_GJR_GARCH,0.0
+TF9999.CCFX.csv,EWMA scalar recursion,7.411538288475128e-22
+TF9999.CCFX.csv,V1_GARCH scalar recursion h1,2.541098841762901e-21
+TF9999.CCFX.csv,V1_GARCH scalar recursion h5,2.117582368135751e-21
+TF9999.CCFX.csv,V1_GARCH scalar recursion h30,1.4823076576950256e-21
+TF9999.CCFX.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.1858461261560205e-20
+TF9999.CCFX.csv,V3_GJR_GARCH scalar recursion h1,1.6940658945086007e-21
+TF9999.CCFX.csv,V3_GJR_GARCH scalar recursion h5,1.6940658945086007e-21
+TF9999.CCFX.csv,V3_GJR_GARCH scalar recursion h30,1.6940658945086007e-21
+TF9999.CCFX.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,6.776263578034403e-21
+TF9999.CCFX.csv,direction target log(C[t+6]/C[t+1]),0.0
+TF9999.CCFX.csv,independent realized target h1,0.0
+TF9999.CCFX.csv,independent realized target h5,0.0
+TF9999.CCFX.csv,independent realized target h30,0.0
+TF9999.CCFX.csv,07 to 08 D0_Momentum5,0.0
+TF9999.CCFX.csv,07 to 08 D1_Raw_ARMA,0.0
+TF9999.CCFX.csv,07 to 08 D2_GARCH_ARMA,0.0
+TF9999.CCFX.csv,07 to 08 D2_EGARCH_ARMA,0.0
+TF9999.CCFX.csv,07 to 08 D2_GJR_ARMA,0.0
+TF9999.CCFX.csv,07 to 08 D3_Logistic_Core,0.0
+TF9999.CCFX.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+C9999.XDCE.csv,full-train normalization AR(1),0.0
+C9999.XDCE.csv,full-train normalization MA(1),0.0
+C9999.XDCE.csv,full-train normalization AR(2),0.0
+C9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+C9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+C9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+C9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+C9999.XDCE.csv,EWMA scalar recursion,3.3881317890172014e-21
+C9999.XDCE.csv,V1_GARCH scalar recursion h1,2.541098841762901e-21
+C9999.XDCE.csv,V1_GARCH scalar recursion h5,4.235164736271502e-21
+C9999.XDCE.csv,V1_GARCH scalar recursion h30,3.3881317890172014e-21
+C9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.0328790734103208e-20
+C9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,8.470329472543003e-21
+C9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,6.776263578034403e-21
+C9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,5.082197683525802e-21
+C9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,3.3881317890172014e-20
+C9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+C9999.XDCE.csv,independent realized target h1,0.0
+C9999.XDCE.csv,independent realized target h5,0.0
+C9999.XDCE.csv,independent realized target h30,0.0
+C9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+C9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+C9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+C9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+C9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+C9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+C9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+V9999.XDCE.csv,full-train normalization AR(1),0.0
+V9999.XDCE.csv,full-train normalization MA(1),0.0
+V9999.XDCE.csv,full-train normalization AR(2),0.0
+V9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+V9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+V9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+V9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+V9999.XDCE.csv,EWMA scalar recursion,1.0164395367051604e-20
+V9999.XDCE.csv,V1_GARCH scalar recursion h1,6.776263578034403e-21
+V9999.XDCE.csv,V1_GARCH scalar recursion h5,6.776263578034403e-21
+V9999.XDCE.csv,V1_GARCH scalar recursion h30,5.929230630780102e-21
+V9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,3.3881317890172014e-20
+V9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,8.470329472543003e-21
+V9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,1.0164395367051604e-20
+V9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,1.0164395367051604e-20
+V9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,4.0657581468206416e-20
+V9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+V9999.XDCE.csv,independent realized target h1,0.0
+V9999.XDCE.csv,independent realized target h5,0.0
+V9999.XDCE.csv,independent realized target h30,0.0
+V9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+V9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+V9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+V9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+V9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+V9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+V9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+JD9999.XDCE.csv,full-train normalization AR(1),0.0
+JD9999.XDCE.csv,full-train normalization MA(1),0.0
+JD9999.XDCE.csv,full-train normalization AR(2),0.0
+JD9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+JD9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+JD9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+JD9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+JD9999.XDCE.csv,EWMA scalar recursion,6.776263578034403e-21
+JD9999.XDCE.csv,V1_GARCH scalar recursion h1,6.776263578034403e-21
+JD9999.XDCE.csv,V1_GARCH scalar recursion h5,6.776263578034403e-21
+JD9999.XDCE.csv,V1_GARCH scalar recursion h30,1.3552527156068805e-20
+JD9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,4.0657581468206416e-20
+JD9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,6.776263578034403e-21
+JD9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,6.776263578034403e-21
+JD9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,5.082197683525802e-21
+JD9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+JD9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+JD9999.XDCE.csv,independent realized target h1,0.0
+JD9999.XDCE.csv,independent realized target h5,0.0
+JD9999.XDCE.csv,independent realized target h30,0.0
+JD9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+JD9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+JD9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+JD9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+JD9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+JD9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+JD9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+EB9999.XDCE.csv,full-train normalization AR(1),0.0
+EB9999.XDCE.csv,full-train normalization MA(1),0.0
+EB9999.XDCE.csv,full-train normalization AR(2),0.0
+EB9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+EB9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+EB9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+EB9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+EB9999.XDCE.csv,EWMA scalar recursion,1.3552527156068805e-20
+EB9999.XDCE.csv,V1_GARCH scalar recursion h1,1.3552527156068805e-20
+EB9999.XDCE.csv,V1_GARCH scalar recursion h5,6.776263578034403e-21
+EB9999.XDCE.csv,V1_GARCH scalar recursion h30,6.776263578034403e-21
+EB9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,4.336808689942018e-19
+EB9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,1.0842021724855044e-19
+EB9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,1.3552527156068805e-20
+EB9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,5.421010862427522e-20
+EB9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,6.776263578034403e-20
+EB9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+EB9999.XDCE.csv,independent realized target h1,0.0
+EB9999.XDCE.csv,independent realized target h5,0.0
+EB9999.XDCE.csv,independent realized target h30,0.0
+EB9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+EB9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+EB9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,
+EB9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,
+EB9999.XDCE.csv,07 to 08 D2_GJR_ARMA,
+EB9999.XDCE.csv,07 to 08 D3_Logistic_Core,
+EB9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,
+A9999.XDCE.csv,full-train normalization AR(1),1.0842021724855044e-19
+A9999.XDCE.csv,full-train normalization MA(1),1.0842021724855044e-19
+A9999.XDCE.csv,full-train normalization AR(2),1.0842021724855044e-19
+A9999.XDCE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+A9999.XDCE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+A9999.XDCE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+A9999.XDCE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+A9999.XDCE.csv,EWMA scalar recursion,5.082197683525802e-21
+A9999.XDCE.csv,V1_GARCH scalar recursion h1,4.235164736271502e-21
+A9999.XDCE.csv,V1_GARCH scalar recursion h5,1.3552527156068805e-20
+A9999.XDCE.csv,V1_GARCH scalar recursion h30,6.776263578034403e-21
+A9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+A9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,6.776263578034403e-21
+A9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,6.776263578034403e-21
+A9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,1.0164395367051604e-20
+A9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+A9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+A9999.XDCE.csv,independent realized target h1,0.0
+A9999.XDCE.csv,independent realized target h5,0.0
+A9999.XDCE.csv,independent realized target h30,0.0
+A9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+A9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+A9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+A9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+A9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+A9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+A9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+CJ9999.XZCE.csv,full-train normalization AR(1),0.0
+CJ9999.XZCE.csv,full-train normalization MA(1),0.0
+CJ9999.XZCE.csv,full-train normalization AR(2),0.0
+CJ9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+CJ9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+CJ9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+CJ9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+CJ9999.XZCE.csv,EWMA scalar recursion,4.0657581468206416e-20
+CJ9999.XZCE.csv,V1_GARCH scalar recursion h1,2.710505431213761e-20
+CJ9999.XZCE.csv,V1_GARCH scalar recursion h5,2.0328790734103208e-20
+CJ9999.XZCE.csv,V1_GARCH scalar recursion h30,2.710505431213761e-20
+CJ9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.6263032587282567e-19
+CJ9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,1.3552527156068805e-20
+CJ9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,1.3552527156068805e-20
+CJ9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,2.0328790734103208e-20
+CJ9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.168404344971009e-19
+CJ9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+CJ9999.XZCE.csv,independent realized target h1,0.0
+CJ9999.XZCE.csv,independent realized target h5,0.0
+CJ9999.XZCE.csv,independent realized target h30,0.0
+CJ9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+CJ9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+CJ9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,
+CJ9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,
+CJ9999.XZCE.csv,07 to 08 D2_GJR_ARMA,
+CJ9999.XZCE.csv,07 to 08 D3_Logistic_Core,
+CJ9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,
+SM9999.XZCE.csv,full-train normalization AR(1),0.0
+SM9999.XZCE.csv,full-train normalization MA(1),0.0
+SM9999.XZCE.csv,full-train normalization AR(2),0.0
+SM9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+SM9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+SM9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+SM9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+SM9999.XZCE.csv,EWMA scalar recursion,2.0328790734103208e-20
+SM9999.XZCE.csv,V1_GARCH scalar recursion h1,2.0328790734103208e-20
+SM9999.XZCE.csv,V1_GARCH scalar recursion h5,2.710505431213761e-20
+SM9999.XZCE.csv,V1_GARCH scalar recursion h30,2.0328790734103208e-20
+SM9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+SM9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,2.0328790734103208e-20
+SM9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,2.0328790734103208e-20
+SM9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,2.710505431213761e-20
+SM9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,8.131516293641283e-20
+SM9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+SM9999.XZCE.csv,independent realized target h1,0.0
+SM9999.XZCE.csv,independent realized target h5,0.0
+SM9999.XZCE.csv,independent realized target h30,0.0
+SM9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+SM9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+SM9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+SM9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+SM9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+SM9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+SM9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+SN9999.XSGE.csv,full-train normalization AR(1),0.0
+SN9999.XSGE.csv,full-train normalization MA(1),0.0
+SN9999.XSGE.csv,full-train normalization AR(2),0.0
+SN9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+SN9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+SN9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+SN9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+SN9999.XSGE.csv,EWMA scalar recursion,2.710505431213761e-20
+SN9999.XSGE.csv,V1_GARCH scalar recursion h1,2.710505431213761e-20
+SN9999.XSGE.csv,V1_GARCH scalar recursion h5,5.421010862427522e-20
+SN9999.XSGE.csv,V1_GARCH scalar recursion h30,2.710505431213761e-20
+SN9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.168404344971009e-19
+SN9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,1.3552527156068805e-20
+SN9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,1.3552527156068805e-20
+SN9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,2.710505431213761e-20
+SN9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+SN9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+SN9999.XSGE.csv,independent realized target h1,0.0
+SN9999.XSGE.csv,independent realized target h5,0.0
+SN9999.XSGE.csv,independent realized target h30,0.0
+SN9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+SN9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+SN9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+SN9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+SN9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+SN9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+SN9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+CS9999.XDCE.csv,full-train normalization AR(1),0.0
+CS9999.XDCE.csv,full-train normalization MA(1),0.0
+CS9999.XDCE.csv,full-train normalization AR(2),0.0
+CS9999.XDCE.csv,"full-train normalization ARMA(1,1)",0.0
+CS9999.XDCE.csv,full-train normalization V1_GARCH,0.0
+CS9999.XDCE.csv,full-train normalization V2_EGARCH,0.0
+CS9999.XDCE.csv,full-train normalization V3_GJR_GARCH,0.0
+CS9999.XDCE.csv,EWMA scalar recursion,1.2705494208814505e-21
+CS9999.XDCE.csv,V1_GARCH scalar recursion h1,3.3881317890172014e-21
+CS9999.XDCE.csv,V1_GARCH scalar recursion h5,1.6940658945086007e-21
+CS9999.XDCE.csv,V1_GARCH scalar recursion h30,3.3881317890172014e-21
+CS9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.0164395367051604e-20
+CS9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,3.3881317890172014e-21
+CS9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,3.3881317890172014e-21
+CS9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,3.3881317890172014e-21
+CS9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-20
+CS9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+CS9999.XDCE.csv,independent realized target h1,0.0
+CS9999.XDCE.csv,independent realized target h5,0.0
+CS9999.XDCE.csv,independent realized target h30,0.0
+CS9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+CS9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+CS9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+CS9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+CS9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+CS9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+CS9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+SS9999.XSGE.csv,full-train normalization AR(1),0.0
+SS9999.XSGE.csv,full-train normalization MA(1),0.0
+SS9999.XSGE.csv,full-train normalization AR(2),0.0
+SS9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+SS9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+SS9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+SS9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+SS9999.XSGE.csv,EWMA scalar recursion,1.0164395367051604e-20
+SS9999.XSGE.csv,V1_GARCH scalar recursion h1,1.6940658945086007e-20
+SS9999.XSGE.csv,V1_GARCH scalar recursion h5,1.0164395367051604e-20
+SS9999.XSGE.csv,V1_GARCH scalar recursion h30,1.3552527156068805e-20
+SS9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+SS9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,8.470329472543003e-21
+SS9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,1.3552527156068805e-20
+SS9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,1.0164395367051604e-20
+SS9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+SS9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+SS9999.XSGE.csv,independent realized target h1,0.0
+SS9999.XSGE.csv,independent realized target h5,0.0
+SS9999.XSGE.csv,independent realized target h30,0.0
+SS9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+SS9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+SS9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,
+SS9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,
+SS9999.XSGE.csv,07 to 08 D2_GJR_ARMA,
+SS9999.XSGE.csv,07 to 08 D3_Logistic_Core,
+SS9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,
+SF9999.XZCE.csv,full-train normalization AR(1),0.0
+SF9999.XZCE.csv,full-train normalization MA(1),0.0
+SF9999.XZCE.csv,full-train normalization AR(2),0.0
+SF9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+SF9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+SF9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+SF9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+SF9999.XZCE.csv,EWMA scalar recursion,2.710505431213761e-20
+SF9999.XZCE.csv,V1_GARCH scalar recursion h1,1.3552527156068805e-20
+SF9999.XZCE.csv,V1_GARCH scalar recursion h5,1.3552527156068805e-20
+SF9999.XZCE.csv,V1_GARCH scalar recursion h30,2.710505431213761e-20
+SF9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,6.776263578034403e-20
+SF9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,1.3552527156068805e-20
+SF9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,2.0328790734103208e-20
+SF9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,1.0164395367051604e-20
+SF9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+SF9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+SF9999.XZCE.csv,independent realized target h1,0.0
+SF9999.XZCE.csv,independent realized target h5,0.0
+SF9999.XZCE.csv,independent realized target h30,0.0
+SF9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+SF9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+SF9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+SF9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+SF9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+SF9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+SF9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+PB9999.XSGE.csv,full-train normalization AR(1),0.0
+PB9999.XSGE.csv,full-train normalization MA(1),0.0
+PB9999.XSGE.csv,full-train normalization AR(2),0.0
+PB9999.XSGE.csv,"full-train normalization ARMA(1,1)",0.0
+PB9999.XSGE.csv,full-train normalization V1_GARCH,0.0
+PB9999.XSGE.csv,full-train normalization V2_EGARCH,0.0
+PB9999.XSGE.csv,full-train normalization V3_GJR_GARCH,0.0
+PB9999.XSGE.csv,EWMA scalar recursion,5.082197683525802e-21
+PB9999.XSGE.csv,V1_GARCH scalar recursion h1,1.0164395367051604e-20
+PB9999.XSGE.csv,V1_GARCH scalar recursion h5,8.470329472543003e-21
+PB9999.XSGE.csv,V1_GARCH scalar recursion h30,8.470329472543003e-21
+PB9999.XSGE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+PB9999.XSGE.csv,V3_GJR_GARCH scalar recursion h1,6.776263578034403e-21
+PB9999.XSGE.csv,V3_GJR_GARCH scalar recursion h5,5.082197683525802e-21
+PB9999.XSGE.csv,V3_GJR_GARCH scalar recursion h30,6.776263578034403e-21
+PB9999.XSGE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+PB9999.XSGE.csv,direction target log(C[t+6]/C[t+1]),0.0
+PB9999.XSGE.csv,independent realized target h1,0.0
+PB9999.XSGE.csv,independent realized target h5,0.0
+PB9999.XSGE.csv,independent realized target h30,0.0
+PB9999.XSGE.csv,07 to 08 D0_Momentum5,0.0
+PB9999.XSGE.csv,07 to 08 D1_Raw_ARMA,0.0
+PB9999.XSGE.csv,07 to 08 D2_GARCH_ARMA,0.0
+PB9999.XSGE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+PB9999.XSGE.csv,07 to 08 D2_GJR_ARMA,0.0
+PB9999.XSGE.csv,07 to 08 D3_Logistic_Core,0.0
+PB9999.XSGE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+UR9999.XZCE.csv,full-train normalization AR(1),1.0842021724855044e-19
+UR9999.XZCE.csv,full-train normalization MA(1),1.0842021724855044e-19
+UR9999.XZCE.csv,full-train normalization AR(2),1.0842021724855044e-19
+UR9999.XZCE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+UR9999.XZCE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+UR9999.XZCE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+UR9999.XZCE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+UR9999.XZCE.csv,EWMA scalar recursion,1.5246593050577406e-20
+UR9999.XZCE.csv,V1_GARCH scalar recursion h1,1.3552527156068805e-20
+UR9999.XZCE.csv,V1_GARCH scalar recursion h5,1.3552527156068805e-20
+UR9999.XZCE.csv,V1_GARCH scalar recursion h30,2.371692252312041e-20
+UR9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,5.421010862427522e-20
+UR9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,1.3552527156068805e-20
+UR9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,1.3552527156068805e-20
+UR9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,1.3552527156068805e-20
+UR9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,8.131516293641283e-20
+UR9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+UR9999.XZCE.csv,independent realized target h1,0.0
+UR9999.XZCE.csv,independent realized target h5,0.0
+UR9999.XZCE.csv,independent realized target h30,0.0
+UR9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+UR9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+UR9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,
+UR9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,
+UR9999.XZCE.csv,07 to 08 D2_GJR_ARMA,
+UR9999.XZCE.csv,07 to 08 D3_Logistic_Core,
+UR9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,
+B9999.XDCE.csv,full-train normalization AR(1),1.0842021724855044e-19
+B9999.XDCE.csv,full-train normalization MA(1),1.0842021724855044e-19
+B9999.XDCE.csv,full-train normalization AR(2),1.0842021724855044e-19
+B9999.XDCE.csv,"full-train normalization ARMA(1,1)",1.0842021724855044e-19
+B9999.XDCE.csv,full-train normalization V1_GARCH,1.0842021724855044e-19
+B9999.XDCE.csv,full-train normalization V2_EGARCH,1.0842021724855044e-19
+B9999.XDCE.csv,full-train normalization V3_GJR_GARCH,1.0842021724855044e-19
+B9999.XDCE.csv,EWMA scalar recursion,6.776263578034403e-21
+B9999.XDCE.csv,V1_GARCH scalar recursion h1,2.117582368135751e-21
+B9999.XDCE.csv,V1_GARCH scalar recursion h5,2.117582368135751e-21
+B9999.XDCE.csv,V1_GARCH scalar recursion h30,1.4823076576950256e-21
+B9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,1.3552527156068805e-20
+B9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,4.235164736271502e-21
+B9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,4.235164736271502e-21
+B9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,2.541098841762901e-21
+B9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.8634724839594607e-20
+B9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+B9999.XDCE.csv,independent realized target h1,0.0
+B9999.XDCE.csv,independent realized target h5,0.0
+B9999.XDCE.csv,independent realized target h30,0.0
+B9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+B9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+B9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+B9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+B9999.XDCE.csv,07 to 08 D2_GJR_ARMA,0.0
+B9999.XDCE.csv,07 to 08 D3_Logistic_Core,0.0
+B9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+NR9999.XINE.csv,full-train normalization AR(1),0.0
+NR9999.XINE.csv,full-train normalization MA(1),0.0
+NR9999.XINE.csv,full-train normalization AR(2),0.0
+NR9999.XINE.csv,"full-train normalization ARMA(1,1)",0.0
+NR9999.XINE.csv,full-train normalization V1_GARCH,0.0
+NR9999.XINE.csv,full-train normalization V2_EGARCH,0.0
+NR9999.XINE.csv,full-train normalization V3_GJR_GARCH,0.0
+NR9999.XINE.csv,EWMA scalar recursion,1.3552527156068805e-20
+NR9999.XINE.csv,V1_GARCH scalar recursion h1,1.6940658945086007e-20
+NR9999.XINE.csv,V1_GARCH scalar recursion h5,2.710505431213761e-20
+NR9999.XINE.csv,V1_GARCH scalar recursion h30,1.3552527156068805e-20
+NR9999.XINE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,8.131516293641283e-20
+NR9999.XINE.csv,V3_GJR_GARCH scalar recursion h1,1.0164395367051604e-20
+NR9999.XINE.csv,V3_GJR_GARCH scalar recursion h5,2.0328790734103208e-20
+NR9999.XINE.csv,V3_GJR_GARCH scalar recursion h30,1.6940658945086007e-20
+NR9999.XINE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,1.0842021724855044e-19
+NR9999.XINE.csv,direction target log(C[t+6]/C[t+1]),0.0
+NR9999.XINE.csv,independent realized target h1,0.0
+NR9999.XINE.csv,independent realized target h5,0.0
+NR9999.XINE.csv,independent realized target h30,0.0
+NR9999.XINE.csv,07 to 08 D0_Momentum5,0.0
+NR9999.XINE.csv,07 to 08 D1_Raw_ARMA,0.0
+NR9999.XINE.csv,07 to 08 D2_GARCH_ARMA,
+NR9999.XINE.csv,07 to 08 D2_EGARCH_ARMA,
+NR9999.XINE.csv,07 to 08 D2_GJR_ARMA,
+NR9999.XINE.csv,07 to 08 D3_Logistic_Core,
+NR9999.XINE.csv,07 to 08 D3_Logistic_Asymmetric,
+CY9999.XZCE.csv,full-train normalization AR(1),0.0
+CY9999.XZCE.csv,full-train normalization MA(1),0.0
+CY9999.XZCE.csv,full-train normalization AR(2),0.0
+CY9999.XZCE.csv,"full-train normalization ARMA(1,1)",0.0
+CY9999.XZCE.csv,full-train normalization V1_GARCH,0.0
+CY9999.XZCE.csv,full-train normalization V2_EGARCH,0.0
+CY9999.XZCE.csv,full-train normalization V3_GJR_GARCH,0.0
+CY9999.XZCE.csv,EWMA scalar recursion,4.235164736271502e-21
+CY9999.XZCE.csv,V1_GARCH scalar recursion h1,6.776263578034403e-21
+CY9999.XZCE.csv,V1_GARCH scalar recursion h5,5.929230630780102e-21
+CY9999.XZCE.csv,V1_GARCH scalar recursion h30,5.929230630780102e-21
+CY9999.XZCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,3.049318610115481e-20
+CY9999.XZCE.csv,V3_GJR_GARCH scalar recursion h1,5.505714157152952e-21
+CY9999.XZCE.csv,V3_GJR_GARCH scalar recursion h5,4.658681209898652e-21
+CY9999.XZCE.csv,V3_GJR_GARCH scalar recursion h30,4.235164736271502e-21
+CY9999.XZCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+CY9999.XZCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+CY9999.XZCE.csv,independent realized target h1,0.0
+CY9999.XZCE.csv,independent realized target h5,0.0
+CY9999.XZCE.csv,independent realized target h30,0.0
+CY9999.XZCE.csv,07 to 08 D0_Momentum5,0.0
+CY9999.XZCE.csv,07 to 08 D1_Raw_ARMA,0.0
+CY9999.XZCE.csv,07 to 08 D2_GARCH_ARMA,0.0
+CY9999.XZCE.csv,07 to 08 D2_EGARCH_ARMA,0.0
+CY9999.XZCE.csv,07 to 08 D2_GJR_ARMA,0.0
+CY9999.XZCE.csv,07 to 08 D3_Logistic_Core,0.0
+CY9999.XZCE.csv,07 to 08 D3_Logistic_Asymmetric,0.0
+RR9999.XDCE.csv,full-train normalization AR(1),5.421010862427522e-20
+RR9999.XDCE.csv,full-train normalization MA(1),5.421010862427522e-20
+RR9999.XDCE.csv,full-train normalization AR(2),5.421010862427522e-20
+RR9999.XDCE.csv,"full-train normalization ARMA(1,1)",5.421010862427522e-20
+RR9999.XDCE.csv,full-train normalization V1_GARCH,5.421010862427522e-20
+RR9999.XDCE.csv,full-train normalization V2_EGARCH,5.421010862427522e-20
+RR9999.XDCE.csv,full-train normalization V3_GJR_GARCH,5.421010862427522e-20
+RR9999.XDCE.csv,EWMA scalar recursion,4.235164736271502e-21
+RR9999.XDCE.csv,V1_GARCH scalar recursion h1,5.082197683525802e-21
+RR9999.XDCE.csv,V1_GARCH scalar recursion h5,1.0164395367051604e-20
+RR9999.XDCE.csv,V1_GARCH scalar recursion h30,5.082197683525802e-21
+RR9999.XDCE.csv,08 V1_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+RR9999.XDCE.csv,V3_GJR_GARCH scalar recursion h1,5.082197683525802e-21
+RR9999.XDCE.csv,V3_GJR_GARCH scalar recursion h5,3.3881317890172014e-21
+RR9999.XDCE.csv,V3_GJR_GARCH scalar recursion h30,4.235164736271502e-21
+RR9999.XDCE.csv,08 V3_GJR_GARCH delayed five-minute risk: sum t+2..t+6,2.710505431213761e-20
+RR9999.XDCE.csv,direction target log(C[t+6]/C[t+1]),0.0
+RR9999.XDCE.csv,independent realized target h1,0.0
+RR9999.XDCE.csv,independent realized target h5,0.0
+RR9999.XDCE.csv,independent realized target h30,0.0
+RR9999.XDCE.csv,07 to 08 D0_Momentum5,0.0
+RR9999.XDCE.csv,07 to 08 D1_Raw_ARMA,0.0
+RR9999.XDCE.csv,07 to 08 D2_GARCH_ARMA,
+RR9999.XDCE.csv,07 to 08 D2_EGARCH_ARMA,
+RR9999.XDCE.csv,07 to 08 D2_GJR_ARMA,
+RR9999.XDCE.csv,07 to 08 D3_Logistic_Core,
+RR9999.XDCE.csv,07 to 08 D3_Logistic_Asymmetric,
