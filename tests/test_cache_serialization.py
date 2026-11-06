@@ -7,10 +7,7 @@ from notebook_loader import load_notebook, ROOT
 
 
 def test_fresh_and_warm_cache_export_identical_full_precision_csv(tmp_path):
-    import os
     source=ROOT/'07_forecasting_models_54.ipynb'
-    if os.environ.get('MFT_TEST_BASELINE'):
-        source=ROOT/'audit_reports/pre_handoff_2026-11-06/baseline'/source.name
     nb=json.loads(source.read_text());code=''.join(nb['cells'][18]['source'])
     code=code[code.index('parts={'):]
     module=load_notebook('07_forecasting_models_54.ipynb');ns=vars(module).copy()

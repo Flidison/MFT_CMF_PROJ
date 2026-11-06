@@ -1,4 +1,4 @@
-"""Data-free checks for the public notebook entry points."""
+"""Check notebook structure, syntax and saved execution state."""
 from pathlib import Path
 import ast,re
 import nbformat
@@ -6,7 +6,7 @@ import pytest
 
 ROOT=Path(__file__).resolve().parents[1]
 
-@pytest.mark.parametrize('path',sorted(ROOT.glob('0[1-9]_*.ipynb')),ids=lambda p:p.name)
+@pytest.mark.parametrize('path',sorted(ROOT.glob('0[1-8]_*.ipynb')),ids=lambda p:p.name)
 def test_notebook_schema_execution_and_english_text(path):
     notebook=nbformat.read(path,as_version=4);nbformat.validate(notebook)
     for index,cell in enumerate(notebook.cells,1):

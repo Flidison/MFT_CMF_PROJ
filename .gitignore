@@ -1,8 +1,7 @@
-# Local Python environment and generated interpreter state
+# Python environment and generated files
 venv/
 .venv/
 .venv-*/
-.data-downloads/
 .pytest_cache/
 __pycache__/
 *.py[cod]
@@ -18,24 +17,21 @@ __pycache__/
 *.pem
 *.key
 
-# Full data and forecast snapshots are distributed in the GitHub release.
+# Market data and generated research results
 /fut_data/
-/artifacts/**/*.parquet
-/artifacts/**/cache/
+/artifacts/
+/data/
 /release-assets/
+/.data-downloads/
 
-# Local review reports, preserved baselines and execution logs.
+# Local maintenance and review files
+/.github/
+/tools/
 /audit/
 /audit_reports/
-/artifacts/.final_presentation_build/
-/artifacts/MFT_Research_Final_Handoff.zip
-/artifacts/final_presentation_handoff/
-/artifacts/mft_lecturer_feedback/
-/artifacts/research_54/previews/
-/artifacts/research_54/audit_snapshot_20261009T200003Z/*.ipynb
-/artifacts/research_54/audit_snapshot_20261009T200003Z/backtest/trades/
-/artifacts/research_54/audit_snapshot_20261009T200003Z/backtest/figures/
-/artifacts/research_54/audit_snapshot_20261009T200003Z/models/forecasts/
-/artifacts/research/liquidity_activity/final_50/
-/artifacts/research_54/final_audit_07_08_bundle.zip
-
+/.gitattributes
+/publication_manifest.csv
+/release_manifest.json
+/requirements-validation.txt
+/09_final_audit_07_08.ipynb
+/tests/test_model_change_validation.py

@@ -1,9 +1,9 @@
 """Load actual notebook definitions without running data/output cells."""
-import ast,json,os,sys,types
+import ast,json,sys,types
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def load_notebook(name):
-    source_root=ROOT/'audit_reports/pre_handoff_2026-11-06/baseline' if os.getenv('MFT_TEST_BASELINE')=='1' else ROOT
+    source_root=ROOT
     nb=json.loads((source_root/name).read_text());module=types.ModuleType('_mft_test_'+name.replace('.','_'));sys.modules[module.__name__]=module
     module.__dict__.update(ROOT=ROOT,RAW_FIELDS={'open':'Open','high':'High','low':'Low','close':'Close','volume':'Volume','money':'Turnover','open_interest':'Open interest'},AVAILABLE_FEATURES=['Open','High','Low','Close','Volume','Turnover','Open interest','log_return'])
     trees=[ast.parse(''.join(c['source'])) for c in nb['cells'] if c['cell_type']=='code']

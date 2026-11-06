@@ -1,8 +1,0 @@
-Notebook 02 cells (zero-based),Block,Finding / action
-0–4,Inputs and features,Definitions preserved; scope restricted to 54 files and 2016–2021.
-5–13,"Segments, moments and audit","Boundaries, exact lags, zero volumes and extremes checked; constant inputs return NaN."
-14–19,Construction and coverage,"Per-file Parquet, summaries and reconciliation with notebook 02 features."
-20–44,Correlation API,Exact positions and lag interpretation preserved; pooled ACF and equal-segment mean remain separate.
-45–57,"13×13 screen, HAC, BY",Original tests concern mean estimated segment coefficients. New HAC concerns pooled Pearson; p-values are recalculated only for the explicit ACF tests.
-58–61,Interpretation,Price/OI persistence and overlapping rolling volatility do not establish sign predictability.
-62–63,Validation and lineage,"Boundary, return, direct-Pearson, numerical-derivative and source-hash checks."

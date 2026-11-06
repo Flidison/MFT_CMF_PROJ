@@ -1,6 +1,4 @@
 """Independent scalar/matrix references, without executing notebook I/O cells."""
-import importlib.util
-from pathlib import Path
 import numpy as np
 import pandas as pd
 import pytest
@@ -73,17 +71,3 @@ def test_performance_rejects_invalid_ledger(case):
     elif case=='nan':daily.loc[0,'net']=np.nan
     else:daily.loc[0,'net']+=.01
     with pytest.raises(ValueError):module.performance(daily,{})
-
-
-@pytest.mark.parametrize('case',['absent','equal','different'])
-def test_source_comparison_claim_matches_evidence(tmp_path,case):
-    path=Path(__file__).resolve().parents[1]/'artifacts/research_54/audit_code/fee_audit.py'
-    spec=importlib.util.spec_from_file_location('fee_audit',path);module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
-    original=tmp_path/'original';copy=tmp_path/'copy';copy.write_bytes(b'source')
-    if case!='absent':original.write_bytes(b'source' if case=='equal' else b'other')
-    exists,matches,statement=module.original_copy_evidence(original,copy)
-    assert exists==(case!='absent')
-    assert matches==({'absent':None,'equal':True,'different':False}[case])
-    if case=='absent':assert 'not performed' in statement
-    elif case=='different':assert 'differs' in statement
-    else:assert 'matches' in statement
