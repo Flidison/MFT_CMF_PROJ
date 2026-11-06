@@ -91,6 +91,8 @@ Sample S8 available net return is −27.7285468% on 792,764 trades.
   disclosed 08 SA extension gives 54. Compare matching cohorts and targets.
 - Standalone h5 is t+1…t+5; planned delayed holding risk is the variance sum
   t+2…t+6. Finite Monte Carlo paths can differ across requested horizons.
+  Additive variance sizing assumes zero future cross-covariances in its working
+  volatility model; it is not a jointly estimated ARMA–GARCH holding-PnL variance.
 - Sizing uses signal price, fractional contracts and normalized capital.
   Every unavailable sleeve retains cash. Close fills and positive minute volume
   do not establish live execution or margin feasibility.

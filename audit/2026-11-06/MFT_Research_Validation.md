@@ -106,6 +106,14 @@ positive mean GARCH/GJR differences, approximately +0.010165/+0.010185.
 Pooling these statements without their window/cohort labels is invalid.
 Fixed five-minute scores do not evaluate variable delayed-exit holding horizons.
 
+The sizing input is an additive conditional-variance/second-moment proxy.
+Interpreting that sum as variance of the cumulative return assumes zero future
+cross-covariances under the working volatility model. The separate ARMA direction
+layer is not a jointly estimated ARMA–GARCH covariance model. Matched-RV scoring
+therefore does not independently validate the full conditional variance of actual
+strategy PnL, particularly with delayed exits. This is an explicit model limitation,
+not a missing term silently added to improve performance.
+
 ## Backtest reliability and execution realism
 
 Independent reconstruction covered all 34,806,565 saved strategy/cohort ledger
