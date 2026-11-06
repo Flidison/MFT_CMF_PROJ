@@ -24,7 +24,8 @@ __pycache__/
 /artifacts/**/cache/
 /release-assets/
 
-# Private audit baselines and local execution logs; public reports are in audit/.
+# Local review reports, preserved baselines and execution logs.
+/audit/
 /audit_reports/
 /artifacts/.final_presentation_build/
 /artifacts/MFT_Research_Final_Handoff.zip

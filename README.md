@@ -40,8 +40,8 @@ Python 3.11 was used for validation. Scientific versions are pinned in
     .venv/bin/python -m pytest -q tests
 
 GitHub Actions runs data-free mathematical, boundary, cache, notebook-schema and
-publication-language checks. Full market-data calculations are a separate
-integration run, with evidence in the audit reports.
+publication-language checks. Full market-data calculations run separately using
+the reproduction commands below.
 
 ## Raw data
 
@@ -92,11 +92,7 @@ The bundled commission workbook is sufficient. If missing, explicitly set
 MFT_FEE_WORKBOOK. MFT_FEE_ORIGINAL optionally enables comparison with an external
 original; its absence is reported as unverified rather than silently certified.
 
-## Audit and interpretation
-
-- [Code audit and fixes](audit/2026-11-06/MFT_Code_Audit_and_Fixes.md)
-- [Research validation](audit/2026-11-06/MFT_Research_Validation.md)
-- [Nikolai handoff](audit/2026-11-06/MFT_Nikolai_Handoff.md)
+## Research assumptions
 
 Limitations remain retrospective universe/test selection, finite Monte Carlo
 approximation, extreme EGARCH forecasts, minute-close fills, fractional lots,
@@ -106,8 +102,7 @@ assumptions to 2020–2021; it is not a historical tariff reconstruction.
 
 The 25-slide presentation has broader and partly different source coverage.
 Several early-slide methods and universe counts cannot be reproduced from these
-nine notebooks alone. The audit records those differences without changing the
-research sample to match slides.
+nine notebooks alone.
 
 
 ## Optional presentation diagnostics
